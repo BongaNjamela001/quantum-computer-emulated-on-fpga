@@ -1,0 +1,73 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Graphical Representation of a Photon Polarisation State.}}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Bloch sphere diagram representing the quantum state of a qubit as a vector in Hilbert space.}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Three Bloch spheres representing important single-qubit quantum gate operations. The initial state is in red and the final measured state is blue. The \texttt {X} gate is analogous to a classical \texttt {NOT} gate and the \texttt {Z} gate changes the phase of the qubit.\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Generalised \texttt {CNOT} gate and the $\Lambda X$ \texttt {CNOT} gate.}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Showing the circuit representation of quantum $X$, $Z$ and $H$ gates.}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The output of a qubit cannot be accurately determined by looking at a single line in a quantum circuit.}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Swap gate interchanges input qubits in a 2-qubit system.}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Quantum circuit measurement symbol.}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Nielsen 3-qubit QFT.}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Generalised Quantum Circuit for Applying Grover's Search Algorithm with $k$ Iteratives.}}{17}{figure.caption.19}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Quantum Circuit for Quantum Teleportation by Chuang and Gottesman.}}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Coherent One-Way (COW) Quantum Key Distribution System by GAP University of Geneva.}}{25}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schematic of the Ent Quantum Key Distribution System in the SECOQC Network by the Austrian Institute of Technology at the University of Vienna.}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Timing Diagram for Possible Optical Bit Mapping Scheme by Lydersen et al.}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Hardware-Compliant Quantum Circuit for a 4-qubit Device by Li et al.}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Input-and-Output Table by Fujishima.}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Memory Comparison for Logic Quantum Processor (LQP) and Quantum Index Processor (QIP).}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Fujishima's Processing Element for Emulating Qubits.}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Generalised Functional Diagram of an Emulated Digital Quantum Computer by Hlukhov.}}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Digital Qubit (DQbit) by Hlukhov.}}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Showing Use of Quantum Registers in a Quantum Circuit Evolution by Khalid et al.}}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Implementation of Paul-$X$, $Y$, and $Z$ Gates by Aminian et al.}}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Side-by-Side Comparison of Concurrent and Pipelined Emulation by Lee et al.}}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Serial Architecture of Emulated Quantum Computer by Lee et al.}}{36}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Proposed Quantum Gate by Hlukhov.}}{36}{figure.caption.34}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Methodology Overview Diagram.}}{39}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Subsystem Block Diagram.}}{41}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Single-Photon Qubit Initialisation Subsystem (SPQIS) Overview.}}{42}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Flying-Qubit Detection (FQDS) Subsystem Overview.}}{42}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Design Abstraction of FPGA-Based Quantum Computer Emulator.}}{43}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Direct Mapping of Computational Basis States to Xilinx FPGA LUTs.}}{44}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Illustrating the IEEE 754-1985 Standard for 32-bit Floating-Point Numbers.}}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Illustrating a 32-bit Fixed-Point Scheme.}}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Bloch Sphere Representation of the Integer 3.}}{46}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Unit Circle Graphical Representation of Integer 3.}}{46}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Qubit Mapping Using LEDs for Direct Representation of the Computational Basis States $\mathinner {|{0}\rangle }$ and $\mathinner {|{1}\rangle }$.}}{47}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Qubit Mapping Using LEDs to Represent 0s and 1s in Quantum State Vectors in the Computational Basis.}}{48}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Illustration of the Security Measurements Implemented in the Quantum Communication Channel.}}{49}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Illustrating the Classical Channel Between the ARM-Based Microcontroller and the FPGA.}}{50}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Xilinx 7-Series 32-bit Shift Register.}}{52}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Illustrating a Simple Bit Flip Using 3 \texttt {X} gates.}}{53}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Illustrating Xilinx 7-Series FPGA DSP48 for Performing Matrix Products Associated with Quantum Gate Operations.}}{54}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Simple Vector Multiply Block using the LogiCORE IP Multiply Adder.}}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Quantum Circuit of the Quantum Teleportation Protocol.}}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Illustrating the Implementation of DSP Pipeline Registers for Performing the QFT in the QAES.}}{55}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Quantum Circuit Representation of the Emulated Quantum Factoring Algorithm for $N = 21$ and $a=4$.}}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Quantum Circuit for Finding the Index of an Entry in a Database.}}{57}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Graphical Representation of the Controlled-Z Gate Applied in the Quantum Oracle of Grover's Search Algorithm.}}{57}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Image of the UCT STM32F0 Development Board Used to Model the Behaviour of a Laser-Based Flying-Qubit Transmitter.}}{58}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Nexys A7 Board based on the Xilinx 7-Series FPGAs.}}{58}{figure.caption.65}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Showing Input and Output Pins on the STM32 Microcontroller.}}{63}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Simple Circuit Diagram for Modelling Avalanche Photodiode Detectors in a QKD network.}}{64}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The Quantum Finite State Machine for Emulating the Quantum Teleportation Algorithm on the FPGA.}}{66}{figure.caption.73}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{70}{figure.caption.81}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Table Summarising the HDL Resource Utilisation Report in HDL Coder.}}{70}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Initial Simulink Design Block for the QFT Quantum Circuit Described in MATLAB.}}{71}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Showing the Simulink Model of the Input Quantum State with a Pipeline Register.}}{71}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Showing the Simulink Model for Performing the First Time Step of the QFT Quantum Circuit where the Hadamard Gate is Applied to the Least Significant Qubit in the Quantum Register.}}{71}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Showing the Output Register of the Quantum Fourier Transform in Simulink.}}{71}{figure.caption.86}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Showing the HDL Coder Resource Utilisation Summary for the Pipelined QFT.}}{71}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Showing the HDL Coder Post Synthesis Resource Summary.}}{72}{figure.caption.88}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

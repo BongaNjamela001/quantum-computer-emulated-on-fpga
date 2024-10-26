@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MSc_Dissertation.aux
+The style file: acm.bst
+Database file #1: bibliography.bib
+Repeated entry---line 892 of file bibliography.bib
+ : @article{peev2009secoqc
+ :                        ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1077 of file bibliography.bib
+ :  
+ :  journal={Nature},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1205 of file bibliography.bib
+ : @article{belfore2024scalable
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1272 of file bibliography.bib
+ :  
+ :  publisher={AMD},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1281 of file bibliography.bib
+ :  
+ :  publisher={AMD},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1290 of file bibliography.bib
+ :  
+ :  publisher={AMD},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "feynman2018simulating"
+Warning--I didn't find a database entry for "."
+Warning--I didn't find a database entry for "hlukhov"
+Warning--I didn't find a database entry for "hong"
+Warning--empty journal in google2023suppressing
+Warning--empty journal in asanovic2006landscape
+Warning--empty journal in DeWolf2019
+Warning--empty journal in Khalil2015
+You've used 75 entries,
+            2253 wiz_defined-function locations,
+            970 strings with 18703 characters,
+and the built_in function-call counts, 25933 in all, are:
+= -- 2434
+> -- 1320
+< -- 0
++ -- 553
+- -- 468
+* -- 1984
+:= -- 4184
+add.period$ -- 224
+call.type$ -- 75
+change.case$ -- 453
+chr.to.int$ -- 0
+cite$ -- 79
+duplicate$ -- 925
+empty$ -- 2067
+format.name$ -- 468
+if$ -- 5408
+int.to.chr$ -- 0
+int.to.str$ -- 75
+missing$ -- 65
+newline$ -- 376
+num.names$ -- 150
+pop$ -- 529
+preamble$ -- 1
+purify$ -- 381
+quote$ -- 0
+skip$ -- 631
+stack$ -- 0
+substring$ -- 1454
+swap$ -- 270
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 294
+warning$ -- 4
+while$ -- 239
+width$ -- 77
+write$ -- 745
+(There were 6 error messages)

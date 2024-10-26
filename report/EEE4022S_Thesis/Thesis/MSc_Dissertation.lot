@@ -1,0 +1,22 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces User System Requirements.}}{40}{table.caption.36}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Functional System Requirements.}}{40}{table.caption.37}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Non-Functional System Requirements.}}{41}{table.caption.38}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Table Showing Possible Classical Outputs and Required Quantum Gates for the Quantum Teleportation Circuit.}}{55}{table.caption.56}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Table Showing Indices and their Associated Strings for Performing the Quantum Search Algorithm.}}{57}{table.caption.60}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Table Showing the Input-and-Output Relationship of the \texttt {CZ} Gate in a Two-Qubit System.}}{58}{table.caption.63}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Table Showing the Hardware Specifications of the STM32F0 Microcontroller Used to Initialise Qubits and Control Flying-Qubit Emissions.}}{62}{table.caption.66}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Table Showing LED Connections to the STM32 Microcontroller.}}{63}{table.caption.68}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Table Showing the Transmitted Flying-Qubit Registers Using Transmission Mode 1.}}{64}{table.caption.69}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Table Showing the Transmitted Flying-Qubit Registers Using Transmission Mode 2.}}{64}{table.caption.70}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Table Showing Circuit Component Values for the Quantum Interface.}}{64}{table.caption.72}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Table Showing Key Features of the Nexys-A7 FPGA Board.}}{66}{table.caption.74}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Table Showing Nexys-A7 Switch Buttons for Selecting the Quantum Experiment to be Performed.}}{68}{table.caption.75}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Table Showing Nexys-A7 Switch Buttons for Selecting the Quantum Experiment to be Performed.}}{68}{table.caption.76}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

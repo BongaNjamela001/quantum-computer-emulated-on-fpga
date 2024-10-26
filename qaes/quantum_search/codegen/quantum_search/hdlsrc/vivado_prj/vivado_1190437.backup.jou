@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 26 13:29:37 2024
+# Process ID: 1190437
+# Current directory: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj
+# Command line: vivado -mode batch -notrace -source quantum_search_fixpt_Xilinx_Vivado_run.tcl
+# Log file: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/vivado.log
+# Journal file: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/vivado.jou
+# Running On        :bonga
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :1107.825 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16480 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18628 MB
+# Available Virtual :6418 MB
+#-----------------------------------------------------------
+source quantum_search_fixpt_Xilinx_Vivado_run.tcl -notrace

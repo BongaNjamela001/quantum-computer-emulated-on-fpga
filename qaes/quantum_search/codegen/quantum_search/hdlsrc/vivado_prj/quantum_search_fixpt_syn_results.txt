@@ -1,0 +1,224 @@
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat Oct 26 14:32:16 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+source quantum_search_fixpt_Xilinx_Vivado_run.tcl -notrace
+### Open existing Xilinx Vivado 2024.1 project /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1402.336 ; gain = 43.805 ; free physical = 475 ; free virtual = 5458
+### Running Synthesis in Xilinx Vivado 2024.1 ...
+INFO: [Project 1-1160] Copying file /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.runs/synth_1/quantum_search_fixpt.dcp to /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+[Sat Oct 26 14:32:31 2024] Launched synth_1...
+Run output will be captured here: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.runs/synth_1/runme.log
+[Sat Oct 26 14:32:31 2024] Waiting for synth_1 to finish...
+*** Running vivado
+    with args -log quantum_search_fixpt.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source quantum_search_fixpt.tcl
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat Oct 26 14:32:35 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+source quantum_search_fixpt.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1419.375 ; gain = 0.023 ; free physical = 358 ; free virtual = 4966
+Command: read_checkpoint -auto_incremental -incremental /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.srcs/utils_1/imports/synth_1/quantum_search_fixpt.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.srcs/utils_1/imports/synth_1/quantum_search_fixpt.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top quantum_search_fixpt -part xa7a100tcsg324-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1198565
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1833.035 ; gain = 413.660 ; free physical = 311 ; free virtual = 4200
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'quantum_search_fixpt' [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/quantum_search_fixpt.sv:40]
+INFO: [Synth 8-6155] done synthesizing module 'quantum_search_fixpt' (0#1) [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/quantum_search_fixpt.sv:40]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1908.004 ; gain = 488.629 ; free physical = 389 ; free virtual = 4129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1925.816 ; gain = 506.441 ; free physical = 388 ; free virtual = 4129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a100tcsg324-1I
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1933.820 ; gain = 514.445 ; free physical = 388 ; free virtual = 4129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1941.828 ; gain = 522.453 ; free physical = 379 ; free virtual = 4120
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xa7a100tcsg324-1I does not have CEAM library.
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 303 ; free virtual = 4014
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 296 ; free virtual = 4010
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 298 ; free virtual = 4007
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |FDRE |     1|
+|3     |IBUF |     3|
+|4     |OBUF |     3|
++------+-----+------+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     8|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.203 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2065.211 ; gain = 645.828 ; free physical = 318 ; free virtual = 4009
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2071.141 ; gain = 0.000 ; free physical = 650 ; free virtual = 4343
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2149.828 ; gain = 0.000 ; free physical = 523 ; free virtual = 4264
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+Synth Design complete | Checksum: 7fafa48c
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 2149.828 ; gain = 730.453 ; free physical = 527 ; free virtual = 4254
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1732.223; main = 1430.221; forked = 438.966
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3160.832; main = 2149.832; forked = 1095.625
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2173.840 ; gain = 0.000 ; free physical = 527 ; free virtual = 4254
+INFO: [Common 17-1381] The checkpoint '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/codegen/quantum_search/hdlsrc/vivado_prj/quantum_search_fixpt_vivado.runs/synth_1/quantum_search_fixpt.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file quantum_search_fixpt_utilization_synth.rpt -pb quantum_search_fixpt_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 14:33:13 2024...
+[Sat Oct 26 14:33:23 2024] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:47 ; elapsed = 00:00:53 . Memory (MB): peak = 1406.305 ; gain = 0.000 ; free physical = 1717 ; free virtual = 5447
+### Synthesis Complete.
+### Running PostMapTiming in Xilinx Vivado 2024.1 ...
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xa7a100tcsg324-1I
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Device 21-9227] Part: xa7a100tcsg324-1I does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1758.219 ; gain = 0.000 ; free physical = 1402 ; free virtual = 5133
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1843.844 ; gain = 0.000 ; free physical = 1317 ; free virtual = 5053
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1849.781 ; gain = 443.477 ; free physical = 1310 ; free virtual = 5046
+WARNING: [Common 17-708] report_timing_summary: The '-name' option will be ignored because it is only relevant in GUI mode.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+report_timing_summary: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2308.523 ; gain = 458.742 ; free physical = 895 ; free virtual = 4659
+### PostMapTiming Complete.
+### Close Xilinx Vivado 2024.1 project.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 14:33:37 2024...
+Elapsed time is 84.0729 seconds.

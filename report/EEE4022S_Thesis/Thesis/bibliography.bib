@@ -1,0 +1,1340 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+@book{Roger,
+  author    = {Roger Woods and John McAllister and Gaye Lightboy and Ying Yi}, 
+  title     = {FPGA-based Implementation of Complex Signal Processing Systems},
+  publisher = {John Wiley and Sons, Ltd},
+  year      = 2008,
+  isbn      = {978-0-470-03009-7}
+}
+
+@article{Olivieri12,
+  author  = {Steven J Olivieri and JimAarestad and L HowardPollard and Alexander M Wyglinski and CraigKief and R Scott Erwin}, 
+  title   = {Modular FPGA-Based Software Defined Radio for
+CubeSats}, 
+  journal = {IEEE International Conference on Communications - Selected Areas in Communications Symposium},
+  year    = 2012,
+  month   = Jun,
+  date    = {10-15},
+  pages	  = {3229-3233}
+}
+
+
+@INPROCEEDINGS{Alexander,
+author={Lopez-Parrado, A. and Valderrama-Cuervo, J.-C.},
+booktitle={Image, Signal Processing and Artificial Vision (STSIVA), 2014 XIX Symposium on},
+title={OpenRISC-based System-on-Chip for digital signal processing},
+year={2014},
+month={Sept},
+pages={1-5},
+doi={10.1109/STSIVA.2014.7010123},}
+
+@misc{DesignReuse,
+	Author = {Design and Reuse},
+	Howpublished = {\url{http://www.design-reuse.com/download/sip/}},
+	Title = {Free IP Cores Projects},
+	note = {Accessed: 2015-03-03}
+}
+
+@article{powell2008,
+  author={Powell, James R.},
+  journal={Proceedings of the IEEE}, 
+  title={The {Q}uantum {L}imit to {M}oore's {L}aw}, 
+  year={2008},
+  volume={96},
+  number={8},
+  pages={1247-1248},
+  keywords={Moore's Law;Quantum computing;Electrons;Transistors;Physics computing;Integrated circuit technology;Gallium arsenide},
+  doi={10.1109/JPROC.2008.925411}
+  }
+  
+@article{Qin2020,
+   abstract = {This paper reports the development of a highly efficient, flexible hardware platform, which is suitable for the control of spin-based quantum systems including quantum computation and quantum metrology. A two-channel arbitrary waveform generator (AWG), an eight-channel pulse/sequence generator, a two-channel analog-to-digital converter (ADC), and a two-channel high-speed time-to-digital converter (TDC) are fully integrated on a printed circuit board (PCB). The AWG has a 1-GSa/s sampling rate and a 16-bit amplitude resolution. The pulse/sequence generator can continuously output pulse/sequence signals with a 50-ps time resolution and a dynamic range from 5 ns to 2 s. The ADC provides a 1-GSa/s sampling rate and a 12-bit amplitude resolution for analog signal acquisition. The TDC provides a 6-ps time resolution and a maximum sampling frequency of 125 MHz. All these modules are realized utilizing a field-programmable gate array (FPGA). Customized data calculation modules are also implemented with the FPGA logic. The hardware was tested and implemented in a pulsed electron spin resonance (ESR) spectrometer and an optically detected magnetic resonance (ODMR) spectrometer.},
+   author = {Xi Qin and Wenzhe Zhang and Lin Wang and Yuxi Zhao and Yu Tong and Xing Rong and Jiangfeng Du},
+   doi = {10.1109/TIM.2019.2910921},
+   issn = {15579662},
+   issue = {4},
+   journal = {IEEE Transactions on Instrumentation and Measurement},
+   keywords = {Analog-to-digital converter (ADC),arbitrary waveform generator (AWG),field-programmable gate array (FPGA),pulse generator,quantum systems,solid spin,time-to-digital converter (TDC)},
+   month = {4},
+   pages = {1127-1139},
+   publisher = {Institute of Electrical and Electronics Engineers Inc.},
+   title = {An FPGA-Based hardware platform for the control of spin-based quantum systems},
+   volume = {69},
+   year = {2020},
+}
+@misc{qian2019,
+   abstract = {Quantum computation shows its great advantage on exponential speed-up for some complex algorithms. Compared to software simulation with sequential execution, hardware emulation based on Field Programmable Gate Array (FPGA) can help to realize the intrinsic quantum parallelism. Quantum Fourier Transform (QFT) is the core of several quantum algorithms like Shor's algorithm. This paper proposes a recursive decomposition of QFT-n, which can be emulated with a pipeline architecture based on Intel Stratix IV FPGA device. Although QFT-8 is much more complex than QFT-5, experimental results show that our QFT-8 architecture can reduces 91% DSP blocks and 76% combinational ALUTs at the cost of 11x registers compared with QFT-5 in [4] on average.},
+   author = {Yu Qian and Mingyu Wang and Jialin Chen and Lingli Wang and Zhihua Feng},
+   title = {EFFICIENT FPGA EMULATION OF QUANTUM FOURIER TRANSFORM},
+   year={2019}
+}
+@inproceedings{Silva2017,
+   abstract = {Although, there have been considerable advances in quantum technology, a great scale quantum computer will not be available until about a few years. In the meantime, it requires quantum emulators which allow to study the existing quantum algorithms and the design of new ones. We propose a flexible method to emulate quantum circuits which reduces design and processing time. In this context, we propose a design framework that takes advantage of field-programmable gate array (FPGA) parallel processing technology in combination with high-level programming tools provided by Vivado. In order to show the design method working Quantum Fourier Transform (QFT) is implemented. Every step of the design is described and circuit performance is studied for different cases of input vector data sizes.},
+   author = {Agustin Silva and Omar Gustavo Zabaleta},
+   doi = {10.23919/SASE-CASE.2017.8115369},
+   isbn = {9789874629715},
+   booktitle = {2017 8th Argentine Symposium and Conference on Embedded Systems, CASE 2017},
+   month = {11},
+   pages = {19-24},
+   publisher = {Institute of Electrical and Electronics Engineers Inc.},
+   title = {{FPGA} {Q}uantum {C}omputing {E}mulator {U}sing {H}igh {L}evel {D}esign {T}ools},
+   year = {2017},
+}
+@article{Khalil2015,
+   abstract = {Powerful parallelism is among the leading attractions towards quantum computing research. Before large-scale quantum computers become viable, the use of field-programmable gate array (FPGA) technology which can mimic the behavior of quantum parallelism is vital. In this paper, a methodology to perform mapping of quantum algorithms for efficient quantum hardware emulations is proposed. The case study to demonstrate the proposed methodology is the emulation of quantum Fourier transform. With the design considerations on the superposi-tion and entangled input state as well as the choice of efficient hardware architecture, the proposed work provides a guideline for conducting accurate FPGA-based quantum hardware emulations for practical quantum applications.},
+   author = {M Khalil-Hani and Y.H. Lee and M.N. Marsono},
+   keywords = {field-programmable gate array,hardware emulation,quantum Fourier trans-form,quantum computing},
+   title = {An {A}ccurate {FPGA}-{B}ased {H}ardware {E}mulation on {Q}uantum {F}ourier {T}ransform},
+   year={2015}
+}
+
+@inproceedings{lee2014fpga,
+	title={FPGA-{B}ased {Q}uantum {C}ircuit {E}mulation: {A} {C}ase {S}tudy on {Q}uantum {F}ourier {T}ransform},
+	author={Lee, Yee Hui and Khalil-Hani, M and Marsono, Muhammad N},
+	booktitle={2014 International Symposium on Integrated Circuits (ISIC)},
+	pages={512--515},
+	year={2014},
+	organization={IEEE}
+}
+@misc{Minoru2003,
+   abstract = {Quantum compuiers are believed to perform high-speed calculations, compared with conventional compuiers. However, ihe quantum computer has inherent issues. Firsily, i f solves NP (non-deienninistic polynomial) problems ai a high speed only when a periodic function can be used in the process of calculation. Secandly, if is extremely dzflcult to increase ihe problem scale io be solved, which is deiermined by the number of quantum bits. To overcome the resirictions stemming fram the quanium algorithm, we are studying the emulotion by a FPGA fieldprogrammable gaie array). In ihispaper, first, i f is exploined why a periodic function is required for the algorithm of a quantum campuier. Then, it is shown ihai the hardware emulator can solve W p r o b l e m s ai a high speed without using a periodic fwlction.},
+   author = {Minoru Fujishima},
+   title = {FPGA-Based High-speed Emulator of Quantum Computing},
+}
+@book{Tamer2009,
+   isbn = {9781424435081},
+   pages = {426},
+   publisher = {IEEE},
+   title = {On using FPGAs to Accelerate the Emulation of Quantum Computing},
+   year = {2009},
+   author={Mohamed, Tamer and Badawy, Wael and Jullien, Graham}
+}
+@misc{Jungjarassub2021,
+   abstract = {Follow this and additional works at: https://digital.car.chula.ac.th/chulaetd Part of the Computer Sciences Commons Recommended Citation Recommended Citation Jungjarassub, Yaninee, "A design of FPGA framework for quantum computing simulation" (2021). Chulalongkorn University Theses and Dissertations (Chula ETD). 4652.},
+   author = {Yaninee Jungjarassub},
+   title = {A Design of FPGA Framework for Quantum Computing Simulation},
+   url = {https://digital.car.chula.ac.th/chulaetd/4652},
+   year={2021}
+}
+@article{Giorgio2024,
+   abstract = {Quantum computing emulators are widely used for testing quantum algorithms ideally before executing them on real quantum processors. Therefore, researchers are very active in developing emulators primarily on FPGAs. This project is complex and requires a long time and a specific expertise if carried out following the low-level design approach using a Hardware Description Language (HDL). This paper describes, step by step, the process of quick designing a quantum gate emulator using a much simpler high-level design approach. It begins with the development of a quantum gate simulator in the MATLAB® environment, and subsequently translates it into an HDL design for FPGA implementation by using the MATLAB's HDL Coder toolbox. However, while code translation may seem straightforward using MATLAB toolboxes, it becomes a non-trivial task when transitioning from a quantum computing simulator to an HDL-based quantum computing emulator. Thus, it was necessary to conduct an in-depth study to implement a quantum computing simulator in MATLAB, enabling an error-free translation of HDL code. The developed method enables the designer to leverage the highly useful and straightforward model-based design approach offered by MATLAB, rather than directly the more complex HDL approach, returning a highly optimized HDL code for configuring the FPGA as a quantum computing emulator. This topic makes the design of quantum emulators on FPGA quick, reliable, optimized and without the need for specialized hardware design skills. Additionally, two implementation examples have been described using Altera/Intel FPGA on development boards DE1_SoC and DE5a-NET DDR4 provided by Terasic Inc.},
+   author = {Agostino Giorgio},
+   doi = {10.1109/ACCESS.2024.3377458},
+   issn = {21693536},
+   journal = {IEEE Access},
+   keywords = {Computer applications,FPGA,MATLAB,quantum computing},
+   pages = {41317-41353},
+   publisher = {Institute of Electrical and Electronics Engineers Inc.},
+   title = {Project and Implementation of a Quantum Logic Gate Emulator on FPGA Using a Model-Based Design Approach},
+   volume = {12},
+   year = {2024},
+}
+@inproceedings{Aminian2008,
+   abstract = {It can be shown that if quantum algorithms run on quantum computers, their processing speeds improve exponentially compared to their classical counterparts. However, due to the lack of quantum computers circuit model of quantum algorithms are currently simulated using classical computers to verify their functionalities. On the other hand, software simulation cannot use the intrinsic parallelism of quantum algorithm efficiently. To address the problem, in this paper hardware emulation of quantum algorithms are discussed. To emulate quantum algorithms using FPGAs, a new representation for quantum bits is emulated that improves the emulation of quantum circuits considerably. This representation could be used in both distinct and entangle qubit states. ©2008 IEEE.},
+   author = {Mahdi Aminian and Mehdi Saeedi and Morteza Saheb Zamani and Mehdi Sedighi},
+   doi = {10.1109/ISVLSI.2008.43},
+   isbn = {9780769531700},
+   booktitle = {Proceedings - IEEE Computer Society Annual Symposium on VLSI: Trends in VLSI Technology and Design, ISVLSI 2008},
+   pages = {399-404},
+   title = {FPGA-based {C}ircuit {M}odel {E}mulation of {Q}uantum {A}lgorithms},
+   year = {2008},
+}
+@article{Jamadagni2024,
+   abstract = {Rapid advances in quantum computing technology lead to an increasing need for software simulators that enable both algorithm design and the validation of results obtained from quantum hardware. This includes calculations that aim at probing regimes of quantum advantage, where a quantum computer outperforms a classical computer in the same task. High performance computing (HPC) platforms play a crucial role as today's quantum devices already reach beyond the limits of what powerful workstations can model, but a systematic evaluation of the individual performance of the many offered simulation packages is lacking so far. In this Technical Review, we benchmark several software packages capable of simulating quantum dynamics with a special focus on HPC capabilities. We develop a containerized toolchain for benchmarking a large set of simulation packages on a local HPC cluster using different parallelisation capabilities, and compare the performance and system size-scaling for three paradigmatic quantum computing tasks. Our results can help finding the right package for a given simulation task and lay the foundation for a systematic community effort to benchmark and validate upcoming versions of existing and also newly developed simulation packages.},
+   author = {Amit Jamadagni and Andreas M. Läuchli and Cornelius Hempel},
+   month = {1},
+   title = {Benchmarking Quantum Computer Simulation Software Packages: State Vector Simulators},
+   url = {http://arxiv.org/abs/2401.09076},
+   year = {2024},
+}
+
+@misc{Frank2009,
+   abstract = {et al Published in Quantum Information and suitable for high-speed FPGA implementation. Computation VII (Proc. SPIE v.7342) ABSTRACT Conventional vector-based simulators for quantum computers are quite limited in the size of the quantum circuits they can handle, due to the worst-case exponential growth of even sparse representations of the full quantum state vector as a function of the number of quantum operations applied. However, this exponential-space requirement can be avoided by using general space-time tradeoffs long known to complexity theorists, which can be appropriately optimized for this particular problem in a way that also illustrates some interesting reformulations of quantum mechanics. In this paper, we describe the design and empirical space/time complexity measurements of a working software prototype of a quantum computer simulator that avoids excessive space requirements. Due to its space-efficiency, this design is well-suited to embedding in single-chip environments, permitting especially fast execution that avoids access latencies to main memory. We plan to prototype our design on a standard FPGA development board.},
+   author = {Frank, Michael P and Oniciuc, Liviu and Meyer-Baese, Uwe H and Chiorescu, Irinel},
+   keywords = {FPGAs,Quantum computing,embedded design,simulation,special-purpose architectures},
+   title = {A Space-Efficient Quantum Computer Simulator Suitable for High-Speed FPGA Implementation},
+   url = {www.eng.fsu.edu},
+}
+@article{Belfore2024,
+   abstract = {A quantum computing simulation provides the opportunity to explore the behaviors of quantum circuits, study the properties of quantum gates, and develop quantum computing algorithms. Simulating quantum circuits requires geometric time and space complexities, impacting the size of the quantum circuit that can be simulated as well as the respective time required to simulate a particular circuit. Applying the parallelism inherent in the simulation and crafting custom architectures, larger quantum circuits can be simulated. A scalable accelerator architecture is proposed to provide a high performance, highly parallel, accelerator. Among the challenges of creating a scalable architecture is managing parallelism, efficiently routing quantum state components for gate evaluation, and measurement. An example is demonstrated on an Intel Agilex field programmable gate array (FPGA).},
+   author = {Lee A. Belfore},
+   month = {7},
+   title = {A Scalable FPGA Architecture for Quantum Computing Simulation},
+   url = {http://arxiv.org/abs/2407.06415},
+   year = {2024},
+}
+@misc{Biamonte2017,
+   abstract = {Fuelled by increasing computer power and algorithmic advances, machine learning techniques have become powerful tools for finding patterns in data. Quantum systems produce atypical patterns that classical systems are thought not to produce efficiently, so it is reasonable to postulate that quantum computers may outperform classical computers on machine learning tasks. The field of quantum machine learning explores how to devise and implement quantum software that could enable machine learning that is faster than that of classical computers. Recent work has produced quantum algorithms that could act as the building blocks of machine learning programs, but the hardware and software challenges are still considerable.},
+   author = {Jacob Biamonte and Peter Wittek and Nicola Pancotti and Patrick Rebentrost and Nathan Wiebe and Seth Lloyd},
+   doi = {10.1038/nature23474},
+   issn = {14764687},
+   issue = {7671},
+   journal = {Nature},
+   month = {9},
+   pages = {195-202},
+   pmid = {28905917},
+   publisher = {Nature Publishing Group},
+   title = {Quantum Machine Learning},
+   volume = {549},
+   year = {2017},
+}
+@book{YHLee2014,
+   title = {FPGA-based Quantum Circuit Emulation: A Case Study on Quantum Fourier Transform},
+   isbn = {9781479948338},
+   pages = {512-515},
+   publisher = {IEEE},
+   title = {Proceedings of the 14th International Symposium on Integrated Circuits (ISIC) : 10-12 December 2014, Marina Bay Sands, Singapore},
+   year = {2014},
+   author={Lee, Yee Hui and Khalil-Hani, M and Marsono, Muhammad N},
+}
+@article{DeWolf2019,
+   abstract = {This is a set of lecture notes suitable for a Master's course on quantum computation and information from the perspective of theoretical computer science. The first version was written in 2011, with many extensions and improvements in subsequent years. The first 10 chapters cover the circuit model and the main quantum algorithms (Deutsch-Jozsa, Simon, Shor, Hidden Subgroup Problem, Grover, quantum walks, Hamiltonian simulation and HHL). They are followed by 4 chapters about complexity, 4 chapters about distributed ("Alice and Bob") settings, a chapter about quantum machine learning, and a final chapter about quantum error correction. Appendices A and B give a brief introduction to the required linear algebra and some other mathematical and computer science background. All chapters come with exercises, with some hints provided in Appendix C.},
+   author = {Ronald de Wolf},
+   month = {7},
+   title = {Quantum Computing: Lecture Notes},
+   publisher = {University of Amsterdam},
+   url = {http://arxiv.org/abs/1907.09415},
+   year = {2019},
+}
+@misc{Kumar,
+   abstract = {QUDA is an architecture similar to CUDA for HPC applications of Quantum GPU architectures to be used in conjunction with GPU and MCU based processing. There is no QUDA pipeline similar to a stream processing architecture or an out of order instruction pipeline. True ILP is achieved with a QUDA architecture, which is better than quasi-parallelism in a CUDA or scalar/vector architecture. What: Quantum Unified Compute Architecture or QUDA architectures is the use of Q and Qiskit for a reconfigurable quantum array architecture on spintronic units with a reconfigurable scheduler for a quantum operating system. How: We consider a QUDA architecture in python to simulate a reconfigurable QPU cell-matrix on the Q cloud in association with a CUDA kernel. We consider the existence of shared memory and ultra-fast hyper-data support, with all other CUDA functionalities and libraries supported. Why: A large body of efficient quantum algorithms for stream processing, vector data processing and hyper-data algorithms in Hilbert space exist for very efficient HPC computing. With time it is possible that it be proven that P and NP are actual subsets of QP with polynomial-time convergence and bounds proven for most HPC workloads, enabling serious QPU designs to supplement the CUDA architecture. Low-temperature silicon or other non-linear materials like graphene at atomic scale fabrication will make inexpensive quantum integration possible leading to a revolution in 100 qubits + chip architectures as QPU units, to act as a coprocessor to MCU-GPU units. Thus QPU-MCU hybrid units unify with MCU-GPU-QPU hybrid units leading to the QUDA architecture. Summary: Main Points:},
+   author = {Anil Kumar and Ab WA Seattle},
+   keywords = {HPC,QUDA architecture,Qiskit,Quantum Cloud,hyper-data,quantum operating system,spin waves,spintronic},
+   title = {A CUDA-QUDA Architecture, Hyper-Data Quantum GPUs},
+}
+
+@misc{Joost2005,
+   abstract = {Today, industrial production machines must be highly flexible in order to competitively account for dynamic and unforeseen changes in the product demands. This paper shows that field-programmable gate arrays (FPGAs) are especially suited to fulfil these requirements; FPGAs are very powerful, relatively inexpensive, and adaptable, since their configuration is specified in an abstract hardware description language. In addition to the benefits resulting from using an FPGA, the case study presented here shows how FPGAs can be used for implementing a sophisticated multiprocessor architecture. In the course of presentation, this paper furthermore argues that due to the excellent tool support and the availability of reusable functional modules (also known as intellectual properties) this approach can be adopted by almost any industrial hardware designer.},
+   author = {Ralf Joost and Ralf Salomon},
+   organization={IEEE},
+   title = {Advantages of FPGA-Based Multiprocessor Systems in Industrial Applications},
+   year = {2005},
+}
+
+@book{meyer2013space-efficient,
+	title={Space-Efficient Simulation of Quantum Computers},
+	author={Frank, Michael P and Meyer-Baese, Uwe H and Chiorescu, Irinel and Oniciuc, Liviu and van Engelen, Robert A},
+   	isbn = {9781605584218},
+   	publisher = {ACM Digital Library},
+   	title = {Proceedings of the 47th Annual Southeast Regional Conference},
+   	year = {2013},
+}
+
+@article{Kelly2018,
+   abstract = {Quantum computing is an emerging technology, promising a paradigm shift in computing, and allowing for speedups in many different problems. However, quantum devices are still in their early stages, most with only a small number qubits. This places a reliance on simulation to develop quantum algorithms and to verify these devices. While there exists many algorithms for the simulation of quantum circuits, there is (at the time of writing) no tools which use OpenCL to parallelize this simulation, thereby taking advantage of devices such as GPUs while still remaining portable. In this paper, such a tool is described, including optimizations in areas such as gate application. This leads to a new approach that outperforms other popular state vector based simulators. An implementation of the proposed simulator is available at https://qcgpu.github.io.},
+   author = {Adam Kelly},
+   month = {5},
+   title = {Simulating Quantum Computers Using OpenCL},
+   url = {http://arxiv.org/abs/1805.00988},
+   year = {2018},
+}
+@article{Waidyasooriya2019,
+   abstract = {Quantum annealing (QA) is a method to find the global optimum for a combinatorial optimization problem by using quantum fluctuations. QA can be simulated on a computer using quantum Monte Carlo (QMC) simulation of the Ising model, while sacrificing a huge processing time. It has been shown that the processing time of QMC simulation on a CPU scales similarly to that of QA on the D-wave 2X quantum annealer, although the latter is over 10 8 times faster than the former. However, large problems should be partitioned into sub-problems and solved separately, and this reduces the processing speed of the quantum annealer. Since the access to a quantum annealer is also limited, acceleration of QA simulations using conventional computers is regarded as a very important topic. If we can reduce the huge computational time, it is possible to use QA simulations to solve combinatorial optimization problems. We propose an FPGA accelerator for QA simulations designed using “open computing language.” We achieved up to 12.6 times speed-up for single FPGA implementation and 23.8 times speed-up for two-FPGA implementation compared to a CPU. We also achieved over 9-times large energy efficiency compared to a CPU-based system.},
+   author = {Hasitha Muthumala Waidyasooriya and Masanori Hariyama and Masamichi J. Miyama and Masayuki Ohzeki},
+   doi = {10.1007/s11227-019-02778-w},
+   issn = {15730484},
+   issue = {8},
+   journal = {Journal of Supercomputing},
+   keywords = {FPGA accelerator,OpenCL for FPGA,Quantum Monte Carlo simulation,Simulated quantum annealing},
+   month = {8},
+   pages = {5019--5039},
+   publisher = {Springer New York LLC},
+   title = {OpenCL-based Design of an FPGA Accelerator for Quantum Annealing Simulation},
+   volume = {75},
+   year = {2019},
+}
+@inproceedings{hong2022quantum,
+   abstract = {The quantum computer is emerging technology since it can resolve complex tasks such as factorization or search problem faster than classical computers. However, simulation of the quantum computer is difficult because computational load increases exponentially as the number of qubits used in the circuit is increased. This paper proposes a hardware architecture for quantum circuit simulation. To implement simulator smaller, our architecture operates based on a 1-input single gate regardless of the number of qubits used in the circuit In addition, our architecture helps to reduce simulation time by skipping calculation and data transfer. The proposed architecture is implemented on FPGA and the experimental results show that our architecture reduces 79.2% of the multiplication process when we simulate 20-qubit quantum Fourier transform with a small hardware size.},
+   author = {Yunpyo Hong and Seokhun Jeon and Sihyeong Park and Byung Soo Kim},
+   doi = {10.1109/ICTC55196.2022.9952408},
+   isbn = {9781665499392},
+   issn = {21621241},
+   booktitle={2022 13th International Conference on Information and Communication Technology Convergence (ICTC)},
+   pages={1909--1911},
+   keywords = {FPGA,QFT,quantum circuit,quantum computer,quantum simulator},
+   publisher = {IEEE Computer Society},
+   title = {Quantum {C}ircuit {S}imulator {B}ased on {FPGA}},
+   volume = {2022-October},
+   year = {2022},
+}
+@book{Valerii,
+	title={FPGA based digital quantum computer verification},
+    abstract = {"It is the first online conference in the history of DESSERT."--PDF welcome note. },
+    isbn = {9781728199573},
+    organization = {IEEE},
+    publisher = {DESSERT : proceedings, 2020 IEEE 11th International Conference on Dependable Systems, Services and Technologies : 2020 Theme: IoT, Big Data and AI for a Safe & Secure World and Industry 4.0 : Ukraine, Kyiv, May 14-18, 2020},
+    author={Hlukhov, Valerii},
+   	year = {2020},
+}
+@article{Li2021,
+   abstract = {In the past decades, field-programmable gate arrays (FPGAs) have demonstrated an interesting physical platform to facilitate quantum information processing, particularly in the emergence of domain-specific hardware accelerators for quantum computing emulation and quantum key distillation. While conventional general-purpose hardware platforms have been used for quantum information processing, FPGAs promise deep pipeline parallelism, adaptable interface, and trivial support for custom-precision operation. Therefore, the time is ripe for describing recent development of quantum computing emulators and quantum key distillation accelerators on FPGAs. In this article, we provide a comprehensive review of the state-of-the-art in this active field, with a balance between theoretical, implementational, and technological results. Challenges and promising research opportunities are also discussed.},
+   author = {He Li and Yaru Pang},
+   doi = {10.1109/MM.2021.3085431},
+   issn = {19374143},
+   issue = {4},
+   journal = {IEEE Micro},
+   keywords = {Field programmable gate array,hardware emulation,quantum information processing},
+   month = {7},
+   pages = {49-57},
+   publisher = {IEEE Computer Society},
+   title = {FPGA-Accelerated Quantum Computing Emulation and Quantum Key Distillation},
+   volume = {41},
+   year = {2021},
+}
+@article{Yin2021,
+   abstract = {In classical information processing, the windowed Fourier transform (WFT), or short-time Fourier transform, which is a variant of the Fourier transform by dividing a longer time signal into shorter segments of equal length and then computing the Fourier transform separately on each shorter segment, is proposed to provide a method of signal processing. Up to now the discrete Fourier transform has been successfully applied to the field of quantum information, but the related short-time discrete Fourier transform of this field has not been developed accordingly. To address this problem, we first introduce the concept of quantum window state, and further prove that the quantum Fourier transform of a quantum window state is also a quantum window state. Based on the definition of the quantum window state the local information of a quantum signal is extracted and the corresponding quantum circuits are also given. And then, by applying the quantum Fourier transform to the windowed quantum superposition states, we propose a novel concept called quantum windowed Fourier transform (QWFT). Finally, an application of quantum signal processing is given where QWFT is employed.},
+   author = {Haiting Yin and Dayong Lu and Rui Zhang},
+   doi = {10.1007/s10773-021-04933-7},
+   issn = {15729575},
+   issue = {10},
+   journal = {International Journal of Theoretical Physics},
+   keywords = {Fourier transform,Quantum Fourier transform,Quantum information processing,Time-frequency localization,Window functions},
+   month = {10},
+   pages = {3896-3918},
+   publisher = {Springer},
+   title = {Quantum Windowed Fourier Transform and its Application to Quantum Signal Processing},
+   volume = {60},
+   year = {2021},
+}
+@article{Vazquez2024,
+   abstract = {The integration of quantum processing units (QPUs) in a heterogeneous high-performance computing environment requires solutions that facilitate hybrid classical–quantum programming. Standards such as OpenCL facilitate the programming of heterogeneous environments, consisting of CPUs and hardware accelerators. This study presents an innovative method that incorporates QPU functionality into OpenCL, standardizing quantum processes within classical environments. By leveraging QPUs within OpenCL, hybrid quantum–classical computations can be sped up, impacting domains like cryptography, optimization problems, and quantum chemistry simulations. Using Portable Computing Language (Jääskeläinen et al. in Int J Parallel Program 43(5):752–785, 2014. https://doi.org/10.1007/s10766-014-0320-y) and the Qulacs library (Suzuki et al. in Quantum 5:559, 2021. https://doi.org/10.22331/q-2021-10-06-559), results demonstrate, for instance, the successful execution of Shor’s algorithm (Nielsen and Chuang in Quantum computation and quantum information, 10th anniversary edn. Cambridge University Press, Cambridge, 2010), serving as a proof of concept for extending the approach to larger qubit systems and other hybrid quantum–classical algorithms. This integration approach bridges the gap between quantum and classical computing paradigms, paving the way for further optimization and application to a wide range of computational problems.},
+   author = {Jorge Vázquez-Pérez and César Piñeiro and Juan C. Pichel and Tomás F. Pena and Andrés Gómez},
+   doi = {10.1007/s11227-023-05879-9},
+   issn = {15730484},
+   issue = {8},
+   journal = {Journal of Supercomputing},
+   keywords = {Hybrid programming, OpenCL, PoCL, QPU, Qulacs},
+   month = {5},
+   pages = {11682-11703},
+   publisher = {Springer},
+   title = {QPU Integration in OpenCL for Heterogeneous Programming},
+   volume = {80},
+   year = {2024},
+}
+@article{Inam2020,
+   abstract = {SENSE (Sensitivity Encoding) is a parallel MRI (pMRI) technique that allows accelerated data acquisition using multiple receiver coils and reconstructs the artifact-free images from the acquired under-sampled data. However, an increasing number of receiver coils has raised the computational demands of pMRI techniques to an extent where the reconstruction time on general purpose computers becomes impractically long for real-time MRI. Field Programmable Gate Arrays (FPGAs) have recently emerged as a viable hardware platform for accelerating pMRI algorithms (e.g. SENSE). However, recent efforts to accelerate SENSE using FPGAs have been focused on a fixed number of receiver coils (L=8) and acceleration factor (Af=2). This paper presents a novel 32-bit floating-point FPGA-based hardware accelerator for SENSE (HW-ACC-SENSE); having an ability to work in coordination with an on-chip ARM processor performing reconstructions for different values of L and Af. Moreover, the proposed design provides flexibility to integrate multiple units of HW-ACC-SENSE with an on-chip ARM processor, for low-latency image reconstruction. The VIVADO High-Level-Synthesis (HLS) tool has been used to design and implement the HW-ACC-SENSE on the Xilinx FPGA development board (ZCU102). A series of experiments has been performed on in-vivo datasets acquired using 8, 12 and 30 receiver coil elements. The performance of the proposed architecture is compared with the single thread and multi-thread CPU-based implementations of SENSE. The results show that the proposed design withstands the reconstruction quality of the SENSE algorithm while demonstrating a maximum speed-gain up to 298× over the CPU counterparts in our experiments.},
+   author = {Omair Inam and Abdul Basit and Mahmood Qureshi and Hammad Omer},
+   doi = {10.1016/j.compbiomed.2019.103598},
+   issn = {18790534},
+   journal = {Computers in Biology and Medicine},
+   keywords = {FPGA,Hardware accelerator,High level synthesis,Magnetic resonance imaging (MRI),SENSE},
+   month = {2},
+   pmid = {32072979},
+   publisher = {Elsevier Ltd},
+   title = {FPGA-based {H}ardware {A}ccelerator for {SENSE}},
+   volume = {117},
+   year = {2020},
+}
+@article{Li2018,
+   abstract = {In this paper we investigate the use of quantum Fourier transform (QFT) in the field of image processing. We consider QFT-based color image filtering operations and their applications in image smoothing, sharpening, and selective filtering using quantum frequency domain filters. The underlying principle used for constructing the proposed quantum filters is to use the principle of the quantum Oracle to implement the filter function. Compared with the existing methods, our method is not only suitable for color images, but also can flexibly design the notch filters. We provide the quantum circuit that implements the filtering task and present the results of several simulation experiments on color images. The major advantages of the quantum frequency filtering lies in the exploitation of the efficient implementation of the quantum Fourier transform.},
+   author = {Panchi Li and Hong Xiao},
+   doi = {10.1007/s10773-017-3561-x},
+   issn = {15729575},
+   issue = {1},
+   journal = {International Journal of Theoretical Physics},
+   keywords = {Quantum Fourier transform,Quantum filter designing,Quantum image filtering,Quantum image processing},
+   month = {1},
+   pages = {258-278},
+   publisher = {Springer New York LLC},
+   title = {An Improved Filtering Method for Quantum Color Image in Frequency Domain},
+   volume = {57},
+   year = {2018},
+}
+@misc{Hoenninger2002,
+   abstract = {A magnetic resonance imaging (MRI) system requires the highest possible signal fidelity and stability for clinical applications. Quadrature analog receivers have problems with channel matching, dc offset and analog-to-digital linearity. Fixed-point digital receivers (DRs) reduce all of these problems. We have demonstrated that a floating-point DR using large (order 124 to 512) FIR low-pass filters also overcomes these problems, automatically provides long word length and has low latency between signals. A preloaded table of finite impuls response (FIR) filter coefficients provides fast switching between one of 129 different one-stage and two-stage multrate FIR low-pass filters with bandwidths between 4 KHz and 125 KHz. This design has been implemented on a dual channel circuit board for a commercial MRI system. Index Terms-Digital receiver (DR), digital signal processor (DSP), FIR low-pass filtering, magnetic resonance imaging (MRI).},
+   author = {John C Hoenninger and Lawrence E Crooks and Mitsuaki Arakawa},
+   issue = {7},
+   journal = {IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING},
+   pages = {689},
+   title = {A Floating-Point Digital Receiver for MRI},
+   volume = {49},
+   year = {2002},
+}
+@article{Li2020,
+   abstract = {In order to deal with the problems of poor anti-interference low reconstruction clarity and large errors in the traditional medical image reconstruction methods we proposed a fuzzy medical images three-dimensional (3D) reconstruction method using quantum algorithm. First of all a feature matching model of fuzzy medical image was built. Secondly this study decomposed the edge contour features by using the Gaussian mixture feature matching method extracted the edge contour vectors of fuzzy medical image and enhanced the information of fuzzy medical images by adopting the region edge sharpening. Thirdly this study reorganized the 3D texture structure of images and reconstructed the sparse scattered points according to its texture and detail regions. Finally we combined with the gray histogram of fuzzy medical images to achieve the adaptive pixel reconstruction of fuzzy medical images and completed the 3D reconstruction of fuzzy medical images by employing the quantum algorithm. The results show that the proposed method is characterized by high matching degree of image features and balanced distribution of point clouds and the self-similarity coefficient of the reconstructed texture can reach 0.994; in addition the SINR value of the reconstruction result can be maintained around 100dB and it has lower error rate than the traditional method thereby improving the detection and recognition capability of medical images and the algorithm has certain practical application.},
+   author = {Xiaofeng Li and Jun Sui and Yanwei Wang},
+   doi = {10.1109/ACCESS.2020.3039540},
+   issn = {21693536},
+   journal = {IEEE Access},
+   keywords = {Quantum algorithm,characteristics of the reconstruction,fuzzy medical images,three-dimensional reconstruction},
+   pages = {218279-218288},
+   publisher = {Institute of Electrical and Electronics Engineers Inc.},
+   title = {Three-Dimensional Reconstruction of Fuzzy Medical Images Using Quantum Algorithm},
+   volume = {8},
+   year = {2020},
+}
+@article{Fessler2005,
+   abstract = {In some types of magnetic resonance (MR) imaging, particularly functional brain scans, the conventional Fourier model for the measurements is inaccurate. Magnetic field inhomogeneities, which are caused by imperfect main fields and by magnetic susceptibility variations, induce distortions in images that are reconstructed by conventional Fourier methods. These artifacts hamper the use of functional MR imaging (fMRI) in brain regions near air/tissue interfaces. Recently, iterative methods that combine the conjugate gradient (CG) algorithm with nonuniform FFT (NUFFT) operations have been shown to provide considerably improved image quality relative to the conjugate-phase method. However, for non-Cartesian k-space trajectories, each CG-NUFFT iteration requires numerous k-space interpolations; these are operations that are computationally expensive and poorly suited to fast hardware implementations. This paper proposes a faster iterative approach to field-corrected MR image reconstruction based on the CG algorithm and certain Toeplitz matrices. This CG-Toeplitz approach requires k-space interpolations only for the initial iteration; thereafter, only fast Fourier transforms (FFTs) are required. Simulation results show that the proposed CG-Toeplitz approach produces equivalent image quality as th CG-NUFFT method with significantly reduced computation time. © 2005 IEEE.},
+   author = {Jeffrey A. Fessler and Sangwoo Lee and Valur T. Olafsson and Hugo R. Shi and Douglas C. Noll},
+   doi = {10.1109/TSP.2005.853152},
+   issn = {1053587X},
+   issue = {9},
+   journal = {IEEE Transactions on Signal Processing},
+   keywords = {Magnetic susceptibility,Non-Cartesian sampling,Spiral trajectory,fMRI imaging},
+   month = {9},
+   pages = {3393-3402},
+   title = {Toeplitz-based iterative image reconstruction for MRI with correction for magnetic field inhomogeneity},
+   volume = {53},
+   year = {2005},
+}
+@misc{Khalid2004,
+   abstract = {Quantum computing offers immense speedup in performing tasks such as data encryption and searching. The quantum algorithms can be modeled using classical computing devices, however classical computer simulations cannot deal efficiently with the parallelism present in quantum algorithms. The quantum circuit model for quantum algorithms is sufficient to describe the known quantum algorithms. Using analogies between quantum and digital circuits, we design the emulator of quantum algorithms in FPGAs that allows efficient experimentation with new quantum algorithms. This paper concentrates on new techniques for modeling quantum circuits, including the entanglement and probabilistic computing realization, as well as the critical issues in the required precision of computing.},
+   author = {Ahmed Usman Khalid and Zeljko Zilic and Katarzyna Radecka},
+   city = {Los Almos},
+   doi = {10.1109/ICCD.2004.1347938},
+   isbn = {9780769522319},
+   issn = {1063-6404},
+   institution = {IEEE},
+   pages = {1-6},
+   title = {{FPGA} {E}mulation of {Q}uantum {C}ircuits},
+   url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1347938&casa_token=rwtX8k8oDDkAAAAA:P5lDszTLrL_scrUBmqs-3RRIXOn0ShonHfFqEc3Cizv-rC0si8dGhcQnyzvzx6QeLDQ1QdBPmlg&tag=1},
+   year = {2004},
+}
+
+@book{Rieffel2011,
+	title={Quantum Computing: A Gentle Introduction},
+	author={Rieffel, Eleanor G and Polak, Wolfgang H},
+	year={2011},
+	publisher={MIT Press}
+}
+
+@article{johnson2003,
+	title={Quantum Mechanics in Quantum Computing},
+	author={Johnson, Mathew},
+	year={2003},
+	publisher={Citeseer}
+}
+
+@inproceedings{Gupta2020,
+	abstract = {Quantum Computing technologies with rapid proliferation have achieved important milestones in recent years. Quantum concept of entanglement has emerged rapidly with its application domains widely expanding. Here, in this study we elaborate on relationship of classical and quantum technologies focusing on the entanglement property. This study reviews how entanglement influences various quantum applications and elaborates on qubit behaviour to compare entanglement realization on real quantum hardware prototypes and simulated noise model environments in IBM Q Experience which could assist future studies in overcoming associated challenges in entanglement utility in practical implementations of upcoming applications.},
+	author = {Mayank Gupta and Manisha J. Nene},
+	doi = {10.1109/ICATMRI51801.2020.9398441},
+	isbn = {9781728177342},
+	booktitle = {Proceedings of IEEE International Conference on Advent Trends in Multidisciplinary Research and Innovation, ICATMRI 2020},
+	keywords = {Absolute Deviation analysis,Measurement probability,Quantum Measurement,Quantum entanglement,Secret classical correlation,Tripartite Entanglement},
+	month = {12},
+	publisher = {Institute of Electrical and Electronics Engineers Inc.},
+	title = {Quantum {C}omputing: {A}n {E}ntanglement {M}easurement},
+	year = {2020},
+}
+
+@book{Nielsen2010,
+	title={Quantum {C}omputation and {Q}uantum {I}nformation},
+	author={Nielsen, Michael A and Chuang, Isaac L},
+	year={2010},
+	publisher={Cambridge {U}niversity {P}ress}
+}
+
+@article{Kurzyk2012,
+	author = {Kurzyk, Dariusz},
+	year = {2012},
+	month = {08},
+	pages = {135–150},
+	title = {Introduction to {Q}uantum {E}ntanglement},
+	volume = {24},
+	journal = {Theoretical and Applied Informatics},
+	doi = {10.2478/v10179-012-0010-7}
+}
+
+@inproceedings{Shor1994,
+	abstract = {A computer is generally considered to be a universal computational device; i.e., it is believed able to simulate any physical computational device with a cost in computation time of at most a polynomial factor: It is not clear whether this is still true when quantum mechanics is taken into consideration. Several researchers, starting with David Deutsch, have developed models for quantum mechanical computers and have investigated their computational properties. This paper gives Las Vegas algorithms for finding discrete logarithms and factoring integers on a quantum computer that take a number of steps which is polynomial in the input size, e.g., the number of digits of the integer to be factored. These two problems are generally considered hard on a classical computer and have been used as the basis of several proposed cryptosystems. We thus give the first examples of quantum cryptanalysis.< >},
+	author = {Shor, P.W.},
+	address = {LOS ALAMITOS},
+	booktitle = {35TH ANNUAL SYMPOSIUM ON FOUNDATIONS OF COMPUTER SCIENCE, PROCEEDINGS},
+	isbn = {0818665807},
+	issn = {0272-5428},
+	keywords = {Circuit simulation ; Computational modeling ; Computer Science ; Computer Science, Theory & Methods ; Computer simulation ; Costs ; Cryptography ; Mechanical factors ; Physics computing ; Polynomials ; Quantum computing ; Quantum mechanics ; Science & Technology ; Technology},
+	language = {eng},
+	pages = {124-134},
+	publisher = {IEEE Comput. Soc. Press},
+	title = {Algorithms for {Q}uantum {C}omputation: {D}iscrete {L}ogarithms and {F}actoring},
+	year = {1994},
+}
+
+@INPROCEEDINGS{Zhang2019,
+	author={Zhang, Xin and Zhao, YaQian and Li, RenGang and Li, XueLei and Guo, ZhenHua and Zhu, XiaoMin and Dong, Gang},
+	booktitle={2019 IEEE Intl Conf on Parallel \& Distributed Processing with Applications, Big Data \& Cloud Computing, Sustainable Computing \& Communications, Social Computing \& Networking (ISPA/BDCloud/SocialCom/SustainCom)}, 
+	title={The {Q}uantum {S}hor {A}lgorithm {S}imulated on {FPGA}}, 
+	year={2019},
+	pages={542-546},
+	keywords={Quantum computing;Registers;Computational modeling;Field programmable gate arrays;Hardware;Computer architecture;Quantum mechanics;Shor algorithm, FPGA, quantum computing},
+	doi={10.1109/ISPA-BDCloud-SustainCom-SocialCom48970.2019.00082}
+}
+
+@inproceedings{Hlukhov2021,
+	title={Implementation of {S}hor's {A}lgorithm in a {D}igital {Q}uantum {C}oprocessor},
+	author={Hlukhov, Valeriy},
+	booktitle={International scientific and practical conference:\{Intellectual systems and information technologies\}},
+	year={2021}
+}
+
+@article{chen2014qubit,
+	title={Qubit {A}rchitecture with {H}igh {C}oherence and {F}ast {T}unable {C}oupling},
+	author={Chen, Yu and Neill, C and Roushan, Pedram and Leung, Nelson and Fang, Michael and Barends, Rami and Kelly, Julian and Campbell, Brooks and Chen, Z and Chiaro, Benjamin and others},
+	journal={Physical review letters},
+	volume={113},
+	number={22},
+	pages={220502},
+	year={2014},
+	publisher={APS}
+}
+
+@article{radtke2005simulation,
+	title = {Simulation of n-{Q}ubit {Q}uantum {S}ystems. I. {Q}uantum {R}egisters and {Q}uantum {G}ates},
+	journal = {Computer Physics Communications},
+	volume = {173},
+	number = {1},
+	pages = {91-113},
+	year = {2005},
+	issn = {0010-4655},
+	doi = {https://doi.org/10.1016/j.cpc.2005.07.006},
+	url = {https://www.sciencedirect.com/science/article/pii/S0010465505004261},
+	author = {T. Radtke and S. Fritzsche},
+	keywords = {Kronecker product, Quantum computation, Quantum logic gate, Quantum register, Qubit, (Reduced) density matrix, Unitary transformation},
+}
+
+@article{childs2018toward,
+	title={Toward the {F}irst {Q}uantum {S}imulation with {Q}uantum {S}peedup},
+	author={Childs, Andrew M and Maslov, Dmitri and Nam, Yunseong and Ross, Neil J and Su, Yuan},
+	journal={Proceedings of the National Academy of Sciences},
+	volume={115},
+	number={38},
+	pages={9456--9461},
+	year={2018},
+	publisher={National Acad Sciences}
+}
+
+@article{efthymiou2021qibo,
+	title={Qibo: {A} {F}ramework for {Q}uantum {S}imulation with {H}ardware {A}cceleration},
+	author={Efthymiou, Stavros and Ramos-Calderer, Sergi and Bravo-Prieto, Carlos and P{\'e}rez-Salinas, Adri{\'a}n and Garc{\'\i}a-Mart{\'\i}n, Diego and Garcia-Saez, Artur and Latorre, Jos{\'e} Ignacio and Carrazza, Stefano},
+	journal={Quantum Science and Technology},
+	volume={7},
+	number={1},
+	pages={015018},
+	year={2021},
+	publisher={IOP Publishing}
+}
+
+@inproceedings{marinescu2005promise,
+	title={The {P}romise of {Q}uantum {C}omputing and {Q}uantum {I}nformation {T}heory-{Q}uantum {P}arallelism},
+	author={Marinescu, Dan C},
+	booktitle={19th IEEE International Parallel and Distributed Processing Symposium},
+	pages={3--pp},
+	year={2005},
+	organization={IEEE}
+}
+
+@article{khaetskii2002electron,
+	title={Electron {S}pin {D}ecoherence in {Q}uantum {D}ots {D}ue to {I}nteraction with {N}uclei},
+	author={Khaetskii, Alexander V and Loss, Daniel and Glazman, Leonid},
+	journal={Physical review letters},
+	volume={88},
+	number={18},
+	pages={186802},
+	year={2002},
+	publisher={APS}
+}
+
+@inproceedings{markidis2024quantum,
+	title={What is {Q}uantum {P}arallelism, {A}nyhow?},
+	author={Markidis, Stefano},
+	booktitle={ISC High Performance 2024 Research Paper Proceedings (39th International Conference)},
+	pages={1--12},
+	year={2024},
+	organization={Prometeus GmbH}
+}
+
+@inproceedings{cieszewski2013review,
+	title={Review of {P}arallel {C}omputing {M}ethods and {T}ools for {FPGA} {T}echnology},
+	author={Cieszewski, Rados{\l}aw and Linczuk, Maciej and Pozniak, Krzysztof and Romaniuk, Ryszard},
+	booktitle={Photonics Applications in Astronomy, Communications, Industry, and High-Energy Physics Experiments 2013},
+	volume={8903},
+	pages={596--608},
+	year={2013},
+	organization={SPIE}
+}
+
+@article{divincenzo2000physical,
+	title={The {P}hysical {I}mplementation of {Q}uantum {C}omputation},
+	author={DiVincenzo, David P},
+	journal={Fortschritte der Physik: Progress of Physics},
+	volume={48},
+	number={9-11},
+	pages={771--783},
+	year={2000},
+	publisher={Wiley Online Library}
+}
+
+@article{turchette1995measurement,
+	title={Measurement of {C}onditional {P}hase {S}hifts for {Q}uantum {L}ogic},
+	author={Turchette, Quentin A and Hood, Christina J and Lange, Wolfgang and Mabuchi, HJKH and Kimble, H Jerey},
+	journal={Physical review letters},
+	volume={75},
+	number={25},
+	pages={4710},
+	year={1995},
+	publisher={APS}
+}
+
+@article{degen2017quantum,
+	title={Quantum sensing},
+	author={Degen, Christian L and Reinhard, Friedemann and Cappellaro, Paola},
+	journal={Reviews of modern physics},
+	volume={89},
+	number={3},
+	pages={035002},
+	year={2017},
+	publisher={APS}
+}
+
+@article{kominis2003subfemtotesla,
+	title={A {S}ubfemtotesla {M}ultichannel {A}tomic {M}agnetometer},
+	author={Kominis, Iannis K and Kornack, Thomas W and Allred, Joel C and Romalis, Michael V},
+	journal={Nature},
+	volume={422},
+	number={6932},
+	pages={596--599},
+	year={2003},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{kimball2013optical,
+	title={Optical {M}agnetometry with {M}odulated {L}ight},
+	author={Kimball, DF Jackson and Pustelny, S and Yashchuk, VV and Budker, D},
+	journal={Optical magnetometry},
+	pages={104--124},
+	year={2013}
+}
+
+@article{sherwin1999quantum,
+	title={Quantum {C}omputation with {Q}uantum {D}ots and {T}erahertz {C}avity {Q}uantum {E}lectrodynamics},
+	author={Sherwin, Mark S and Imamoglu, Atac and Montroy, Thomas},
+	journal={Physical Review A},
+	volume={60},
+	number={5},
+	pages={3508},
+	year={1999},
+	publisher={APS}
+}
+
+@article{li2022control,
+	title={On the {C}ontrol of {F}lying {Q}ubits},
+	author={Li, Wen-Long and Zhang, Guofeng and Wu, Re-Bing},
+	journal={Automatica},
+	volume={143},
+	pages={110338},
+	year={2022},
+	publisher={Elsevier}
+}
+
+@article{houck2012chip,
+	title={On-chip {Q}uantum {S}imulation with {S}uperconducting {C}ircuits},
+	author={Houck, Andrew A and T{\"u}reci, Hakan E and Koch, Jens},
+	journal={Nature Physics},
+	volume={8},
+	number={4},
+	pages={292--299},
+	year={2012},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{eisaman2011invited,
+	title={Invited {R}eview {A}rticle: {S}ingle-{P}hoton {S}ources and {D}etectors},
+	author={Eisaman, Matthew D and Fan, Jingyun and Migdall, Alan and Polyakov, Sergey V},
+	journal={Review of scientific instruments},
+	volume={82},
+	number={7},
+	year={2011},
+	publisher={AIP Publishing}
+}
+
+@article{hours2003single,
+	title={Single {P}hoton {E}mission from {I}ndividual {G}a{A}s {Q}uantum {D}ots},
+	author={Hours, J and Varoutsis, S and Gallart, M and Bloch, J and Robert-Philip, I and Cavanna, A and Abram, I and Laruelle, F and G{\'e}rard, JM},
+	journal={Applied Physics Letters},
+	volume={82},
+	number={14},
+	pages={2206--2208},
+	year={2003},
+	publisher={American Institute of Physics}
+}
+
+@article{stievater2001rabi,
+	title={Rabi {O}scillations of {E}xcitons in {S}ingle {Q}uantum {D}ots},
+	author={Stievater, TH and Li, Xiaoqin and Steel, D Gammon and Gammon, D and Katzer, DS and Park, D and Piermarocchi, C and Sham, LJ},
+	journal={Physical Review Letters},
+	volume={87},
+	number={13},
+	pages={133603},
+	year={2001},
+	publisher={APS}
+}
+
+@article{bluhm2011dephasing,
+	title={Dephasing {T}ime of {G}a{A}s {E}lectron-{S}pin {Q}ubits {C}oupled to a {N}uclear {B}ath {E}xceeding 200 $\mu$s},
+	author={Bluhm, Hendrik and Foletti, Sandra and Neder, Izhar and Rudner, Mark and Mahalu, Diana and Umansky, Vladimir and Yacoby, Amir},
+	journal={Nature Physics},
+	volume={7},
+	number={2},
+	pages={109--113},
+	year={2011},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{sundfors1969exchange,
+	title={Exchange and {Q}uadrupole {B}roadening of {N}uclear {A}coustic {R}esonance {L}ine {S}hapes in the {III-V} {S}emiconductors},
+	author={Sundfors, RK},
+	journal={Physical Review},
+	volume={185},
+	number={2},
+	pages={458},
+	year={1969},
+	publisher={APS}
+}
+
+@article{deutsch1998quantum,
+	title={Quantum {C}omputation},
+	author={Deutsch, David and Ekert, Artur},
+	journal={Physics World},
+	volume={11},
+	number={3},
+	pages={47},
+	year={1998},
+	publisher={IOP Publishing}
+}
+
+@article{bacon2000universal,
+	title={Universal {F}ault-{T}olerant {Q}uantum {C}omputation on {D}ecoherence-{F}ree {S}ubspaces},
+	author={Bacon, Dave and Kempe, Julia and Lidar, Daniel A and Whaley, K Birgitta},
+	journal={Physical Review Letters},
+	volume={85},
+	number={8},
+	pages={1758},
+	year={2000},
+	publisher={APS}
+}
+
+@article{chao2018quantum,
+	title={Quantum {E}rror {C}orrection with {O}nly {T}wo {E}xtra {Q}ubits},
+	author={Chao, Rui and Reichardt, Ben W},
+	journal={Physical review letters},
+	volume={121},
+	number={5},
+	pages={050502},
+	year={2018},
+	publisher={APS}
+}
+
+@article{knill1996concatenated,
+	title={Concatenated {Q}uantum {C}odes},
+	author={Knill, Emanuel and Laflamme, Raymond},
+	journal={arXiv preprint quant-ph/9608012},
+	year={1996}
+}
+
+@misc{paschottafinesse,
+	author={Paschotta, R.},
+	publisher={RP Photonics AG},
+	title={Finesse},
+	abstract={The finesse of an optical resonator is the free spectral range divided by the FWHM width of the resonances.},
+	year={2023},
+	howpublished={RP Photonics Encyclopedia},
+	note={Available online at \url{https://www.rp-photonics.com/finesse.html}},
+	url={https://www.rp-photonics.com/finesse.html},
+	urldate={2024-09-24},
+	keywords={finesse},
+}
+
+@article{roos2004control,
+	title={Control and {M}easurement of {T}hree-{Q}ubit {E}ntangled {S}tates},
+	author={Roos, Christian F and Riebe, Mark and Haffner, Hartmut and Hansel, Wolfgang and Benhelm, Jan and Lancaster, Gavin PT and Becher, Christoph and Schmidt-Kaler, Ferdinand and Blatt, Rainer},
+	journal={science},
+	volume={304},
+	number={5676},
+	pages={1478--1480},
+	year={2004},
+	publisher={American Association for the Advancement of Science}
+}
+
+@article{dicarlo2009demonstration,
+	title={Demonstration of {T}wo-{Q}ubit {A}lgorithms with a {S}uperconducting {Q}uantum {P}rocessor},
+	author={DiCarlo, Leonardo and Chow, Jerry M and Gambetta, Jay M and Bishop, Lev S and Johnson, Blake R and Schuster, DI and Majer, J and Blais, Alexandre and Frunzio, Luigi and Girvin, SM and others},
+	journal={Nature},
+	volume={460},
+	number={7252},
+	pages={240--244},
+	year={2009},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{riste2015digital,
+	title={Digital feedback in superconducting quantum circuits},
+	author={Rist{\`e}, Diego and DiCarlo, Leonardo},
+	journal={arXiv preprint arXiv:1508.01385},
+	year={2015}
+}
+
+@article{clarke2008superconducting,
+	title={Superconducting {Q}uantum {B}its},
+	author={Clarke, John and Wilhelm, Frank K},
+	journal={Nature},
+	volume={453},
+	number={7198},
+	pages={1031--1042},
+	year={2008},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{dewes2012characterization,
+	title={Characterization of a {T}wo-{T}ransmon {P}rocessor with {I}ndividual {S}ingle-{S}hot {Q}ubit {R}eadout},
+	author={Dewes, Andreas and Ong, Florian R and Schmitt, Vivien and Lauro, R and Boulant, N and Bertet, P and Vion, D and Esteve, D},
+	journal={Physical review letters},
+	volume={108},
+	number={5},
+	pages={057002},
+	year={2012},
+	publisher={APS}
+}
+
+@article{gottesman1999demonstrating,
+	title={Demonstrating the {V}iability of {U}niversal {Q}uantum {C}omputation {U}sing {T}eleportation and {S}ingle-{Q}ubit {O}perations},
+	author={Gottesman, Daniel and Chuang, Isaac L},
+	journal={Nature},
+	volume={402},
+	number={6760},
+	pages={390--393},
+	year={1999},
+	publisher={Nature Publishing Group UK London}
+}
+
+@inproceedings{yao1993quantum,
+	title={Quantum {C}ircuit {C}omplexity},
+	author={Yao, A Chi-Chih},
+	booktitle={Proceedings of 1993 IEEE 34th Annual Foundations of Computer Science},
+	pages={352--361},
+	year={1993},
+	organization={IEEE}
+}
+
+@article{holevo1998quantum,
+	title={Quantum {C}oding {T}heorems},
+	author={Holevo, Alexander S},
+	journal={Russian Mathematical Surveys},
+	volume={53},
+	number={6},
+	pages={1295},
+	year={1998},
+	publisher={IOP Publishing}
+}
+
+@inproceedings{cleve1998quantum,
+	title={Quantum {E}ntanglement and the {C}ommunication {C}omplexity of the {I}nner {P}roduct {F}unction},
+	author={Cleve, Richard and Van Dam, Wim and Nielsen, Michael and Tapp, Alain},
+	booktitle={NASA International Conference on Quantum Computing and Quantum Communications},
+	pages={61--74},
+	year={1998},
+	organization={Springer}
+}
+
+@article{wootters1982single,
+	title={A {S}ingle {Q}uantum {C}annot {B}e {C}loned},
+	author={Wootters, William K and Zurek, Wojciech H},
+	journal={Nature},
+	volume={299},
+	number={5886},
+	pages={802--803},
+	year={1982},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{chiribella2009theoretical,
+	title={Theoretical {F}ramework for {Q}uantum {N}etworks},
+	author={Chiribella, Giulio and D’Ariano, Giacomo Mauro and Perinotti, Paolo},
+	journal={Physical Review A—Atomic, Molecular, and Optical Physics},
+	volume={80},
+	number={2},
+	pages={022339},
+	year={2009},
+	publisher={APS}
+}
+
+@article{peev2009secoqc,
+	title={The {SECOQC} {Q}uantum {K}ey {D}istribution {N}etwork in {V}ienna},
+	author={Peev, Momtchil and Pacher, Christoph and All{\'e}aume, Romain and Barreiro, Claudio and Bouda, Jan and Boxleitner, W and Debuisschert, Thierry and Diamanti, Eleni and Dianati, Mehrdad and Dynes, JF and others},
+	journal={New journal of physics},
+	volume={11},
+	number={7},
+	pages={075001},
+	year={2009},
+	publisher={IOP Publishing}
+}
+
+@article{gisin2004towards,
+	title={Towards {P}ractical and {F}ast {Q}uantum {C}ryptography},
+	author={Gisin, Nicolas and Ribordy, Gr{\'e}goire and Zbinden, Hugo and Stucki, Damien and Brunner, Nicolas and Scarani, Valerio},
+	journal={arXiv preprint quant-ph/0411022},
+	year={2004}
+}
+
+@article{salvail2010security,
+	title={Security of {T}rusted {R}epeater {Q}uantum {K}ey {D}istribution {N}etworks},
+	author={Salvail, Louis and Peev, Momtchil and Diamanti, Eleni and All{\'e}aume, Romain and L{\"u}tkenhaus, Norbert and L{\"a}nger, Thomas},
+	journal={Journal of Computer Security},
+	volume={18},
+	number={1},
+	pages={61--87},
+	year={2010},
+	publisher={IOS Press}
+}
+
+@article{peev2009secoqc,
+	title={The SECOQC {Q}uantum {K}ey {D}istribution {N}etwork in {V}ienna},
+	author={Peev, Momtchil and Pacher, Christoph and All{\'e}aume, Romain and Barreiro, Claudio and Bouda, Jan and Boxleitner, W and Debuisschert, Thierry and Diamanti, Eleni and Dianati, Mehrdad and Dynes, JF and others},
+	journal={New journal of physics},
+	volume={11},
+	number={7},
+	pages={075001},
+	year={2009},
+	publisher={IOP Publishing}
+}
+
+@article{lydersen2011secure,
+	title={Secure {G}ated {D}etection {S}cheme for {Q}uantum {C}ryptography},
+	author={Lydersen, Lars and Makarov, Vadim and Skaar, Johannes},
+	journal={Physical Review A—Atomic, Molecular, and Optical Physics},
+	volume={83},
+	number={3},
+	pages={032306},
+	year={2011},
+	publisher={APS}
+}
+
+@article{riste2015detecting,
+	title={Detecting {B}it-{F}lip {E}rrors in a {L}ogical {Q}ubit {U}sing {S}tabilizer {M}easurements},
+	author={Riste, Diego and Poletto, Stefano and Huang, M-Z and Bruno, Alessandro and Vesterinen, Visa and Saira, O-P and DiCarlo, Leonardo},
+	journal={Nature communications},
+	volume={6},
+	number={1},
+	pages={6983},
+	year={2015},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{qi2005time,
+	title={Time-{S}hift {A}ttack in {P}ractical {Q}uantum {C}ryptosystems},
+	author={Qi, Bing and Fung, Chi-Hang Fred and Lo, Hoi-Kwong and Ma, Xiongfeng},
+	journal={arXiv preprint quant-ph/0512080},
+	year={2005}
+}
+
+@article{farhi2017quantum,
+	title={Quantum {A}lgorithms for {F}ixed {Q}ubit {A}rchitectures},
+	author={Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam and Neven, Hartmut},
+	journal={arXiv preprint arXiv:1703.06199},
+	year={2017}
+}
+
+@inproceedings{zhang2021time,
+	title={Time-{O}ptimal {Q}ubit {M}apping},
+	author={Zhang, Chi and Hayes, Ari B and Qiu, Longfei and Jin, Yuwei and Chen, Yanhao and Zhang, Eddy Z},
+	booktitle={Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
+	pages={360--374},
+	year={2021}
+}
+
+@inproceedings{li2019tackling,
+	title={Tackling the {Q}ubit {M}apping {P}roblem for {NISQ}-{E}ra {Q}uantum {D}evices},
+	author={Li, Gushu and Ding, Yufei and Xie, Yuan},
+	booktitle={Proceedings of the twenty-fourth international conference on architectural support for programming languages and operating systems},
+	pages={1001--1014},
+	year={2019}
+}
+
+@article{barenco1995elementary,
+	title={Elementary {G}ates for {Q}uantum {C}omputation},
+	author={Barenco, Adriano and Bennett, Charles H and Cleve, Richard and DiVincenzo, David P and Margolus, Norman and Shor, Peter and Sleator, Tycho and Smolin, John A and Weinfurter, Harald},
+	journal={Physical review A},
+	volume={52},
+	number={5},
+	pages={3457},
+	year={1995},
+	publisher={APS}
+}
+
+@article{de2021reducing,
+	title={Reducing the {D}epth of {L}inear {R}eversible {Q}uantum {C}ircuits},
+	author={De Brugiere, Timothee Goubault and Baboulin, Marc and Valiron, Beno{\^\i}t and Martiel, Simon and Allouche, Cyril},
+	journal={IEEE Transactions on Quantum Engineering},
+	volume={2},
+	pages={1--22},
+	year={2021},
+	publisher={IEEE}
+}
+
+@article{zulehner2018efficient,
+	title={An {E}fficient {M}ethodology for {M}apping {Q}uantum {C}ircuits to the {IBM} {QX} {A}rchitectures},
+	author={Zulehner, Alwin and Paler, Alexandru and Wille, Robert},
+	journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+	volume={38},
+	number={7},
+	pages={1226--1236},
+	year={2018},
+	publisher={IEEE}
+}
+
+@book{wolf2004fpga,
+	title={FPGA-{B}ased {S}ystem {D}esign},
+	author={Wolf, Wayne},
+	year={2004},
+	publisher={Pearson Education}
+}
+
+@inproceedings{haner2016high,
+	title={High {P}erformance {E}mulation of {Q}uantum {C}ircuits},
+	author={H{\"a}ner, Thomas and Steiger, Damian S and Smelyanskiy, Mikhail and Troyer, Matthias},
+	booktitle={SC'16: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+	pages={866--874},
+	year={2016},
+	organization={IEEE}
+}
+
+@article{mandal2023implementation,
+	title={Implementation of {P}rogrammable {P}hotonic {O}ne {Q}ubit {Q}uantum {G}ates {U}sing {I}ntensity and {P}hase {E}ncoding {J}ointly},
+	author={Mandal, Minakshi and Goswami, Ipsha and Mukhopadhyay, Sourangshu},
+	journal={Journal of optics},
+	volume={52},
+	number={1},
+	pages={145--153},
+	year={2023},
+	publisher={Springer}
+}
+
+@article{giorgio2024project,
+	title={Project and {I}mplementation of a {Q}uantum {L}ogic {G}ate {E}mulator on {FPGA} {U}sing a {M}odel-{B}ased {D}esign {A}pproach},
+	author={Giorgio, Agostino},
+	journal={IEEE Access},
+	year={2024},
+	publisher={IEEE}
+}
+
+@article{bennett1973logical,
+	title={Logical {R}eversibility of {C}omputation},
+	author={Bennett, Charles H},
+	journal={IBM journal of Research and Development},
+	volume={17},
+	number={6},
+	pages={525--532},
+	year={1973},
+	publisher={IBM}
+}
+
+@article{chen2013programmable,
+	title={Programmable {A}rchitecture for {Q}uantum {C}omputing},
+	author={Chen, Jialin and Wang, Lingli and Charbon, Edoardo and Wang, Bin},
+	journal={Physical Review A—Atomic, Molecular, and Optical Physics},
+	volume={88},
+	number={2},
+	pages={022311},
+	year={2013},
+	publisher={APS}
+}
+
+@incollection{feynman1981simulating,
+	title={Simulating {P}hysics with {C}omputers},
+	author={Feynman, Richard P},
+	booktitle={Feynman and Computation},
+	pages={133--153},
+	year={1981},
+	publisher={California Institute of Technology}
+}
+
+@misc{IBM00,
+	title = {Qiskit},
+	author = {IBM},
+	howpublished = {\url{https://www.ibm.com/quantum/qiskit#tutorials}},
+	note = {Last Accessed: 2024-10-02}
+}
+
+@misc{DWave00,
+	title = {Unlock the Power of Practical Quantum Computing Today},
+	author = {D-Wave},
+	howpublished = {\url{https://www.dwavesys.com/}},
+	note = {Last Accessed: 2024-10-02}
+}
+
+@misc{DWave01,
+	title = {Quantum Computing: How D-Wave Systems Work},
+	author = {D-Wave},
+	howpublished = {\url{https://www.dwavesys.com/learn/quantum-computing/}},
+	note = {Last Accessed: 2024-10-03}
+}
+
+@article{google2023suppressing,
+	title={Suppressing {Q}uantum {E}rrors by {S}caling a {S}urface {C}ode {L}ogical {Q}ubit},
+	author={Google Quantum AI}
+	journal={Nature},
+	volume={614},
+	number={7949},
+	pages={676--681},
+	year={2023},
+	publisher={Nature Publishing Group UK London}
+}
+
+@article{gill2024quantum,
+	title={Quantum {C}omputing: {V}ision and {C}hallenges},
+	author={Gill, Sukhpal Singh and Cetinkaya, Oktay and Marrone, Stefano and Combarro, Elias F and Claudino, Daniel and Haunschild, David and Schlote, Leon and Wu, Huaming and Ottaviani, Carlo and Liu, Xiaoyuan and others},
+	journal={arXiv preprint arXiv:2403.02240},
+	year={2024}
+}
+
+@article{tanaka2024single,
+	title={Single-qubit {R}otations on a {B}inomial {C}ode without {A}ncillary {Q}ubits},
+	author={Tanaka, Yuki and Mori, Yuichiro and Shingu, Yuta and Yamaguchi, Aiko and Yamamoto, Tsuyoshi and Matsuzaki, Yuichiro},
+	journal={arXiv preprint arXiv:2408.12968},
+	year={2024}
+}
+
+@article{wilkins2024record,
+	title={Record-{B}reaking {Q}uantum {C}omputer has more than 1000 {Q}ubits},
+	author={Wilkins, Alex},
+	journal={NewScientist},
+	year={2024}
+}
+
+@article{castelvecchi2023ibm,
+	title={IBM {R}eleases {F}irst-{E}ver 1,000-{Q}ubit {Q}uantum {C}hip},
+	author={Castelvecchi, Davide},
+	journal={Nature},
+	volume={624},
+	number={7991},
+	pages={238--238},
+	year={2023},
+	publisher={Nature}
+}
+@article{belfore2024scalable,
+	title={A {S}calable {FPGA} {A}rchitecture for {Q}uantum {C}omputing {S}imulation},
+	author={Belfore, II and Lee, A},
+	journal={arXiv preprint arXiv:2407.06415},
+	year={2024}
+}
+
+@misc{swayne2023atom,
+	title = {Quantum {S}tartup {A}tom {C}omputing {F}irst To {E}xceed 1000 {Q}ubits},
+	author = {Matt Swayne},
+	howpublished = {\url{https://thequantuminsider.com/2023/10/24/quantum-startup-atom-computing-first-to-exceed-1000-qubits/#:~:text=Atom%20Computing's%20next%2Dgeneration%20quantum,and%20populated%20with%201%2C180%20qubits.}},
+	publisher = {The Quantum Insider},
+	note = {Last Accessed: 2024-10-03}
+}
+
+@article{brown2010using,
+	title={Using {Q}uantum {C}omputers for {Q}uantum {S}imulation},
+	author={Brown, Katherine L and Munro, William J and Kendon, Vivien M},
+	journal={Entropy},
+	volume={12},
+	number={11},
+	pages={2268--2307},
+	year={2010},
+	publisher={MDPI}
+}
+
+@misc{taylor2023storage,
+	title = {Total {I}nstalled {B}ase of {D}ata {S}torage {C}apacity in the {G}lobal {D}atasphere from 2020 to 2025},
+	author = {Peter Taylor},
+	howpublished = {\url{https://www.statista.com/statistics/1185900/worldwide-datasphere-storage-capacity-installed-base/}},
+	publisher = {Statista},
+	note = {Last Accessed: 2024-10-03}
+}
+
+@article{asanovic2006landscape,
+	title={The {L}andscape of {P}arallel {C}omputing {R}esearch: {A} {V}iew from {B}erkeley},
+	author={Asanovic, Krste and Bodik, Ras and Catanzaro, Bryan Christopher and Gebis, Joseph James and Husbands, Parry and Keutzer, Kurt and Patterson, David A and Plishker, William Lester and Shalf, John and Williams, Samuel Webb and others},
+	year={2006},
+	publisher={eScholarship, University of California}
+}
+
+@inproceedings{fujishima2003fpga,
+	title={FPGA-based {H}igh-{S}peed {E}mulator of {Q}uantum {C}omputing},
+	author={Fujishima, Minoru},
+	booktitle={Proceedings. 2003 IEEE International Conference on Field-Programmable Technology (FPT)(IEEE Cat. No. 03EX798)},
+	pages={21--26},
+	year={2003},
+	organization={IEEE}
+}
+
+@inproceedings{mohamed2009using,
+	title={On {U}sing {FPGA}s to {A}ccelerate the {E}mulation of {Q}uantum {C}omputing},
+	author={Mohamed, Tamer and Badawy, Wael and Jullien, Graham},
+	booktitle={2009 Canadian Conference on Electrical and Computer Engineering},
+	pages={175--179},
+	year={2009},
+	organization={IEEE}
+}
+
+@article{suzuki2023quantum,
+	title={Quantum {AI} {S}imulator {U}sing a {H}ybrid {CPU}--{FPGA} {A}pproach},
+	author={Suzuki, Teppei and Miyazaki, Tsubasa and Inaritai, Toshiki and Otsuka, Takahiro},
+	journal={Scientific Reports},
+	volume={13},
+	number={1},
+	pages={7735},
+	year={2023},
+	publisher={Nature Publishing Group UK London}
+}
+
+@inproceedings{rivera2011hardware,
+	title={Hardware {E}mulation of {Q}uantum {F}ourier {T}ransform},
+	author={Rivera-Miranda, Jos{\'e} F and Caicedo-Beltr{\'a}n, {\'A}lvaro J and Valencia-Pay{\'a}n, Juan D and Espinosa-Duran, John M and Velasco-Medina, Jaime},
+	booktitle={2011 IEEE Second Latin American Symposium on Circuits and Systems (LASCAS)},
+	pages={1--4},
+	year={2011},
+	organization={IEEE}
+}
+
+@inproceedings{hlukhov2021digital,
+	title={Digital {Q}ubits for {FPGA}-{B}ased {H}omogenous {Q}uantum {C}oprocessor},
+	author={Hlukhov, Valerii},
+	booktitle={2021 11th IEEE International Conference on Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications (IDAACS)},
+	volume={1},
+	pages={318--322},
+	year={2021},
+	organization={IEEE}
+}
+
+@article{belfore2024scalable,
+	title={A {S}calable {FPGA} {A}rchitecture for {Q}uantum {C}omputing {S}imulation},
+	author={Belfore, II and Lee, A},
+	journal={arXiv preprint arXiv:2407.06415},
+	year={2024}
+}
+
+@misc{steinmann2021fixed,
+	title={Fixed-{P}oint vs {F}loating-{P}oint {A}rithmetic in {FPGA}},
+	author={Beno\^{i}t Steinmann},
+	publisher={Imperix},
+	howpublished={\url{https://imperix.com/doc/implementation/fixed-point-vs-floating-point-in-fpga#:~:text=In%20FPGA%2C%20a%20fixed%2Dpoint,bits%20for%20the%20integer%20part.}},
+	year={2021}
+}
+
+@misc{harvie2024how,
+	title={{H}ow to {P}erform {F}ixed-{P}oint {A}rithmetic on an {FPGA}},
+	author={Lance Harvie},
+	publisher={Run{T}ime},
+	howpublished={\url{https://runtimerec.com/how-to-perform-fixed-point-arithmetic-on-an-fpga/}},
+	year={2024}
+}
+
+@misc{green2020fpgamemory,
+	title={{FPGA} {M}emory Types},
+	author={Will Green},
+	publisher={Project {F}},
+	howpublished={\url{https://projectf.io/posts/fpga-memory-types/}},
+	year={2023}
+}
+
+@misc{green2023fpgamemory,
+	title={{FPGA} {M}emory {T}ypes},
+	author={Will Green},
+	publisher={Project {F}},
+	howpublished={\url{https://projectf.io/posts/fpga-memory-types/}},
+	year={2023}
+}
+
+@misc{xilinx20167series,
+	title={7 {S}eries {FPGA}s {C}onfigurable {L}ogic {B}lock},
+	author={Xilinx},
+	publisher={AMD},
+	howpublished={\url{https://docs.amd.com/v/u/en-US/ug474_7Series_CLB}},
+	year={2016}
+}
+
+@misc{fallahlalehzari2024axi,
+	title={Demystifying {AXI} {I}nterconnection for {Z}ynq {S}o{C} {FPGA}},
+	author={Farhad Fallahlalehzari},
+	publisher={Aldec},
+	howpublished={\url{https://www.aldec.com/en/company/blog/145--demystifying-axi-interconnection-for-zynq-soc-fpga#:~:text=The%20Advanced%20eXtensible%20Interface%20(AXI,for%20the%20data%20and%20addresses}},
+	year={2024}
+}
+
+@misc{diligent2011pmod,
+	title={Diligent {P}mod Interface Specification},
+	author={Diligent Inc},
+	publisher={Diligent Inc},
+	howpublished={\url{https://digilent.com/reference/_media/reference/pmod/digilent-pmod-interface-specification.pdf}},
+	year={2011}
+}
+
+@misc{xilinx2015multiplier,
+	title={Logi{CORE} {IP} {P}roduct {G}uide},
+	author={Xilinx},
+	version={v12.0}
+	publisher={AMD},
+	howpublished={\url{https://docs.amd.com/v/u/en-US/pg108-mult-gen}},
+	year={2015}
+}
+
+@misc{xilinx2014multiadder,
+	title={Logi{CORE} {IP} {M}ultiply {A}dder {DS}717},
+	author={Xilinx},
+	version={v3.0}
+	publisher={AMD},
+	howpublished={\url{https://docs.amd.com/v/u/en-US/xbip_multadd_ds717}},
+	year={2014}
+}
+
+@misc{xin,
+	title={Logi{CORE} {IP} {M}ultiply {A}dder {DS}717},
+	author={Xilinx},
+	version={v3.0}
+	publisher={AMD},
+	howpublished={\url{https://docs.amd.com/v/u/en-US/xbip_multadd_ds717}},
+	year={2014}
+}
+
+@article{tan2024efficient,
+	title={An {E}fficient {Q}uantum {C}ircuit {I}mplementation of {S}hor’s {A}lgorithm for {GPU} {A}ccelerated {S}imulation},
+	author={Tan, XinJian and Gao, Peng},
+	journal={AIP Advances},
+	volume={14},
+	number={2},
+	year={2024},
+	publisher={AIP Publishing}
+}
+
+@article{skosana2021demonstration,
+	title={Demonstration of {S}hor’s {F}actoring {A}lgorithm for {N} = 21 on {IBM} {Q}uantum {P}rocessors},
+	author={Skosana, Unathi and Tame, Mark},
+	journal={Scientific reports},
+	volume={11},
+	number={1},
+	pages={16599},
+	year={2021},
+	publisher={Nature Publishing Group UK London}
+}
+
+@misc{amd2024support,
+	title={Vivado {D}esign {S}uite 7 {S}eries {FPGA} and {Z}ynq {7000} {S}o{C} {L}ibraries {G}uide (UG953)
+	},
+	author={Technical Information Portal},
+	publisher={AMD},
+	howpublished={\url{https://docs.amd.com/r/en-US/ug953-vivado-7series-libraries/LUT6_2}},
+	year={2024}
+}
+
+@misc{diligent2024nexysa7,
+	title={{N}exys {A7} {R}eference {M}anual
+	},
+	author={Diligent Reference},
+	publisher={Diligent},
+	howpublished={\url{https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?srsltid=AfmBOor6ZDkCyaKj3eLUNx2W1geoxxCmH1-vdtOohliYkp54ftMGUwN6}},
+	year={2024}
+}
+
+@misc{st2013microcontrollers,
+	title={{STM}32F0 {S}eries {C}ortex-{M}0 {P}rogramming {M}anual - {P}rogramming {M}anual},
+	author={ST},
+	publisher={ST},
+	howpublished={\url{https://www.st.com/resource/en/programming_manual/pm0215-stm32f0-series-cortexm0-programming-manual-stmicroelectronics.pdf}},
+	year={2013}
+}

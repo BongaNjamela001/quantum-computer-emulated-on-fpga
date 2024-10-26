@@ -1,0 +1,4 @@
+
+Warnings: 
+
+File: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/quantum_search/quantum_search.m, line : 64, column : 14. The expression 'error('Input must be a decimal number between 0 and 3 for 2-bit binary conversion');' was not executed during simulation. Consider using a more thorough testbench.

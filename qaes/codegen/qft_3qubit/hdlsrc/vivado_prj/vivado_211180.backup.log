@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 26 00:37:42 2024
+# Process ID: 211180
+# Current directory: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj
+# Command line: vivado -mode batch -notrace -source qft_3qubit_fixpt_Xilinx_Vivado_run.tcl
+# Log file: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/vivado.log
+# Journal file: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/vivado.jou
+# Running On        :bonga
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2600.000 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16480 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18628 MB
+# Available Virtual :7620 MB
+#-----------------------------------------------------------
+source qft_3qubit_fixpt_Xilinx_Vivado_run.tcl -notrace
+### Open existing Xilinx Vivado 2024.1 project <a href="matlab:downstream.handle('Model','qft_3qubit_fixpt','isMLHDLC','1').openTargetTool;">/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.xpr</a>
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1401.898 ; gain = 44.805 ; free physical = 1907 ; free virtual = 6892
+### Set Xilinx Vivado 2024.1 project properties
+### Update Xilinx Vivado 2024.1 project with HDL source files
+WARNING: [Vivado 12-818] No files matched '*.tcl'
+### Close Xilinx Vivado 2024.1 project.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 00:37:56 2024...

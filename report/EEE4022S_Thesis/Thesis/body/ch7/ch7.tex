@@ -1,0 +1,22 @@
+\chapter{\label{ch:conclusions} Conclusions and Further Work}
+
+This chapter presents the conclusions and future work for this dissertation.
+
+\section{Conclusions}
+
+This design of a quantum computer emulator was has demonstrated the successful implementation of a quantum computer emulator on a Xilinx 7-series FPGA. The primary goal was to simulate essential quantum algorithms, including quantum teleportation, the Quantum Fourier Transform (QFT), and Grover's search algorithm, using FPGA-based hardware and classical-quantum communication interfaces.
+
+The implementation of quantum gate operations, such as the Hadamard and Pauli-X gates, was achieved using the FPGA's lookup tables (LUTs) and DSP slices. Using the Nexys-A7 board, a modular approach was employed to allow each quantum algorithm to be mapped to its corresponding hardware resources, providing a flexible and scalable design.
+
+The quantum teleportation algorithm utilised approximately 1 LUT1, 1 LUT2 and 65 LUT3s 0 DSP slices, making efficient use of the board's distributed RAM (DRAM) elements to store qubit states. The 3-qubit Quantum Fourier Transform leveraged 16 of the total LUTs and required 24 DSP slices for matrix operations, including the application of controlled-Rotation gates. Meanwhile, Grover's search algorithm occupied 220 of the LUTs and 8 DSP slices due to the need for iterative quantum gate applications and the use of the quantum oracle. Overall the results showed that the number of resources decreased as the number of qubits in the emulated quantum computer increased.
+
+The FPGA’s resources were sufficient for the emulation of small-scale quantum circuits (up to 3 qubits), with limitations primarily arising from the hardware constraints and the classical approximation of quantum mechanics principles. Nonetheless, this research has demonstrated the feasibility of using an FPGA as a platform for quantum computer emulation, offering an affordable and accessible alternative for testing quantum algorithms in a classical environment.
+
+In future work, optimizations can be made to reduce resource usage by incorporating more efficient encoding schemes and exploring higher-capacity FPGAs to emulate larger quantum circuits. Additionally, enhancing the accuracy of qubit state representation and minimizing classical errors in qubit initialization would allow for more complex quantum operations to be tested.
+
+In summary, this project successfully achieved the goal of simulating quantum algorithms on an FPGA, using X LUTs, Y DSP slices, and other FPGA components to emulate quantum gate operations and quantum communication protocols. The results serve as a foundation for further exploration of FPGA-based quantum emulation in research and education.
+
+\section{Recommendations For Further Work}
+
+
+

@@ -1,0 +1,5 @@
+main.c:58:5:main	16	static
+main.c:79:6:initGPIO	16	static
+main.c:109:6:delay	16	static
+main.c:115:6:setQuantumState	16	static
+main.c:124:6:displayQuantumState	16	static

@@ -1,0 +1,125 @@
+\contentsline {chapter}{Abstract}{}{Item.6}%
+\contentsline {chapter}{Acknowledgements}{ii}{chapter*.2}%
+\contentsline {chapter}{Contents}{iii}{chapter*.3}%
+\contentsline {chapter}{List of Figures}{vii}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{ix}{chapter*.5}%
+\contentsline {chapter}{List of Abbreviations}{x}{chapter*.6}%
+\contentsline {chapter}{Nomenclature}{xii}{chapter*.7}%
+\contentsline {chapter}{\numberline {1} Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Description}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Focus and Objectives}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Methodology Overview}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Plan of Development}{4}{section.1.6}%
+\contentsline {chapter}{\numberline {2} Theoretical Framework}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Quantum Mechanics }{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Postulates of Quantum Mechanics }{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Quantum States }{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Unitary Operations on Quantum States }{7}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Qubits as Quantum States }{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Qubit Superposition in the Computational Basis}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Qubit Entanglement in the Computational Basis}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Quantum Gates and Quantum Circuits }{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Bloch Sphere Representation of Qubits }{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Single-Qubit Quantum Gates}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Multiple-Qubit Gates}{12}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Quantum Circuits }{13}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Theoretical Framework for Quantum Algorithms }{14}{subsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.5.1}Quantum Fourier Transform }{14}{subsubsection.2.3.5.1}%
+\contentsline {subsubsection}{\numberline {2.3.5.2}Phase Estimation and Shor's Factoring Algorithm }{15}{subsubsection.2.3.5.2}%
+\contentsline {subsubsection}{\numberline {2.3.5.3}Quantum Search Algorithm }{16}{subsubsection.2.3.5.3}%
+\contentsline {section}{\numberline {2.4}Summary }{17}{section.2.4}%
+\contentsline {chapter}{\numberline {3} Literature Review}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Quantum Computer Realisation Criteria}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Well-Characterised Qubits for Realising a Quantum Computer}{19}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}The Ability To Initialised Qubits to A Fiducial State}{20}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Requirement for Sufficiently Long Relevant Decoherence Times}{20}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Physical Preparation of Entangled Qubit Pairs}{21}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Universal Set of Quantum Gates}{22}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}A Qubit-Specific Measurement Capability}{22}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Criteria for Quantum Communication}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Quantum Communication Complexity}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Physical Realisations of Quantum Communication Channels}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Communication in Quantum Key Distribution Networks}{24}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Methods for Preventing Fake-Attacks and Time-Shift Attacks}{25}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Bit Mapping and Qubit Mapping for Quantum Computing Hardware Platforms}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Optical Bit Mapping}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Differentiating Between Physical Qubits and Logical Qubits}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Modelling Quantum Computers with Physical and Logical Qubits}{27}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Representations of Qubits in FPGA-Based Quantum Computer Emulations }{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Assigning Probabilities to Input-and-Output Tables}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Representing Qubit Probabilities Using A Fixed-Point Scheme with Mantissa Bits}{30}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Emulation Accuracy and Logic Cell Usage}{30}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Representing Qubits on a Bloch Sphere To Emulate Entanglement Using VHDL}{31}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Representing Qubit State Vectors in a Unit Circle Using Quantum Cells}{32}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Emulating Quantum Gates and Quantum Circuits on FPGAs }{33}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Implementing Gates to Solve a Problem Function}{33}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Emulating Quantum Gate Operations Using a Logic Cells}{33}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Emulating Quantum Gates that Produce Entangled States}{34}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Adjusting State Machine Corresponding to Unitary Operations}{34}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Quantum Fourier Transform Implementations using DSP Blocks}{35}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Concurrent vs Sequential Implementations of Quantum Gate Operations}{35}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Emulated Quantum Gate }{36}{subsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.5.8}Memory Considerations for Emulating Quantum Gates}{36}{subsection.3.5.8}%
+\contentsline {section}{\numberline {3.6}Testing and Benchmarking the Performance of FPGA-Based Quantum Computer Emulators}{37}{section.3.6}%
+\contentsline {chapter}{\numberline {4} Methodology}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Methodology Outline }{38}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Phases in the Research and Design Process }{39}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}System Requirements }{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}User Requirements }{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Functional Requirements }{40}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Non-Functional Requirements }{40}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Requirements Analysis }{41}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Description of Design Modularisation}{41}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Single-Photon Initialisation Subsystem}{41}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Flying Qubit Detection Subsystem}{42}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Quantum Algorithm Emulator Subsystem}{42}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}User Interface Subsystem}{43}{subsubsection.4.3.1.4}%
+\contentsline {subsection}{\numberline {4.3.2}FPGA Resources for Modelling Quantum States }{43}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Emulation Accuracy in Relation to Quantum State Amplitudes}{45}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Graphical Representations of Qubits}{46}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Methods for Initialising Qubits and Transmitting Quantum Information through a Quantum Channel }{47}{subsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.5.1}Quantum Channel Transmission Mode 1: Flying-Qubits in Binary Encoded Quantum Registers}{47}{subsubsection.4.3.5.1}%
+\contentsline {subsubsection}{\numberline {4.3.5.2}Quantum Channel Transmission Mode 2: Communicating with Quantum State Hilbert Spaces}{48}{subsubsection.4.3.5.2}%
+\contentsline {subsection}{\numberline {4.3.6}Flying Qubit Detection and Synchronisation of Classical and Quantum Systems }{49}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Storing Qubits on the FPGA}{50}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Simulating Quantum Algorithms on a FPGA }{52}{subsection.4.3.8}%
+\contentsline {subsubsection}{\numberline {4.3.8.1}Set of Universal Set of Quantum Gates}{52}{subsubsection.4.3.8.1}%
+\contentsline {subsubsection}{\numberline {4.3.8.2}Quantum Teleportation Design Considerations for Hardware Emulation}{54}{subsubsection.4.3.8.2}%
+\contentsline {subsubsection}{\numberline {4.3.8.3}Simulating the QFT Transform Quantum Circuit}{55}{subsubsection.4.3.8.3}%
+\contentsline {subsubsection}{\numberline {4.3.8.4}Quantum Factoring Algorithm}{56}{subsubsection.4.3.8.4}%
+\contentsline {subsubsection}{\numberline {4.3.8.5}Emulation of Grover's Algorithm}{57}{subsubsection.4.3.8.5}%
+\contentsline {subsection}{\numberline {4.3.9}Design Tools and Workflow}{58}{subsection.4.3.9}%
+\contentsline {section}{\numberline {4.4}Summary}{60}{section.4.4}%
+\contentsline {chapter}{\numberline {5} Design Case Study}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Design Specifications }{61}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Single-Photon Qubit Initialisation Subsystem Specifications }{61}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Generate a Normalised Distribution of Probabilities $n$-Qubit Systems}{61}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}Initialise Qubits on the STM32 Microcontroller Using Push-Buttons}{62}{subsubsection.5.1.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Flying-Qubit Detection Subsystem Specifications }{63}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Transmit Qubits in the Quantum Channel of the Quantum Interface}{63}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Flying-Qubit Detection System}{64}{subsubsection.5.1.2.2}%
+\contentsline {subsection}{\numberline {5.1.3}Quantum Algorithm Subsystem Specifications }{64}{subsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.1}Universal Set of Quantum Gates}{64}{subsubsection.5.1.3.1}%
+\contentsline {subsubsection}{\numberline {5.1.3.2}Emulate the Quantum Teleportation Algorithm}{65}{subsubsection.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {5.1.3.3}Emulating the Quantum Fourier Transform}{66}{subsubsection.5.1.3.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.4}Emulating the Quantum Factoring Algorithm}{67}{subsubsection.5.1.3.4}%
+\contentsline {subsubsection}{\numberline {5.1.3.5}Emulating the Quantum Search Algorithm}{67}{subsubsection.5.1.3.5}%
+\contentsline {subsection}{\numberline {5.1.4}User Interface Specifications}{68}{subsection.5.1.4}%
+\contentsline {chapter}{\numberline {6} Results and Discussion}{69}{chapter.6}%
+\contentsline {subsubsection}{\numberline {6.0.0.1}Generated a Normalised Distribution of Probabilities $n$-Qubit Systems}{69}{subsubsection.6.0.0.1}%
+\contentsline {subsubsection}{\numberline {6.0.0.2}Initialise Qubits on the STM32 Microcontroller Using Push-Buttons}{69}{subsubsection.6.0.0.2}%
+\contentsline {section}{\numberline {6.1}Emulation of Quantum Teleportation Algorithm}{69}{section.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.0.1}Emulating the Quantum Fourier Transform}{69}{subsubsection.6.1.0.1}%
+\contentsline {subsection}{\numberline {6.1.1}Emulation of the Quantum Search Algorithm}{72}{subsection.6.1.1}%
+\contentsline {chapter}{\numberline {7} Conclusions and Further Work}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{73}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Recommendations For Further Work}{73}{section.7.2}%
+\contentsline {chapter}{\numberline {A}GA Assessment}{78}{appendix.A}%
+\contentsline {section}{\numberline {A.1}GA1: Problem Solving}{78}{section.A.1}%
+\contentsline {section}{\numberline {A.2}GA4: Investigations, Experiments, and Data Analysis}{78}{section.A.2}%
+\contentsline {section}{\numberline {A.3}GA5: Use of Engineering Tools}{78}{section.A.3}%
+\contentsline {section}{\numberline {A.4}GA6: Professional and Technical Communication}{78}{section.A.4}%
+\contentsline {section}{\numberline {A.5}GA 8: Individual Working}{79}{section.A.5}%
+\contentsline {section}{\numberline {A.6}GA 9: Independent Learning Ability}{79}{section.A.6}%

@@ -1,0 +1,461 @@
+\begin{thebibliography}{10}
+
+\bibitem{google2023suppressing}
+{\sc AI, G.~Q.}
+\newblock Suppressing {Q}uantum {E}rrors by {S}caling a {S}urface {C}ode
+  {L}ogical {Q}ubit.
+
+\bibitem{Aminian2008}
+{\sc Aminian, M., Saeedi, M., Zamani, M.~S., and Sedighi, M.}
+\newblock Fpga-based {C}ircuit {M}odel {E}mulation of {Q}uantum {A}lgorithms.
+\newblock In {\em Proceedings - IEEE Computer Society Annual Symposium on VLSI:
+  Trends in VLSI Technology and Design, ISVLSI 2008\/} (2008), pp.~399--404.
+
+\bibitem{asanovic2006landscape}
+{\sc Asanovic, K., Bodik, R., Catanzaro, B.~C., Gebis, J.~J., Husbands, P.,
+  Keutzer, K., Patterson, D.~A., Plishker, W.~L., Shalf, J., Williams, S.~W.,
+  et~al.}
+\newblock The {L}andscape of {P}arallel {C}omputing {R}esearch: {A} {V}iew from
+  {B}erkeley.
+
+\bibitem{bacon2000universal}
+{\sc Bacon, D., Kempe, J., Lidar, D.~A., and Whaley, K.~B.}
+\newblock Universal {F}ault-{T}olerant {Q}uantum {C}omputation on
+  {D}ecoherence-{F}ree {S}ubspaces.
+\newblock {\em Physical Review Letters 85}, 8 (2000), 1758.
+
+\bibitem{barenco1995elementary}
+{\sc Barenco, A., Bennett, C.~H., Cleve, R., DiVincenzo, D.~P., Margolus, N.,
+  Shor, P., Sleator, T., Smolin, J.~A., and Weinfurter, H.}
+\newblock Elementary {G}ates for {Q}uantum {C}omputation.
+\newblock {\em Physical review A 52}, 5 (1995), 3457.
+
+\bibitem{belfore2024scalable}
+{\sc Belfore, I., and Lee, A.}
+\newblock A {S}calable {FPGA} {A}rchitecture for {Q}uantum {C}omputing
+  {S}imulation.
+\newblock {\em arXiv preprint arXiv:2407.06415\/} (2024).
+
+\bibitem{bluhm2011dephasing}
+{\sc Bluhm, H., Foletti, S., Neder, I., Rudner, M., Mahalu, D., Umansky, V.,
+  and Yacoby, A.}
+\newblock Dephasing {T}ime of {G}a{A}s {E}lectron-{S}pin {Q}ubits {C}oupled to
+  a {N}uclear {B}ath {E}xceeding 200 $\mu$s.
+\newblock {\em Nature Physics 7}, 2 (2011), 109--113.
+
+\bibitem{brown2010using}
+{\sc Brown, K.~L., Munro, W.~J., and Kendon, V.~M.}
+\newblock Using {Q}uantum {C}omputers for {Q}uantum {S}imulation.
+\newblock {\em Entropy 12}, 11 (2010), 2268--2307.
+
+\bibitem{castelvecchi2023ibm}
+{\sc Castelvecchi, D.}
+\newblock Ibm {R}eleases {F}irst-{E}ver 1,000-{Q}ubit {Q}uantum {C}hip.
+\newblock {\em Nature 624}, 7991 (2023), 238--238.
+
+\bibitem{chao2018quantum}
+{\sc Chao, R., and Reichardt, B.~W.}
+\newblock Quantum {E}rror {C}orrection with {O}nly {T}wo {E}xtra {Q}ubits.
+\newblock {\em Physical review letters 121}, 5 (2018), 050502.
+
+\bibitem{clarke2008superconducting}
+{\sc Clarke, J., and Wilhelm, F.~K.}
+\newblock Superconducting {Q}uantum {B}its.
+\newblock {\em Nature 453}, 7198 (2008), 1031--1042.
+
+\bibitem{cleve1998quantum}
+{\sc Cleve, R., Van~Dam, W., Nielsen, M., and Tapp, A.}
+\newblock Quantum {E}ntanglement and the {C}ommunication {C}omplexity of the
+  {I}nner {P}roduct {F}unction.
+\newblock In {\em NASA International Conference on Quantum Computing and
+  Quantum Communications\/} (1998), Springer, pp.~61--74.
+
+\bibitem{DWave01}
+{\sc D-Wave}.
+\newblock Quantum computing: How d-wave systems work.
+\newblock \url{https://www.dwavesys.com/learn/quantum-computing/}.
+\newblock Last Accessed: 2024-10-03.
+
+\bibitem{DWave00}
+{\sc D-Wave}.
+\newblock Unlock the power of practical quantum computing today.
+\newblock \url{https://www.dwavesys.com/}.
+\newblock Last Accessed: 2024-10-02.
+
+\bibitem{de2021reducing}
+{\sc De~Brugiere, T.~G., Baboulin, M., Valiron, B., Martiel, S., and Allouche,
+  C.}
+\newblock Reducing the {D}epth of {L}inear {R}eversible {Q}uantum {C}ircuits.
+\newblock {\em IEEE Transactions on Quantum Engineering 2\/} (2021), 1--22.
+
+\bibitem{DeWolf2019}
+{\sc de~Wolf, R.}
+\newblock Quantum computing: Lecture notes.
+
+\bibitem{deutsch1998quantum}
+{\sc Deutsch, D., and Ekert, A.}
+\newblock Quantum {C}omputation.
+\newblock {\em Physics World 11}, 3 (1998), 47.
+
+\bibitem{dewes2012characterization}
+{\sc Dewes, A., Ong, F.~R., Schmitt, V., Lauro, R., Boulant, N., Bertet, P.,
+  Vion, D., and Esteve, D.}
+\newblock Characterization of a {T}wo-{T}ransmon {P}rocessor with {I}ndividual
+  {S}ingle-{S}hot {Q}ubit {R}eadout.
+\newblock {\em Physical review letters 108}, 5 (2012), 057002.
+
+\bibitem{divincenzo2000physical}
+{\sc DiVincenzo, D.~P.}
+\newblock The {P}hysical {I}mplementation of {Q}uantum {C}omputation.
+\newblock {\em Fortschritte der Physik: Progress of Physics 48}, 9-11 (2000),
+  771--783.
+
+\bibitem{eisaman2011invited}
+{\sc Eisaman, M.~D., Fan, J., Migdall, A., and Polyakov, S.~V.}
+\newblock Invited {R}eview {A}rticle: {S}ingle-{P}hoton {S}ources and
+  {D}etectors.
+\newblock {\em Review of scientific instruments 82}, 7 (2011).
+
+\bibitem{farhi2017quantum}
+{\sc Farhi, E., Goldstone, J., Gutmann, S., and Neven, H.}
+\newblock Quantum {A}lgorithms for {F}ixed {Q}ubit {A}rchitectures.
+\newblock {\em arXiv preprint arXiv:1703.06199\/} (2017).
+
+\bibitem{feynman1981simulating}
+{\sc Feynman, R.~P.}
+\newblock Simulating {P}hysics with {C}omputers.
+\newblock In {\em Feynman and Computation}. California Institute of Technology,
+  1981, pp.~133--153.
+
+\bibitem{fujishima2003fpga}
+{\sc Fujishima, M.}
+\newblock Fpga-based {H}igh-{S}peed {E}mulator of {Q}uantum {C}omputing.
+\newblock In {\em Proceedings. 2003 IEEE International Conference on
+  Field-Programmable Technology (FPT)(IEEE Cat. No. 03EX798)\/} (2003), IEEE,
+  pp.~21--26.
+
+\bibitem{gill2024quantum}
+{\sc Gill, S.~S., Cetinkaya, O., Marrone, S., Combarro, E.~F., Claudino, D.,
+  Haunschild, D., Schlote, L., Wu, H., Ottaviani, C., Liu, X., et~al.}
+\newblock Quantum {C}omputing: {V}ision and {C}hallenges.
+\newblock {\em arXiv preprint arXiv:2403.02240\/} (2024).
+
+\bibitem{gisin2004towards}
+{\sc Gisin, N., Ribordy, G., Zbinden, H., Stucki, D., Brunner, N., and Scarani,
+  V.}
+\newblock Towards {P}ractical and {F}ast {Q}uantum {C}ryptography.
+\newblock {\em arXiv preprint quant-ph/0411022\/} (2004).
+
+\bibitem{gottesman1999demonstrating}
+{\sc Gottesman, D., and Chuang, I.~L.}
+\newblock Demonstrating the {V}iability of {U}niversal {Q}uantum {C}omputation
+  {U}sing {T}eleportation and {S}ingle-{Q}ubit {O}perations.
+\newblock {\em Nature 402}, 6760 (1999), 390--393.
+
+\bibitem{Gupta2020}
+{\sc Gupta, M., and Nene, M.~J.}
+\newblock Quantum {C}omputing: {A}n {E}ntanglement {M}easurement.
+\newblock In {\em Proceedings of IEEE International Conference on Advent Trends
+  in Multidisciplinary Research and Innovation, ICATMRI 2020\/} (12 2020),
+  Institute of Electrical and Electronics Engineers Inc.
+
+\bibitem{haner2016high}
+{\sc H{\"a}ner, T., Steiger, D.~S., Smelyanskiy, M., and Troyer, M.}
+\newblock High {P}erformance {E}mulation of {Q}uantum {C}ircuits.
+\newblock In {\em SC'16: Proceedings of the International Conference for High
+  Performance Computing, Networking, Storage and Analysis\/} (2016), IEEE,
+  pp.~866--874.
+
+\bibitem{harvie2024how}
+{\sc Harvie, L.}
+\newblock {H}ow to {P}erform {F}ixed-{P}oint {A}rithmetic on an {FPGA}.
+\newblock
+  \url{https://runtimerec.com/how-to-perform-fixed-point-arithmetic-on-an-fpga/},
+  2024.
+
+\bibitem{hlukhov2021digital}
+{\sc Hlukhov, V.}
+\newblock Digital {Q}ubits for {FPGA}-{B}ased {H}omogenous {Q}uantum
+  {C}oprocessor.
+\newblock In {\em 2021 11th IEEE International Conference on Intelligent Data
+  Acquisition and Advanced Computing Systems: Technology and Applications
+  (IDAACS)\/} (2021), vol.~1, IEEE, pp.~318--322.
+
+\bibitem{Hlukhov2021}
+{\sc Hlukhov, V.}
+\newblock Implementation of {S}hor's {A}lgorithm in a {D}igital {Q}uantum
+  {C}oprocessor.
+\newblock In {\em International scientific and practical
+  conference:\{Intellectual systems and information technologies\}\/} (2021).
+
+\bibitem{holevo1998quantum}
+{\sc Holevo, A.~S.}
+\newblock Quantum {C}oding {T}heorems.
+\newblock {\em Russian Mathematical Surveys 53}, 6 (1998), 1295.
+
+\bibitem{hong2022quantum}
+{\sc Hong, Y., Jeon, S., Park, S., and Kim, B.~S.}
+\newblock Quantum {C}ircuit {S}imulator {B}ased on {FPGA}.
+\newblock In {\em 2022 13th International Conference on Information and
+  Communication Technology Convergence (ICTC)\/} (2022), vol.~2022-October,
+  IEEE Computer Society, pp.~1909--1911.
+
+\bibitem{hours2003single}
+{\sc Hours, J., Varoutsis, S., Gallart, M., Bloch, J., Robert-Philip, I.,
+  Cavanna, A., Abram, I., Laruelle, F., and G{\'e}rard, J.}
+\newblock Single {P}hoton {E}mission from {I}ndividual {G}a{A}s {Q}uantum
+  {D}ots.
+\newblock {\em Applied Physics Letters 82}, 14 (2003), 2206--2208.
+
+\bibitem{IBM00}
+{\sc IBM}.
+\newblock Qiskit.
+\newblock \url{https://www.ibm.com/quantum/qiskit#tutorials}.
+\newblock Last Accessed: 2024-10-02.
+
+\bibitem{diligent2011pmod}
+{\sc Inc, D.}
+\newblock Diligent {P}mod interface specification.
+\newblock
+  \url{https://digilent.com/reference/_media/reference/pmod/digilent-pmod-interface-specification.pdf},
+  2011.
+
+\bibitem{khaetskii2002electron}
+{\sc Khaetskii, A.~V., Loss, D., and Glazman, L.}
+\newblock Electron {S}pin {D}ecoherence in {Q}uantum {D}ots {D}ue to
+  {I}nteraction with {N}uclei.
+\newblock {\em Physical review letters 88}, 18 (2002), 186802.
+
+\bibitem{Khalid2004}
+{\sc Khalid, A.~U., Zilic, Z., and Radecka, K.}
+\newblock {FPGA} {E}mulation of {Q}uantum {C}ircuits, 2004.
+
+\bibitem{Khalil2015}
+{\sc Khalil-Hani, M., Lee, Y., and Marsono, M.}
+\newblock An {A}ccurate {FPGA}-{B}ased {H}ardware {E}mulation on {Q}uantum
+  {F}ourier {T}ransform.
+
+\bibitem{Kurzyk2012}
+{\sc Kurzyk, D.}
+\newblock Introduction to {Q}uantum {E}ntanglement.
+\newblock {\em Theoretical and Applied Informatics 24\/} (08 2012), 135–150.
+
+\bibitem{lee2014fpga}
+{\sc Lee, Y.~H., Khalil-Hani, M., and Marsono, M.~N.}
+\newblock Fpga-{B}ased {Q}uantum {C}ircuit {E}mulation: {A} {C}ase {S}tudy on
+  {Q}uantum {F}ourier {T}ransform.
+\newblock In {\em 2014 International Symposium on Integrated Circuits (ISIC)\/}
+  (2014), IEEE, pp.~512--515.
+
+\bibitem{li2019tackling}
+{\sc Li, G., Ding, Y., and Xie, Y.}
+\newblock Tackling the {Q}ubit {M}apping {P}roblem for {NISQ}-{E}ra {Q}uantum
+  {D}evices.
+\newblock In {\em Proceedings of the twenty-fourth international conference on
+  architectural support for programming languages and operating systems\/}
+  (2019), pp.~1001--1014.
+
+\bibitem{li2022control}
+{\sc Li, W.-L., Zhang, G., and Wu, R.-B.}
+\newblock On the {C}ontrol of {F}lying {Q}ubits.
+\newblock {\em Automatica 143\/} (2022), 110338.
+
+\bibitem{lydersen2011secure}
+{\sc Lydersen, L., Makarov, V., and Skaar, J.}
+\newblock Secure {G}ated {D}etection {S}cheme for {Q}uantum {C}ryptography.
+\newblock {\em Physical Review A—Atomic, Molecular, and Optical Physics 83},
+  3 (2011), 032306.
+
+\bibitem{mandal2023implementation}
+{\sc Mandal, M., Goswami, I., and Mukhopadhyay, S.}
+\newblock Implementation of {P}rogrammable {P}hotonic {O}ne {Q}ubit {Q}uantum
+  {G}ates {U}sing {I}ntensity and {P}hase {E}ncoding {J}ointly.
+\newblock {\em Journal of optics 52}, 1 (2023), 145--153.
+
+\bibitem{marinescu2005promise}
+{\sc Marinescu, D.~C.}
+\newblock The {P}romise of {Q}uantum {C}omputing and {Q}uantum {I}nformation
+  {T}heory-{Q}uantum {P}arallelism.
+\newblock In {\em 19th IEEE International Parallel and Distributed Processing
+  Symposium\/} (2005), IEEE, pp.~3--pp.
+
+\bibitem{markidis2024quantum}
+{\sc Markidis, S.}
+\newblock What is {Q}uantum {P}arallelism, {A}nyhow?
+\newblock In {\em ISC High Performance 2024 Research Paper Proceedings (39th
+  International Conference)\/} (2024), Prometeus GmbH, pp.~1--12.
+
+\bibitem{mohamed2009using}
+{\sc Mohamed, T., Badawy, W., and Jullien, G.}
+\newblock On {U}sing {FPGA}s to {A}ccelerate the {E}mulation of {Q}uantum
+  {C}omputing.
+\newblock In {\em 2009 Canadian Conference on Electrical and Computer
+  Engineering\/} (2009), IEEE, pp.~175--179.
+
+\bibitem{Nielsen2010}
+{\sc Nielsen, M.~A., and Chuang, I.~L.}
+\newblock {\em Quantum {C}omputation and {Q}uantum {I}nformation}.
+\newblock Cambridge {U}niversity {P}ress, 2010.
+
+\bibitem{peev2009secoqc}
+{\sc Peev, M., Pacher, C., All{\'e}aume, R., Barreiro, C., Bouda, J.,
+  Boxleitner, W., Debuisschert, T., Diamanti, E., Dianati, M., Dynes, J.,
+  et~al.}
+\newblock The {SECOQC} {Q}uantum {K}ey {D}istribution {N}etwork in {V}ienna.
+\newblock {\em New journal of physics 11}, 7 (2009), 075001.
+
+\bibitem{amd2024support}
+{\sc Portal, T.~I.}
+\newblock Vivado {D}esign {S}uite 7 {S}eries {FPGA} and {Z}ynq {7000} {S}o{C}
+  {L}ibraries {G}uide (ug953).
+\newblock
+  \url{https://docs.amd.com/r/en-US/ug953-vivado-7series-libraries/LUT6_2},
+  2024.
+
+\bibitem{powell2008}
+{\sc Powell, J.~R.}
+\newblock The {Q}uantum {L}imit to {M}oore's {L}aw.
+\newblock {\em Proceedings of the IEEE 96}, 8 (2008), 1247--1248.
+
+\bibitem{diligent2024nexysa7}
+{\sc Reference, D.}
+\newblock {N}exys {A7} {R}eference {M}anual.
+\newblock
+  \url{https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?srsltid=AfmBOor6ZDkCyaKj3eLUNx2W1geoxxCmH1-vdtOohliYkp54ftMGUwN6},
+  2024.
+
+\bibitem{Rieffel2011}
+{\sc Rieffel, E.~G., and Polak, W.~H.}
+\newblock {\em Quantum Computing: A Gentle Introduction}.
+\newblock MIT Press, 2011.
+
+\bibitem{rivera2011hardware}
+{\sc Rivera-Miranda, J.~F., Caicedo-Beltr{\'a}n, {\'A}.~J., Valencia-Pay{\'a}n,
+  J.~D., Espinosa-Duran, J.~M., and Velasco-Medina, J.}
+\newblock Hardware {E}mulation of {Q}uantum {F}ourier {T}ransform.
+\newblock In {\em 2011 IEEE Second Latin American Symposium on Circuits and
+  Systems (LASCAS)\/} (2011), IEEE, pp.~1--4.
+
+\bibitem{salvail2010security}
+{\sc Salvail, L., Peev, M., Diamanti, E., All{\'e}aume, R., L{\"u}tkenhaus, N.,
+  and L{\"a}nger, T.}
+\newblock Security of {T}rusted {R}epeater {Q}uantum {K}ey {D}istribution
+  {N}etworks.
+\newblock {\em Journal of Computer Security 18}, 1 (2010), 61--87.
+
+\bibitem{sherwin1999quantum}
+{\sc Sherwin, M.~S., Imamoglu, A., and Montroy, T.}
+\newblock Quantum {C}omputation with {Q}uantum {D}ots and {T}erahertz {C}avity
+  {Q}uantum {E}lectrodynamics.
+\newblock {\em Physical Review A 60}, 5 (1999), 3508.
+
+\bibitem{Shor1994}
+{\sc Shor, P.}
+\newblock Algorithms for {Q}uantum {C}omputation: {D}iscrete {L}ogarithms and
+  {F}actoring.
+\newblock In {\em 35TH ANNUAL SYMPOSIUM ON FOUNDATIONS OF COMPUTER SCIENCE,
+  PROCEEDINGS\/} (LOS ALAMITOS, 1994), IEEE Comput. Soc. Press, pp.~124--134.
+
+\bibitem{skosana2021demonstration}
+{\sc Skosana, U., and Tame, M.}
+\newblock Demonstration of {S}hor’s {F}actoring {A}lgorithm for {N} = 21 on
+  {IBM} {Q}uantum {P}rocessors.
+\newblock {\em Scientific reports 11}, 1 (2021), 16599.
+
+\bibitem{stievater2001rabi}
+{\sc Stievater, T., Li, X., Steel, D.~G., Gammon, D., Katzer, D., Park, D.,
+  Piermarocchi, C., and Sham, L.}
+\newblock Rabi {O}scillations of {E}xcitons in {S}ingle {Q}uantum {D}ots.
+\newblock {\em Physical Review Letters 87}, 13 (2001), 133603.
+
+\bibitem{sundfors1969exchange}
+{\sc Sundfors, R.}
+\newblock Exchange and {Q}uadrupole {B}roadening of {N}uclear {A}coustic
+  {R}esonance {L}ine {S}hapes in the {III-V} {S}emiconductors.
+\newblock {\em Physical Review 185}, 2 (1969), 458.
+
+\bibitem{swayne2023atom}
+{\sc Swayne, M.}
+\newblock Quantum {S}tartup {A}tom {C}omputing {F}irst to {E}xceed 1000
+  {Q}ubits.
+\newblock
+  \url{https://thequantuminsider.com/2023/10/24/quantum-startup-atom-computing-first-to-exceed-1000-qubits/#:~:text=Atom%20Computing's%20next%2Dgeneration%20quantum,and%20populated%20with%201%2C180%20qubits.}
+\newblock Last Accessed: 2024-10-03.
+
+\bibitem{tanaka2024single}
+{\sc Tanaka, Y., Mori, Y., Shingu, Y., Yamaguchi, A., Yamamoto, T., and
+  Matsuzaki, Y.}
+\newblock Single-qubit {R}otations on a {B}inomial {C}ode without {A}ncillary
+  {Q}ubits.
+\newblock {\em arXiv preprint arXiv:2408.12968\/} (2024).
+
+\bibitem{taylor2023storage}
+{\sc Taylor, P.}
+\newblock Total {I}nstalled {B}ase of {D}ata {S}torage {C}apacity in the
+  {G}lobal {D}atasphere from 2020 to 2025.
+\newblock
+  \url{https://www.statista.com/statistics/1185900/worldwide-datasphere-storage-capacity-installed-base/}.
+\newblock Last Accessed: 2024-10-03.
+
+\bibitem{turchette1995measurement}
+{\sc Turchette, Q.~A., Hood, C.~J., Lange, W., Mabuchi, H., and Kimble, H.~J.}
+\newblock Measurement of {C}onditional {P}hase {S}hifts for {Q}uantum {L}ogic.
+\newblock {\em Physical review letters 75}, 25 (1995), 4710.
+
+\bibitem{wilkins2024record}
+{\sc Wilkins, A.}
+\newblock Record-{B}reaking {Q}uantum {C}omputer has more than 1000 {Q}ubits.
+\newblock {\em NewScientist\/} (2024).
+
+\bibitem{wolf2004fpga}
+{\sc Wolf, W.}
+\newblock {\em FPGA-{B}ased {S}ystem {D}esign}.
+\newblock Pearson Education, 2004.
+
+\bibitem{wootters1982single}
+{\sc Wootters, W.~K., and Zurek, W.~H.}
+\newblock A {S}ingle {Q}uantum {C}annot {B}e {C}loned.
+\newblock {\em Nature 299}, 5886 (1982), 802--803.
+
+\bibitem{xilinx2014multiadder}
+{\sc Xilinx}.
+\newblock Logi{CORE} {IP} {M}ultiply {A}dder {DS}717.
+
+\bibitem{xilinx2015multiplier}
+{\sc Xilinx}.
+\newblock Logi{CORE} {IP} {P}roduct {G}uide.
+
+\bibitem{xilinx20167series}
+{\sc Xilinx}.
+\newblock 7 {S}eries {FPGA}s {C}onfigurable {L}ogic {B}lock.
+\newblock \url{https://docs.amd.com/v/u/en-US/ug474_7Series_CLB}, 2016.
+
+\bibitem{yao1993quantum}
+{\sc Yao, A. C.-C.}
+\newblock Quantum {C}ircuit {C}omplexity.
+\newblock In {\em Proceedings of 1993 IEEE 34th Annual Foundations of Computer
+  Science\/} (1993), IEEE, pp.~352--361.
+
+\bibitem{zhang2021time}
+{\sc Zhang, C., Hayes, A.~B., Qiu, L., Jin, Y., Chen, Y., and Zhang, E.~Z.}
+\newblock Time-{O}ptimal {Q}ubit {M}apping.
+\newblock In {\em Proceedings of the 26th ACM International Conference on
+  Architectural Support for Programming Languages and Operating Systems\/}
+  (2021), pp.~360--374.
+
+\bibitem{Zhang2019}
+{\sc Zhang, X., Zhao, Y., Li, R., Li, X., Guo, Z., Zhu, X., and Dong, G.}
+\newblock The {Q}uantum {S}hor {A}lgorithm {S}imulated on {FPGA}.
+\newblock In {\em 2019 IEEE Intl Conf on Parallel \& Distributed Processing
+  with Applications, Big Data \& Cloud Computing, Sustainable Computing \&
+  Communications, Social Computing \& Networking
+  (ISPA/BDCloud/SocialCom/SustainCom)\/} (2019), pp.~542--546.
+
+\bibitem{zulehner2018efficient}
+{\sc Zulehner, A., Paler, A., and Wille, R.}
+\newblock An {E}fficient {M}ethodology for {M}apping {Q}uantum {C}ircuits to
+  the {IBM} {QX} {A}rchitectures.
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems 38}, 7 (2018), 1226--1236.
+
+\end{thebibliography}

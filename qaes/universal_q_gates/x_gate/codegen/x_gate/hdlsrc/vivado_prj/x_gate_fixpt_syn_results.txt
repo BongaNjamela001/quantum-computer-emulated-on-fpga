@@ -1,0 +1,222 @@
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat Oct 26 15:03:03 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+source x_gate_fixpt_Xilinx_Vivado_run.tcl -notrace
+### Open existing Xilinx Vivado 2024.1 project /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/vivado_prj/x_gate_fixpt_vivado.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/vivado_prj/x_gate_fixpt_vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1419.406 ; gain = 0.023 ; free physical = 1171 ; free virtual = 5347
+### Running Synthesis in Xilinx Vivado 2024.1 ...
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sat Oct 26 15:03:19 2024] Launched synth_1...
+Run output will be captured here: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/vivado_prj/x_gate_fixpt_vivado.runs/synth_1/runme.log
+[Sat Oct 26 15:03:19 2024] Waiting for synth_1 to finish...
+*** Running vivado
+    with args -log x_gate_fixpt.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source x_gate_fixpt.tcl
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat Oct 26 15:03:23 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+source x_gate_fixpt.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1415.469 ; gain = 0.023 ; free physical = 347 ; free virtual = 4544
+Command: synth_design -top x_gate_fixpt -part xa7a100tcsg324-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1223068
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1830.215 ; gain = 414.746 ; free physical = 347 ; free virtual = 3958
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'x_gate_fixpt' [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'x_gate_fixpt' (0#1) [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:30]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x_gate_fixpt_slice_temp_reg' and it is trimmed from '3' to '1' bits. [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:48]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x_gate_fixpt_add_temp_reg[1]' and it is trimmed from '4' to '3' bits. [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:75]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x_gate_fixpt_t_1_reg[1][1]' and it is trimmed from '4' to '3' bits. [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:74]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x_gate_fixpt_add_temp_reg[0]' and it is trimmed from '4' to '3' bits. [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:75]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x_gate_fixpt_add_cast_0_reg[0]' and it is trimmed from '4' to '3' bits. [/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/x_gate_fixpt.sv:73]
+WARNING: [Synth 8-3330] design x_gate_fixpt has an empty top module
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1905.184 ; gain = 489.715 ; free physical = 297 ; free virtual = 3851
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1920.027 ; gain = 504.559 ; free physical = 328 ; free virtual = 3855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a100tcsg324-1I
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1928.031 ; gain = 512.562 ; free physical = 328 ; free virtual = 3854
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1936.938 ; gain = 521.469 ; free physical = 308 ; free virtual = 3835
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xa7a100tcsg324-1I does not have CEAM library.
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design x_gate_fixpt has an empty top module
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 305 ; free virtual = 3695
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 301 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 296 ; free virtual = 3691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |IBUF |     2|
+|2     |OBUF |     2|
++------+-----+------+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     4|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.312 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2062.320 ; gain = 646.844 ; free physical = 310 ; free virtual = 3696
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2068.250 ; gain = 0.000 ; free physical = 596 ; free virtual = 3982
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2145.938 ; gain = 0.000 ; free physical = 484 ; free virtual = 3889
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+Synth Design complete | Checksum: 3ebddf33
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 2145.938 ; gain = 730.469 ; free physical = 484 ; free virtual = 3889
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1565.676; main = 1427.003; forked = 393.989
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2969.184; main = 2145.941; forked = 1032.242
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2169.949 ; gain = 0.000 ; free physical = 484 ; free virtual = 3889
+INFO: [Common 17-1381] The checkpoint '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/universal_q_gates/x_gate/codegen/x_gate/hdlsrc/vivado_prj/x_gate_fixpt_vivado.runs/synth_1/x_gate_fixpt.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file x_gate_fixpt_utilization_synth.rpt -pb x_gate_fixpt_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 15:03:57 2024...
+[Sat Oct 26 15:04:07 2024] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 1419.410 ; gain = 0.000 ; free physical = 2023 ; free virtual = 5412
+### Synthesis Complete.
+### Running PostMapTiming in Xilinx Vivado 2024.1 ...
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xa7a100tcsg324-1I
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Device 21-9227] Part: xa7a100tcsg324-1I does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1756.414 ; gain = 0.000 ; free physical = 1684 ; free virtual = 5074
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1844.008 ; gain = 0.000 ; free physical = 1605 ; free virtual = 4994
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1849.945 ; gain = 430.535 ; free physical = 1597 ; free virtual = 4986
+WARNING: [Common 17-708] report_timing_summary: The '-name' option will be ignored because it is only relevant in GUI mode.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+report_timing_summary: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2284.688 ; gain = 434.742 ; free physical = 1195 ; free virtual = 4607
+### PostMapTiming Complete.
+### Close Xilinx Vivado 2024.1 project.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 15:04:20 2024...
+Elapsed time is 80.445 seconds.

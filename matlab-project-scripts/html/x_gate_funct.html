@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      -->
+<title>x_gate_funct</title>
+<meta name="generator" content="MATLAB 24.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2024-10-19">
+<meta name="DC.source" content="x_gate_funct.m">
+<style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="content">
+<pre class="codeinput">
+<span class="keyword">function</span> result_state = x_gate_funct(qubit_state, qubit_index)
+    <span class="comment">% APPLY_X_GATE Applies the X gate to a specified qubit in a 3-qubit state.</span>
+    <span class="comment">%</span>
+    <span class="comment">% qubit_state: Input state vector (8x1) representing the 3-qubit state</span>
+    <span class="comment">% qubit_index: Index of the qubit to apply the X gate on (0 for q0, 1 for q1, 2 for q2)</span>
+
+    <span class="comment">% Check if input qubit state is valid (8x1)</span>
+    <span class="keyword">if</span> length(qubit_state) ~= 8
+        error(<span class="string">'Input qubit_state must be a column vector of size 8.'</span>);
+    <span class="keyword">end</span>
+
+    <span class="comment">% Define single-qubit X gate</span>
+    X_gate = [0 1; 1 0];
+
+    <span class="comment">% Define identity matrix for qubits that are not modified</span>
+    I = eye(2);
+
+    <span class="comment">% Apply the X gate to the specified qubit</span>
+    <span class="keyword">switch</span> qubit_index
+        <span class="keyword">case</span> 0  <span class="comment">% Apply X to q0 (first qubit)</span>
+            full_X_gate = kron(kron(X_gate, I), I);
+        <span class="keyword">case</span> 1  <span class="comment">% Apply X to q1 (second qubit)</span>
+            full_X_gate = kron(kron(I, X_gate), I);
+        <span class="keyword">case</span> 2  <span class="comment">% Apply X to q2 (third qubit)</span>
+            full_X_gate = kron(kron(I, I), X_gate);
+        <span class="keyword">otherwise</span>
+            error(<span class="string">'qubit_index must be 0, 1, or 2.'</span>);
+    <span class="keyword">end</span>
+
+    <span class="comment">% Initialize a result vector</span>
+    result_state = zeros(8, 1);
+
+    <span class="comment">% Perform element-by-element matrix multiplication</span>
+    <span class="keyword">for</span> row = 1:size(full_X_gate, 1)
+        <span class="keyword">for</span> col = 1:size(full_X_gate, 2)
+            result_state(row) = result_state(row) + full_X_gate(row, col) * qubit_state(col);
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre>
+<pre class="codeoutput error">Not enough input arguments.
+
+Error in x_gate_funct (line 8)
+    if length(qubit_state) ~= 8
+              ^^^^^^^^^^^</pre>
+<p class="footer">
+<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2024b</a>
+<br>
+</p>
+</div>
+<!--
+##### SOURCE BEGIN #####
+function result_state = x_gate_funct(qubit_state, qubit_index)
+    % APPLY_X_GATE Applies the X gate to a specified qubit in a 3-qubit state.
+    %
+    % qubit_state: Input state vector (8x1) representing the 3-qubit state
+    % qubit_index: Index of the qubit to apply the X gate on (0 for q0, 1 for q1, 2 for q2)
+    
+    % Check if input qubit state is valid (8x1)
+    if length(qubit_state) ~= 8
+        error('Input qubit_state must be a column vector of size 8.');
+    end
+    
+    % Define single-qubit X gate
+    X_gate = [0 1; 1 0];
+    
+    % Define identity matrix for qubits that are not modified
+    I = eye(2);
+    
+    % Apply the X gate to the specified qubit
+    switch qubit_index
+        case 0  % Apply X to q0 (first qubit)
+            full_X_gate = kron(kron(X_gate, I), I);
+        case 1  % Apply X to q1 (second qubit)
+            full_X_gate = kron(kron(I, X_gate), I);
+        case 2  % Apply X to q2 (third qubit)
+            full_X_gate = kron(kron(I, I), X_gate);
+        otherwise
+            error('qubit_index must be 0, 1, or 2.');
+    end
+    
+    % Initialize a result vector
+    result_state = zeros(8, 1);
+    
+    % Perform element-by-element matrix multiplication
+    for row = 1:size(full_X_gate, 1)
+        for col = 1:size(full_X_gate, 2)
+            result_state(row) = result_state(row) + full_X_gate(row, col) * qubit_state(col);
+        end
+    end
+end
+
+##### SOURCE END #####
+-->
+</body>
+</html>

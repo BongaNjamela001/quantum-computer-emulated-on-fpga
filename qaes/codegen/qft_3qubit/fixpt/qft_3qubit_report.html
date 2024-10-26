@@ -1,0 +1,883 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fixed-Point Report for qft_3qubit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	body { font-family: monospace; }
+	h2 { font-family: Arial, Helvetica, sans-serif; color: #990000; margin-top: 50px; }
+	table,th,td { border: 1px solid black; }
+	table { margin-top: 30px; }
+	th { align: center; font-weight: bold; }
+	tr.h { background-color: #99CCFF; }
+	tr.a { background-color: #EEEEFF; }
+	tr.b { background-color: #FFFFFF; }
+	tr.c { background-color: #FFA500; }
+	tr.a td, tr.b td { border-style: none; }
+	td.left { text-align: left; }
+	td.right { text-align: right; }
+	td.center { text-align: center; }
+	td.bold { font-weight: bold; }
+	pre { padding: 0px; margin: 0px; }
+	span { font-style: italic; }
+	.code, .code tr, .code th, .code td { border: none; border-collapse: collapse; }
+	.padd { padding-left: 5px; }
+	td.cov, th.cov { width: 50px; height: 20px; text-align: center; font-weight: bold; border-right: 2px solid black; cell-spacing: 0px; }
+	td.cov { vertical-align: top; }
+	td.black { color: #000000; font-weight: bold; padding-top: 4px; }
+	td.white { color: #FFFFFF; font-weight: bold; padding-top: 4px; }
+	.code th { font-weight: bold; border-bottom: 2px solid black; }
+</style>
+</head>
+<body>
+<h3>Generated on  2024-10-26 04:05:43</h3>
+<p>The following table shows fixed point instrumentation results</p>
+<h2>Fixed-Point Report <span>controlled_phase_shift>1<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function controlled_matrix = controlled_phase_shift(target, R)
+    % Controlled phase shift gate for 3 qubits
+    I = eye(2);  % Identity matrix for qubits not involved
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov black" style="background-color: rgb(159,199,156);">33%</TD>
+<TD class="padd"><pre>    if target == 2
+        % controlled_matrix = tensor_product([1 0; 0 1], I, I) + tensor_product([0 0; 0 0], R, I);
+        % Define matrices
+        I = complex([1, 0; 0, 1]);          % Identity matrix
+        R = complex([1, 0; 0, exp(1i * pi/2)]);  % Phase shift gate matrix
+        P0 = [1 0; 0 1];                    % Projection matrix for control state |0&gt;
+        P1 = [0 0; 0 0];                    % Projection matrix for control state |1&gt;
+        
+        % Initialize AB_1 for P0 ⊗ I (4x4 matrix)
+        AB_1 = complex(zeros(4, 4));
+        AB_1(1:2, 1:2) = P0(1,1) * I;
+        AB_1(1:2, 3:4) = P0(1,2) * I;
+        AB_1(3:4, 1:2) = P0(2,1) * I;
+        AB_1(3:4, 3:4) = P0(2,2) * I;
+        
+        % Initialize first tensor product result for P0 ⊗ I ⊗ I (8x8 matrix)
+        controlled_part_1 = complex(zeros(8, 8));
+        controlled_part_1(1:2, 1:2) = AB_1(1,1) * I;
+        controlled_part_1(1:2, 3:4) = AB_1(1,2) * I;
+        controlled_part_1(1:2, 5:6) = AB_1(1,3) * I;
+        controlled_part_1(1:2, 7:8) = AB_1(1,4) * I;
+        
+        controlled_part_1(3:4, 1:2) = AB_1(2,1) * I;
+        controlled_part_1(3:4, 3:4) = AB_1(2,2) * I;
+        controlled_part_1(3:4, 5:6) = AB_1(2,3) * I;
+        controlled_part_1(3:4, 7:8) = AB_1(2,4) * I;
+        
+        controlled_part_1(5:6, 1:2) = AB_1(3,1) * I;
+        controlled_part_1(5:6, 3:4) = AB_1(3,2) * I;
+        controlled_part_1(5:6, 5:6) = AB_1(3,3) * I;
+        controlled_part_1(5:6, 7:8) = AB_1(3,4) * I;
+        
+        controlled_part_1(7:8, 1:2) = AB_1(4,1) * I;
+        controlled_part_1(7:8, 3:4) = AB_1(4,2) * I;
+        controlled_part_1(7:8, 5:6) = AB_1(4,3) * I;
+        controlled_part_1(7:8, 7:8) = AB_1(4,4) * I;
+        
+        % Initialize AB_2 for P1 ⊗ R (4x4 matrix)
+        AB_2 = complex(zeros(4, 4));
+        AB_2(1:2, 1:2) = P1(1,1) * R;
+        AB_2(1:2, 3:4) = P1(1,2) * R;
+        AB_2(3:4, 1:2) = P1(2,1) * R;
+        AB_2(3:4, 3:4) = P1(2,2) * R;
+        
+        % Initialize second tensor product result for P1 ⊗ R ⊗ I (8x8 matrix)
+        controlled_part_2 = complex(zeros(8, 8));
+        controlled_part_2(1:2, 1:2) = AB_2(1,1) * I;
+        controlled_part_2(1:2, 3:4) = AB_2(1,2) * I;
+        controlled_part_2(1:2, 5:6) = AB_2(1,3) * I;
+        controlled_part_2(1:2, 7:8) = AB_2(1,4) * I;
+        
+        controlled_part_2(3:4, 1:2) = AB_2(2,1) * I;
+        controlled_part_2(3:4, 3:4) = AB_2(2,2) * I;
+        controlled_part_2(3:4, 5:6) = AB_2(2,3) * I;
+        controlled_part_2(3:4, 7:8) = AB_2(2,4) * I;
+        
+        controlled_part_2(5:6, 1:2) = AB_2(3,1) * I;
+        controlled_part_2(5:6, 3:4) = AB_2(3,2) * I;
+        controlled_part_2(5:6, 5:6) = AB_2(3,3) * I;
+        controlled_part_2(5:6, 7:8) = AB_2(3,4) * I;
+        
+        controlled_part_2(7:8, 1:2) = AB_2(4,1) * I;
+        controlled_part_2(7:8, 3:4) = AB_2(4,2) * I;
+        controlled_part_2(7:8, 5:6) = AB_2(4,3) * I;
+        controlled_part_2(7:8, 7:8) = AB_2(4,4) * I;
+        
+        % Combine the two parts to obtain the final controlled matrix
+        controlled_matrix = controlled_part_1 + controlled_part_2;
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(81,155,82);">67%</TD>
+<TD class="padd"><pre>    elseif target == 3
+        % controlled_matrix = tensor_product([1 0; 0 1], I, I) + tensor_product([0 0; 0 0], I, R);
+        % Define matrices
+        I = complex([1, 0; 0, 1]);          % Identity matrix
+        R = complex([1, 0; 0, exp(1i * pi/2)]);  % Phase shift gate matrix
+        P0 = [1 0; 0 1];                    % Projection matrix for control state |0&gt;
+        P1 = [0 0; 0 0];                    % Projection matrix for control state |1&gt;
+        
+        % Initialize AB_1 for P0 ⊗ I (4x4 matrix)
+        AB_1 = complex(zeros(4, 4));
+        AB_1(1:2, 1:2) = P0(1,1) * I;
+        AB_1(1:2, 3:4) = P0(1,2) * I;
+        AB_1(3:4, 1:2) = P0(2,1) * I;
+        AB_1(3:4, 3:4) = P0(2,2) * I;
+        
+        % Initialize first tensor product result for P0 ⊗ I ⊗ I (8x8 matrix)
+        controlled_part_1 = complex(zeros(8, 8));
+        controlled_part_1(1:2, 1:2) = AB_1(1,1) * I;
+        controlled_part_1(1:2, 3:4) = AB_1(1,2) * I;
+        controlled_part_1(1:2, 5:6) = AB_1(1,3) * I;
+        controlled_part_1(1:2, 7:8) = AB_1(1,4) * I;
+        
+        controlled_part_1(3:4, 1:2) = AB_1(2,1) * I;
+        controlled_part_1(3:4, 3:4) = AB_1(2,2) * I;
+        controlled_part_1(3:4, 5:6) = AB_1(2,3) * I;
+        controlled_part_1(3:4, 7:8) = AB_1(2,4) * I;
+        
+        controlled_part_1(5:6, 1:2) = AB_1(3,1) * I;
+        controlled_part_1(5:6, 3:4) = AB_1(3,2) * I;
+        controlled_part_1(5:6, 5:6) = AB_1(3,3) * I;
+        controlled_part_1(5:6, 7:8) = AB_1(3,4) * I;
+        
+        controlled_part_1(7:8, 1:2) = AB_1(4,1) * I;
+        controlled_part_1(7:8, 3:4) = AB_1(4,2) * I;
+        controlled_part_1(7:8, 5:6) = AB_1(4,3) * I;
+        controlled_part_1(7:8, 7:8) = AB_1(4,4) * I;
+        
+        % Initialize AB_2 for P1 ox I (4x4 matrix)
+        AB_2 = complex(zeros(4, 4));
+        AB_2(1:2, 1:2) = P1(1,1) * I;
+        AB_2(1:2, 3:4) = P1(1,2) * I;
+        AB_2(3:4, 1:2) = P1(2,1) * I;
+        AB_2(3:4, 3:4) = P1(2,2) * R;
+        
+        % Initialize second tensor product result for P1 ox R ox I
+        controlled_part_2 = complex(zeros(8, 8));
+        controlled_part_2(1:2, 1:2) = AB_2(1,1) * I;
+        controlled_part_2(1:2, 3:4) = AB_2(1,2) * I;
+        controlled_part_2(1:2, 5:6) = AB_2(1,3) * I;
+        controlled_part_2(1:2, 7:8) = AB_2(1,4) * I;
+        
+        controlled_part_2(3:4, 1:2) = AB_2(2,1) * I;
+        controlled_part_2(3:4, 3:4) = AB_2(2,2) * I;
+        controlled_part_2(3:4, 5:6) = AB_2(2,3) * I;
+        controlled_part_2(3:4, 7:8) = AB_2(2,4) * I;
+        
+        controlled_part_2(5:6, 1:2) = AB_2(3,1) * I;
+        controlled_part_2(5:6, 3:4) = AB_2(3,2) * I;
+        controlled_part_2(5:6, 5:6) = AB_2(3,3) * I;
+        controlled_part_2(5:6, 7:8) = AB_2(3,4) * I;
+        
+        controlled_part_2(7:8, 1:2) = AB_2(4,1) * I;
+        controlled_part_2(7:8, 3:4) = AB_2(4,2) * I;
+        controlled_part_2(7:8, 5:6) = AB_2(4,3) * I;
+        controlled_part_2(7:8, 7:8) = AB_2(4,4) * I;
+        
+        % Combine the two parts to obtain the final controlled matrix
+        controlled_matrix = controlled_part_1 + controlled_part_2;
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov black" style="background-color: rgb(159,199,156);">33%</TD>
+<TD class="padd"><pre>    else
+        % controlled_matrix = tensor_product([1 0; 0 1], I, I) + tensor_product([0 0; 0 0], R, I);
+        % Define matrices
+        I = complex([1, 0; 0, 1]);          % Identity matrix
+        R = complex([1, 0; 0, exp(1i * pi/2)]);  % Phase shift gate matrix
+        P0 = [1 0; 0 1];                    % Control matrix for identity operation
+        P1 = [0 0; 0 0];                    % Control matrix for phase shift
+        
+        % 1. Tensor Product for P0 ⊗ I ⊗ I (Identity Path)
+        % Initialize AB_1 for P0 ⊗ I (4x4 matrix)
+        AB_1 = complex(zeros(4, 4));
+        AB_1(1:2, 1:2) = P0(1,1) * I;
+        AB_1(1:2, 3:4) = P0(1,2) * I;
+        AB_1(3:4, 1:2) = P0(2,1) * I;
+        AB_1(3:4, 3:4) = P0(2,2) * I;
+        
+        % Expand P0 ⊗ I ⊗ I to an 8x8 matrix
+        controlled_part_1 = complex(zeros(8, 8));
+        controlled_part_1(1:2, 1:2) = AB_1(1,1) * I;
+        controlled_part_1(1:2, 3:4) = AB_1(1,2) * I;
+        controlled_part_1(1:2, 5:6) = AB_1(1,3) * I;
+        controlled_part_1(1:2, 7:8) = AB_1(1,4) * I;
+        
+        controlled_part_1(3:4, 1:2) = AB_1(2,1) * I;
+        controlled_part_1(3:4, 3:4) = AB_1(2,2) * I;
+        controlled_part_1(3:4, 5:6) = AB_1(2,3) * I;
+        controlled_part_1(3:4, 7:8) = AB_1(2,4) * I;
+        
+        controlled_part_1(5:6, 1:2) = AB_1(3,1) * I;
+        controlled_part_1(5:6, 3:4) = AB_1(3,2) * I;
+        controlled_part_1(5:6, 5:6) = AB_1(3,3) * I;
+        controlled_part_1(5:6, 7:8) = AB_1(3,4) * I;
+        
+        controlled_part_1(7:8, 1:2) = AB_1(4,1) * I;
+        controlled_part_1(7:8, 3:4) = AB_1(4,2) * I;
+        controlled_part_1(7:8, 5:6) = AB_1(4,3) * I;
+        controlled_part_1(7:8, 7:8) = AB_1(4,4) * I;
+        
+        % 2. Tensor Product for P1 ⊗ R ⊗ I (Phase Shift Path)
+        % Initialize AB_2 for P1 ⊗ R (4x4 matrix)
+        AB_2 = complex(zeros(4, 4));
+        AB_2(1:2, 1:2) = P1(1,1) * R;
+        AB_2(1:2, 3:4) = P1(1,2) * R;
+        AB_2(3:4, 1:2) = P1(2,1) * R;
+        AB_2(3:4, 3:4) = P1(2,2) * R;
+        
+        % Expand P1 ⊗ R ⊗ I to an 8x8 matrix
+        controlled_part_2 = complex(zeros(8, 8));
+        controlled_part_2(1:2, 1:2) = AB_2(1,1) * I;
+        controlled_part_2(1:2, 3:4) = AB_2(1,2) * I;
+        controlled_part_2(1:2, 5:6) = AB_2(1,3) * I;
+        controlled_part_2(1:2, 7:8) = AB_2(1,4) * I;
+        
+        controlled_part_2(3:4, 1:2) = AB_2(2,1) * I;
+        controlled_part_2(3:4, 3:4) = AB_2(2,2) * I;
+        controlled_part_2(3:4, 5:6) = AB_2(2,3) * I;
+        controlled_part_2(3:4, 7:8) = AB_2(2,4) * I;
+        
+        controlled_part_2(5:6, 1:2) = AB_2(3,1) * I;
+        controlled_part_2(5:6, 3:4) = AB_2(3,2) * I;
+        controlled_part_2(5:6, 5:6) = AB_2(3,3) * I;
+        controlled_part_2(5:6, 7:8) = AB_2(3,4) * I;
+        
+        controlled_part_2(7:8, 1:2) = AB_2(4,1) * I;
+        controlled_part_2(7:8, 3:4) = AB_2(4,2) * I;
+        controlled_part_2(7:8, 5:6) = AB_2(4,3) * I;
+        controlled_part_2(7:8, 7:8) = AB_2(4,4) * I;
+        
+        % Combine both parts to obtain the controlled matrix
+        controlled_matrix = controlled_part_1 + controlled_part_2;
+    end</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">AB_1</TD><TD class="left">double 4 x 4 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">AB_2</TD><TD class="left">double 4 x 4 complex </TD><TD class="right">0</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">I > 1</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">I > 2</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">P0</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">P1</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">R</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">controlled_matrix</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">controlled_part_1</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">controlled_part_2</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">target</TD><TD class="left">doublecomplex </TD><TD class="right">0</TD><TD class="right">3</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 2, 0)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>matrix_multiply>2<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function result = matrix_multiply(M, v)
+    result = M * v;
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">M</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">result</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">v</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>controlled_phase_shift>2<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function controlled_matrix = controlled_phase_shift(target, R)
+    % Controlled phase shift gate for 3 qubits
+    I = eye(2);  % Identity matrix for qubits not involved
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov black" style="background-color: rgb(159,199,156);">33%</TD>
+<TD class="padd"><pre>    if target == 2
+        % controlled_matrix = tensor_product([1 0; 0 1], I, I) + tensor_product([0 0; 0 0], R, I);
+        % Define matrices
+        I = complex([1, 0; 0, 1]);          % Identity matrix
+        R = complex([1, 0; 0, exp(1i * pi/2)]);  % Phase shift gate matrix
+        P0 = [1 0; 0 1];                    % Projection matrix for control state |0&gt;
+        P1 = [0 0; 0 0];                    % Projection matrix for control state |1&gt;
+        
+        % Initialize AB_1 for P0 ⊗ I (4x4 matrix)
+        AB_1 = complex(zeros(4, 4));
+        AB_1(1:2, 1:2) = P0(1,1) * I;
+        AB_1(1:2, 3:4) = P0(1,2) * I;
+        AB_1(3:4, 1:2) = P0(2,1) * I;
+        AB_1(3:4, 3:4) = P0(2,2) * I;
+        
+        % Initialize first tensor product result for P0 ⊗ I ⊗ I (8x8 matrix)
+        controlled_part_1 = complex(zeros(8, 8));
+        controlled_part_1(1:2, 1:2) = AB_1(1,1) * I;
+        controlled_part_1(1:2, 3:4) = AB_1(1,2) * I;
+        controlled_part_1(1:2, 5:6) = AB_1(1,3) * I;
+        controlled_part_1(1:2, 7:8) = AB_1(1,4) * I;
+        
+        controlled_part_1(3:4, 1:2) = AB_1(2,1) * I;
+        controlled_part_1(3:4, 3:4) = AB_1(2,2) * I;
+        controlled_part_1(3:4, 5:6) = AB_1(2,3) * I;
+        controlled_part_1(3:4, 7:8) = AB_1(2,4) * I;
+        
+        controlled_part_1(5:6, 1:2) = AB_1(3,1) * I;
+        controlled_part_1(5:6, 3:4) = AB_1(3,2) * I;
+        controlled_part_1(5:6, 5:6) = AB_1(3,3) * I;
+        controlled_part_1(5:6, 7:8) = AB_1(3,4) * I;
+        
+        controlled_part_1(7:8, 1:2) = AB_1(4,1) * I;
+        controlled_part_1(7:8, 3:4) = AB_1(4,2) * I;
+        controlled_part_1(7:8, 5:6) = AB_1(4,3) * I;
+        controlled_part_1(7:8, 7:8) = AB_1(4,4) * I;
+        
+        % Initialize AB_2 for P1 ⊗ R (4x4 matrix)
+        AB_2 = complex(zeros(4, 4));
+        AB_2(1:2, 1:2) = P1(1,1) * R;
+        AB_2(1:2, 3:4) = P1(1,2) * R;
+        AB_2(3:4, 1:2) = P1(2,1) * R;
+        AB_2(3:4, 3:4) = P1(2,2) * R;
+        
+        % Initialize second tensor product result for P1 ⊗ R ⊗ I (8x8 matrix)
+        controlled_part_2 = complex(zeros(8, 8));
+        controlled_part_2(1:2, 1:2) = AB_2(1,1) * I;
+        controlled_part_2(1:2, 3:4) = AB_2(1,2) * I;
+        controlled_part_2(1:2, 5:6) = AB_2(1,3) * I;
+        controlled_part_2(1:2, 7:8) = AB_2(1,4) * I;
+        
+        controlled_part_2(3:4, 1:2) = AB_2(2,1) * I;
+        controlled_part_2(3:4, 3:4) = AB_2(2,2) * I;
+        controlled_part_2(3:4, 5:6) = AB_2(2,3) * I;
+        controlled_part_2(3:4, 7:8) = AB_2(2,4) * I;
+        
+        controlled_part_2(5:6, 1:2) = AB_2(3,1) * I;
+        controlled_part_2(5:6, 3:4) = AB_2(3,2) * I;
+        controlled_part_2(5:6, 5:6) = AB_2(3,3) * I;
+        controlled_part_2(5:6, 7:8) = AB_2(3,4) * I;
+        
+        controlled_part_2(7:8, 1:2) = AB_2(4,1) * I;
+        controlled_part_2(7:8, 3:4) = AB_2(4,2) * I;
+        controlled_part_2(7:8, 5:6) = AB_2(4,3) * I;
+        controlled_part_2(7:8, 7:8) = AB_2(4,4) * I;
+        
+        % Combine the two parts to obtain the final controlled matrix
+        controlled_matrix = controlled_part_1 + controlled_part_2;
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(81,155,82);">67%</TD>
+<TD class="padd"><pre>    elseif target == 3
+        % controlled_matrix = tensor_product([1 0; 0 1], I, I) + tensor_product([0 0; 0 0], I, R);
+        % Define matrices
+        I = complex([1, 0; 0, 1]);          % Identity matrix
+        R = complex([1, 0; 0, exp(1i * pi/2)]);  % Phase shift gate matrix
+        P0 = [1 0; 0 1];                    % Projection matrix for control state |0&gt;
+        P1 = [0 0; 0 0];                    % Projection matrix for control state |1&gt;
+        
+        % Initialize AB_1 for P0 ⊗ I (4x4 matrix)
+        AB_1 = complex(zeros(4, 4));
+        AB_1(1:2, 1:2) = P0(1,1) * I;
+        AB_1(1:2, 3:4) = P0(1,2) * I;
+        AB_1(3:4, 1:2) = P0(2,1) * I;
+        AB_1(3:4, 3:4) = P0(2,2) * I;
+        
+        % Initialize first tensor product result for P0 ⊗ I ⊗ I (8x8 matrix)
+        controlled_part_1 = complex(zeros(8, 8));
+        controlled_part_1(1:2, 1:2) = AB_1(1,1) * I;
+        controlled_part_1(1:2, 3:4) = AB_1(1,2) * I;
+        controlled_part_1(1:2, 5:6) = AB_1(1,3) * I;
+        controlled_part_1(1:2, 7:8) = AB_1(1,4) * I;
+        
+        controlled_part_1(3:4, 1:2) = AB_1(2,1) * I;
+        controlled_part_1(3:4, 3:4) = AB_1(2,2) * I;
+        controlled_part_1(3:4, 5:6) = AB_1(2,3) * I;
+        controlled_part_1(3:4, 7:8) = AB_1(2,4) * I;
+        
+        controlled_part_1(5:6, 1:2) = AB_1(3,1) * I;
+        controlled_part_1(5:6, 3:4) = AB_1(3,2) * I;
+        controlled_part_1(5:6, 5:6) = AB_1(3,3) * I;
+        controlled_part_1(5:6, 7:8) = AB_1(3,4) * I;
+        
+        controlled_part_1(7:8, 1:2) = AB_1(4,1) * I;
+        controlled_part_1(7:8, 3:4) = AB_1(4,2) * I;
+        controlled_part_1(7:8, 5:6) = AB_1(4,3) * I;
+        controlled_part_1(7:8, 7:8) = AB_1(4,4) * I;
+        
+        % Initialize AB_2 for P1 ox I (4x4 matrix)
+        AB_2 = complex(zeros(4, 4));
+        AB_2(1:2, 1:2) = P1(1,1) * I;
+        AB_2(1:2, 3:4) = P1(1,2) * I;
+        AB_2(3:4, 1:2) = P1(2,1) * I;
+        AB_2(3:4, 3:4) = P1(2,2) * R;
+        
+        % Initialize second tensor product result for P1 ox R ox I
+        controlled_part_2 = complex(zeros(8, 8));
+        controlled_part_2(1:2, 1:2) = AB_2(1,1) * I;
+        controlled_part_2(1:2, 3:4) = AB_2(1,2) * I;
+        controlled_part_2(1:2, 5:6) = AB_2(1,3) * I;
+        controlled_part_2(1:2, 7:8) = AB_2(1,4) * I;
+        
+        controlled_part_2(3:4, 1:2) = AB_2(2,1) * I;
+        controlled_part_2(3:4, 3:4) = AB_2(2,2) * I;
+        controlled_part_2(3:4, 5:6) = AB_2(2,3) * I;
+        controlled_part_2(3:4, 7:8) = AB_2(2,4) * I;
+        
+        controlled_part_2(5:6, 1:2) = AB_2(3,1) * I;
+        controlled_part_2(5:6, 3:4) = AB_2(3,2) * I;
+        controlled_part_2(5:6, 5:6) = AB_2(3,3) * I;
+        controlled_part_2(5:6, 7:8) = AB_2(3,4) * I;
+        
+        controlled_part_2(7:8, 1:2) = AB_2(4,1) * I;
+        controlled_part_2(7:8, 3:4) = AB_2(4,2) * I;
+        controlled_part_2(7:8, 5:6) = AB_2(4,3) * I;
+        controlled_part_2(7:8, 7:8) = AB_2(4,4) * I;
+        
+        % Combine the two parts to obtain the final controlled matrix
+        controlled_matrix = controlled_part_1 + controlled_part_2;
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov black" style="background-color: rgb(159,199,156);">33%</TD>
+<TD class="padd"><pre>    else
+        % controlled_matrix = tensor_product([1 0; 0 1], I, I) + tensor_product([0 0; 0 0], R, I);
+        % Define matrices
+        I = complex([1, 0; 0, 1]);          % Identity matrix
+        R = complex([1, 0; 0, exp(1i * pi/2)]);  % Phase shift gate matrix
+        P0 = [1 0; 0 1];                    % Control matrix for identity operation
+        P1 = [0 0; 0 0];                    % Control matrix for phase shift
+        
+        % 1. Tensor Product for P0 ⊗ I ⊗ I (Identity Path)
+        % Initialize AB_1 for P0 ⊗ I (4x4 matrix)
+        AB_1 = complex(zeros(4, 4));
+        AB_1(1:2, 1:2) = P0(1,1) * I;
+        AB_1(1:2, 3:4) = P0(1,2) * I;
+        AB_1(3:4, 1:2) = P0(2,1) * I;
+        AB_1(3:4, 3:4) = P0(2,2) * I;
+        
+        % Expand P0 ⊗ I ⊗ I to an 8x8 matrix
+        controlled_part_1 = complex(zeros(8, 8));
+        controlled_part_1(1:2, 1:2) = AB_1(1,1) * I;
+        controlled_part_1(1:2, 3:4) = AB_1(1,2) * I;
+        controlled_part_1(1:2, 5:6) = AB_1(1,3) * I;
+        controlled_part_1(1:2, 7:8) = AB_1(1,4) * I;
+        
+        controlled_part_1(3:4, 1:2) = AB_1(2,1) * I;
+        controlled_part_1(3:4, 3:4) = AB_1(2,2) * I;
+        controlled_part_1(3:4, 5:6) = AB_1(2,3) * I;
+        controlled_part_1(3:4, 7:8) = AB_1(2,4) * I;
+        
+        controlled_part_1(5:6, 1:2) = AB_1(3,1) * I;
+        controlled_part_1(5:6, 3:4) = AB_1(3,2) * I;
+        controlled_part_1(5:6, 5:6) = AB_1(3,3) * I;
+        controlled_part_1(5:6, 7:8) = AB_1(3,4) * I;
+        
+        controlled_part_1(7:8, 1:2) = AB_1(4,1) * I;
+        controlled_part_1(7:8, 3:4) = AB_1(4,2) * I;
+        controlled_part_1(7:8, 5:6) = AB_1(4,3) * I;
+        controlled_part_1(7:8, 7:8) = AB_1(4,4) * I;
+        
+        % 2. Tensor Product for P1 ⊗ R ⊗ I (Phase Shift Path)
+        % Initialize AB_2 for P1 ⊗ R (4x4 matrix)
+        AB_2 = complex(zeros(4, 4));
+        AB_2(1:2, 1:2) = P1(1,1) * R;
+        AB_2(1:2, 3:4) = P1(1,2) * R;
+        AB_2(3:4, 1:2) = P1(2,1) * R;
+        AB_2(3:4, 3:4) = P1(2,2) * R;
+        
+        % Expand P1 ⊗ R ⊗ I to an 8x8 matrix
+        controlled_part_2 = complex(zeros(8, 8));
+        controlled_part_2(1:2, 1:2) = AB_2(1,1) * I;
+        controlled_part_2(1:2, 3:4) = AB_2(1,2) * I;
+        controlled_part_2(1:2, 5:6) = AB_2(1,3) * I;
+        controlled_part_2(1:2, 7:8) = AB_2(1,4) * I;
+        
+        controlled_part_2(3:4, 1:2) = AB_2(2,1) * I;
+        controlled_part_2(3:4, 3:4) = AB_2(2,2) * I;
+        controlled_part_2(3:4, 5:6) = AB_2(2,3) * I;
+        controlled_part_2(3:4, 7:8) = AB_2(2,4) * I;
+        
+        controlled_part_2(5:6, 1:2) = AB_2(3,1) * I;
+        controlled_part_2(5:6, 3:4) = AB_2(3,2) * I;
+        controlled_part_2(5:6, 5:6) = AB_2(3,3) * I;
+        controlled_part_2(5:6, 7:8) = AB_2(3,4) * I;
+        
+        controlled_part_2(7:8, 1:2) = AB_2(4,1) * I;
+        controlled_part_2(7:8, 3:4) = AB_2(4,2) * I;
+        controlled_part_2(7:8, 5:6) = AB_2(4,3) * I;
+        controlled_part_2(7:8, 7:8) = AB_2(4,4) * I;
+        
+        % Combine both parts to obtain the controlled matrix
+        controlled_matrix = controlled_part_1 + controlled_part_2;
+    end</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">AB_1</TD><TD class="left">double 4 x 4 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">AB_2</TD><TD class="left">double 4 x 4 complex </TD><TD class="right">0</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">I > 1</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">I > 2</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">P0</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">P1</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">R</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">controlled_matrix</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">controlled_part_1</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">controlled_part_2</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">target</TD><TD class="left">double</TD><TD class="right">3</TD><TD class="right">3</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 2, 0)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>swap_gate<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function SWAP = swap_gate(n)
+    % Swap gate for swapping qubit 1 and qubit 3 in a 3-qubit system
+    SWAP = eye(8);
+    SWAP([1, 8], [1, 8]) = SWAP([8, 1], [8, 1]);  % SWAP |000&gt; and |111&gt;
+    SWAP([2, 7], [2, 7]) = SWAP([7, 2], [7, 2]);  % SWAP |001&gt; and |110&gt;
+    SWAP([3, 6], [3, 6]) = SWAP([6, 3], [6, 3]);  % SWAP |010&gt; and |101&gt;
+    SWAP([4, 5], [4, 5]) = SWAP([5, 4], [5, 4]);  % SWAP |011&gt; and |100&gt;
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">SWAP</TD><TD class="left">double 8 x 8 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">n</TD><TD class="left">double</TD><TD class="right">Unknown</TD><TD class="right">Unknown</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left"></TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>matrix_multiply>3<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function result = matrix_multiply(M, v)
+    result = M * v;
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">M</TD><TD class="left">double 8 x 8 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">result</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.3535533905932737</TD><TD class="right">0.3535533905932737</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">v</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.3535533905932737</TD><TD class="right">0.3535533905932737</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>matrix_multiply>1<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function result = matrix_multiply(M, v)
+    result = M * v;
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">M</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">result</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">v</TD><TD class="left">double 8 x 1 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>qft_3qubit<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function final_state = qft_3qubit(initial_state)
+    % Quantum Fourier Transform for 3-qubit system
+    % initial_state is a column vector of length 8 (2^3), representing the initial state of the qubits
+    
+    % Check if initial_state is of correct size
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(157,38,35);">0%</TD>
+<TD class="padd"><pre>    if length(initial_state) ~= 8
+        error('Initial state must be a column vector of length 8.');
+    end</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>
+    
+    % Define the identity and Hadamard gates
+    I = [1, 0; 0, 1];  % Identity matrix
+    H = (1/sqrt(2)) * [1, 1; 1, -1];  % Hadamard gate
+
+    I = complex(I);
+    H = complex(H);
+    % Define phase shift gates
+    R2 = [1, 0; 0, 2.71828^(1i * 2 * pi / 4)];  % Controlled phase shift R2
+    R3 = [1, 0; 0, 2.71828^(1i * 2 * pi / 8)];  % Controlled phase shift R3
+    
+    % Initialize AB matrix for H otimes I (4x4 matrix)
+    AB = complex(zeros(4, 4));
+    
+    % Manually expand the tensor product
+    AB(1:2, 1:2) = H(1,1) * I;
+    AB(1:2, 3:4) = H(1,2) * I;
+    AB(3:4, 1:2) = H(2,1) * I;
+    AB(3:4, 3:4) = H(2,2) * I;
+    
+    % Initialize result matrix for, which results in an 8x8 matrix
+    result = complex(zeros(8, 8));
+    
+    % Manually expand the tensor product 
+    result(1:2, 1:2) = AB(1,1) * I;
+    result(1:2, 3:4) = AB(1,2) * I;
+    result(1:2, 5:6) = AB(1,3) * I;
+    result(1:2, 7:8) = AB(1,4) * I;
+    
+    result(3:4, 1:2) = AB(2,1) * I;
+    result(3:4, 3:4) = AB(2,2) * I;
+    result(3:4, 5:6) = AB(2,3) * I;
+    result(3:4, 7:8) = AB(2,4) * I;
+    
+    result(5:6, 1:2) = AB(3,1) * I;
+    result(5:6, 3:4) = AB(3,2) * I;
+    result(5:6, 5:6) = AB(3,3) * I;
+    result(5:6, 7:8) = AB(3,4) * I;
+    
+    result(7:8, 1:2) = AB(4,1) * I;
+    result(7:8, 3:4) = AB(4,2) * I;
+    result(7:8, 5:6) = AB(4,3) * I;
+    result(7:8, 7:8) = AB(4,4) * I;
+
+    H1 = result;
+    % Step 1: Apply Hadamard to the first qubit
+    % Apply H to the first qubit while leaving the others unchanged
+    % sizeA1 = size(H,1);
+    % sizeB1 = size(I, 1);
+    % sizeA2 = size(H, 2);
+    % sizeB2 = size(I, 2);
+    % size1 = sizeA1 * sizeB1;
+    % size2 = sizeA2 * sizeB2;
+    % AB = complex(zeros(2, 2));
+    % for i = 1:sizeA1
+    %     for j = 1:sizeA2
+    %         AB((i-1)*2+1:i*2, (j-1)*2+1:j*2) = H(i, j) * I;
+    %     end
+    % end
+    % result = complex(zeros(size(AB, 1)  * size(I, 1), size(AB, 2) * size(I, 2)));
+    % for i = 1:size(AB, 1)
+    %     for j = 1:size(AB, 2)
+    %         result((i-1)*size(I, 1)+1:i*size(I, 1), (j-1)*size(I, 2)+1:j*size(I, 2)) = AB(i, j) * I;
+    %     end
+    % end
+    % H1 = result;
+    state_after_H1 = matrix_multiply(H1, initial_state);
+    
+    % Step 2: Apply controlled R2 between qubit 1 and qubit 2
+    CR2_12 = controlled_phase_shift(2+0i, R2);  % Controlled phase shift on qubit 1 and 2
+    state_after_CR2_12 = matrix_multiply(CR2_12, state_after_H1);
+    
+    % Step 3: Apply controlled R3 between qubit 1 and qubit 3
+    CR3_13 = controlled_phase_shift(3+0i, R3);  % Controlled phase shift on qubit 1 and 3
+    state_after_CR3_13 = matrix_multiply(CR3_13, state_after_CR2_12);
+    
+    % Step 4: Apply Hadamard to the second qubit
+    % H2 = tensor_product(I, H, I);  % Apply H to the second qubit
+    % Initialize intermediate matrix AB for I ⊗ H (4x4 matrix)
+    AB = complex(zeros(4, 4));
+    
+    % Manually expand the tensor product I ⊗ H
+    AB(1:2, 1:2) = I(1,1) * H;
+    AB(1:2, 3:4) = I(1,2) * H;
+    AB(3:4, 1:2) = I(2,1) * H;
+    AB(3:4, 3:4) = I(2,2) * H;
+    
+    % Initialize result matrix for (I ⊗ H) ⊗ I, which results in an 8x8 matrix
+    result2 = complex(zeros(8, 8));
+    
+    % Manually expand the tensor product (I ⊗ H) ⊗ I
+    result2(1:2, 1:2) = AB(1,1) * I;
+    result2(1:2, 3:4) = AB(1,2) * I;
+    result2(1:2, 5:6) = AB(1,3) * I;
+    result2(1:2, 7:8) = AB(1,4) * I;
+    
+    result2(3:4, 1:2) = AB(2,1) * I;
+    result2(3:4, 3:4) = AB(2,2) * I;
+    result2(3:4, 5:6) = AB(2,3) * I;
+    result2(3:4, 7:8) = AB(2,4) * I;
+    
+    result2(5:6, 1:2) = AB(3,1) * I;
+    result2(5:6, 3:4) = AB(3,2) * I;
+    result2(5:6, 5:6) = AB(3,3) * I;
+    result2(5:6, 7:8) = AB(3,4) * I;
+    
+    result2(7:8, 1:2) = AB(4,1) * I;
+    result2(7:8, 3:4) = AB(4,2) * I;
+    result2(7:8, 5:6) = AB(4,3) * I;
+    result2(7:8, 7:8) = AB(4,4) * I;
+    
+    % Final result for I \otimes H \otimes I, with H applied to the second qubit
+    H2 = result2;
+    state_after_H2 = matrix_multiply(H2, state_after_CR3_13);
+    
+    % Step 5: Apply controlled R2 between qubit 2 and qubit 3
+    CR2_23 = controlled_phase_shift(3, R2);  % Controlled phase shift on qubit 2 and 3
+    state_after_CR2_23 = matrix_multiply(CR2_23, state_after_H2);
+    
+    % Step 6: Apply Hadamard to the third qubit
+    % H3 = tensor_product(I, I, H);  % Apply H to the third qubit
+    % Initialize intermediate matrix AB for I ⊗ I (4x4 matrix)
+    AB = complex(zeros(4, 4));
+    
+    % Manually expand the tensor product I ⊗ I
+    AB(1:2, 1:2) = I(1,1) * I;
+    AB(1:2, 3:4) = I(1,2) * I;
+    AB(3:4, 1:2) = I(2,1) * I;
+    AB(3:4, 3:4) = I(2,2) * I;
+    
+    % Initialize result matrix for (I ⊗ I) ⊗ H, which results in an 8x8 matrix
+    result3 = complex(zeros(8, 8));
+    
+    % Manually expand the tensor product (I ⊗ I) ⊗ H
+    result3(1:2, 1:2) = AB(1,1) * H;
+    result3(1:2, 3:4) = AB(1,2) * H;
+    result3(1:2, 5:6) = AB(1,3) * H;
+    result3(1:2, 7:8) = AB(1,4) * H;
+    
+    result3(3:4, 1:2) = AB(2,1) * H;
+    result3(3:4, 3:4) = AB(2,2) * H;
+    result3(3:4, 5:6) = AB(2,3) * H;
+    result3(3:4, 7:8) = AB(2,4) * H;
+    
+    result3(5:6, 1:2) = AB(3,1) * H;
+    result3(5:6, 3:4) = AB(3,2) * H;
+    result3(5:6, 5:6) = AB(3,3) * H;
+    result3(5:6, 7:8) = AB(3,4) * H;
+    
+    result3(7:8, 1:2) = AB(4,1) * H;
+    result3(7:8, 3:4) = AB(4,2) * H;
+    result3(7:8, 5:6) = AB(4,3) * H;
+    result3(7:8, 7:8) = AB(4,4) * H;
+    H3 = result3;
+    state_after_H3 = matrix_multiply(H3, state_after_CR2_23);
+    
+    % Step 7: Apply SWAP to reverse qubit order (SWAP qubit 1 and qubit 3)
+    SWAP = swap_gate(3);  % Apply SWAP between qubit 1 and qubit 3
+    final_state = matrix_multiply(SWAP, state_after_H3);
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">AB</TD><TD class="left">double 4 x 4 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">CR2_12</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">CR2_23</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">CR3_13</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">H > 1</TD><TD class="left">double 2 x 2 </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">H > 2</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">H1</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">H2</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">H3</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">I > 1</TD><TD class="left">double 2 x 2 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">I > 2</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">R2</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">R3</TD><TD class="left">double 2 x 2 complex </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">SWAP</TD><TD class="left">double 8 x 8 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">final_state</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.3535533905932737</TD><TD class="right">0.3535533905932737</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">initial_state</TD><TD class="left">double 8 x 1 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">result</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">result2</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">result3</TD><TD class="left">double 8 x 8 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">state_after_CR2_12</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">state_after_CR2_23</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.4999999999999999</TD><TD class="right">0.4999999999999999</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">state_after_CR3_13</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">state_after_H1</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">state_after_H2</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.4999999999999999</TD><TD class="right">0.4999999999999999</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">state_after_H3</TD><TD class="left">double 8 x 1 complex </TD><TD class="right">-0.3535533905932737</TD><TD class="right">0.3535533905932737</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+</TABLE>
+
+</body>
+</html>

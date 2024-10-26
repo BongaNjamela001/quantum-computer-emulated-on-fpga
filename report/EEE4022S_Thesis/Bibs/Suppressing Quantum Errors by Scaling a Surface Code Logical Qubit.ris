@@ -1,0 +1,173 @@
+TY  - JOUR
+AU  - Acharya, Rajeev
+AU  - Aleiner, Igor
+AU  - Allen, Richard
+AU  - Andersen, Trond I.
+AU  - Ansmann, Markus
+AU  - Arute, Frank
+AU  - Arya, Kunal
+AU  - Asfaw, Abraham
+AU  - Atalaya, Juan
+AU  - Babbush, Ryan
+AU  - Bacon, Dave
+AU  - Bardin, Joseph C.
+AU  - Basso, Joao
+AU  - Bengtsson, Andreas
+AU  - Boixo, Sergio
+AU  - Bortoli, Gina
+AU  - Bourassa, Alexandre
+AU  - Bovaird, Jenna
+AU  - Brill, Leon
+AU  - Broughton, Michael
+AU  - Buckley, Bob B.
+AU  - Buell, David A.
+AU  - Burger, Tim
+AU  - Burkett, Brian
+AU  - Bushnell, Nicholas
+AU  - Chen, Yu
+AU  - Chen, Zijun
+AU  - Chiaro, Ben
+AU  - Cogan, Josh
+AU  - Collins, Roberto
+AU  - Conner, Paul
+AU  - Courtney, William
+AU  - Crook, Alexander L.
+AU  - Curtin, Ben
+AU  - Debroy, Dripto M.
+AU  - Del Toro Barba, Alexander
+AU  - Demura, Sean
+AU  - Dunsworth, Andrew
+AU  - Eppens, Daniel
+AU  - Erickson, Catherine
+AU  - Faoro, Lara
+AU  - Farhi, Edward
+AU  - Fatemi, Reza
+AU  - Flores Burgos, Leslie
+AU  - Forati, Ebrahim
+AU  - Fowler, Austin G.
+AU  - Foxen, Brooks
+AU  - Giang, William
+AU  - Gidney, Craig
+AU  - Gilboa, Dar
+AU  - Giustina, Marissa
+AU  - Grajales Dau, Alejandro
+AU  - Gross, Jonathan A.
+AU  - Habegger, Steve
+AU  - Hamilton, Michael C.
+AU  - Harrigan, Matthew P.
+AU  - Harrington, Sean D.
+AU  - Higgott, Oscar
+AU  - Hilton, Jeremy
+AU  - Hoffmann, Markus
+AU  - Hong, Sabrina
+AU  - Huang, Trent
+AU  - Huff, Ashley
+AU  - Huggins, William J.
+AU  - Ioffe, Lev B.
+AU  - Isakov, Sergei V.
+AU  - Iveland, Justin
+AU  - Jeffrey, Evan
+AU  - Jiang, Zhang
+AU  - Jones, Cody
+AU  - Juhas, Pavol
+AU  - Kafri, Dvir
+AU  - Kechedzhi, Kostyantyn
+AU  - Kelly, Julian
+AU  - Khattar, Tanuj
+AU  - Khezri, Mostafa
+AU  - Kieferová, Mária
+AU  - Kim, Seon
+AU  - Kitaev, Alexei
+AU  - Klimov, Paul V.
+AU  - Klots, Andrey R.
+AU  - Korotkov, Alexander N.
+AU  - Kostritsa, Fedor
+AU  - Kreikebaum, John Mark
+AU  - Landhuis, David
+AU  - Laptev, Pavel
+AU  - Lau, Kim-Ming
+AU  - Laws, Lily
+AU  - Lee, Joonho
+AU  - Lee, Kenny
+AU  - Lester, Brian J.
+AU  - Lill, Alexander
+AU  - Liu, Wayne
+AU  - Locharla, Aditya
+AU  - Lucero, Erik
+AU  - Malone, Fionn D.
+AU  - Marshall, Jeffrey
+AU  - Martin, Orion
+AU  - McClean, Jarrod R.
+AU  - McCourt, Trevor
+AU  - McEwen, Matt
+AU  - Megrant, Anthony
+AU  - Meurer Costa, Bernardo
+AU  - Mi, Xiao
+AU  - Miao, Kevin C.
+AU  - Mohseni, Masoud
+AU  - Montazeri, Shirin
+AU  - Morvan, Alexis
+AU  - Mount, Emily
+AU  - Mruczkiewicz, Wojciech
+AU  - Naaman, Ofer
+AU  - Neeley, Matthew
+AU  - Neill, Charles
+AU  - Nersisyan, Ani
+AU  - Neven, Hartmut
+AU  - Newman, Michael
+AU  - Ng, Jiun How
+AU  - Nguyen, Anthony
+AU  - Nguyen, Murray
+AU  - Niu, Murphy Yuezhen
+AU  - O’Brien, Thomas E.
+AU  - Opremcak, Alex
+AU  - Platt, John
+AU  - Petukhov, Andre
+AU  - Potter, Rebecca
+AU  - Pryadko, Leonid P.
+AU  - Quintana, Chris
+AU  - Roushan, Pedram
+AU  - Rubin, Nicholas C.
+AU  - Saei, Negar
+AU  - Sank, Daniel
+AU  - Sankaragomathi, Kannan
+AU  - Satzinger, Kevin J.
+AU  - Schurkus, Henry F.
+AU  - Schuster, Christopher
+AU  - Shearn, Michael J.
+AU  - Shorter, Aaron
+AU  - Shvarts, Vladimir
+AU  - Skruzny, Jindra
+AU  - Smelyanskiy, Vadim
+AU  - Smith, W. Clarke
+AU  - Sterling, George
+AU  - Strain, Doug
+AU  - Szalay, Marco
+AU  - Torres, Alfredo
+AU  - Vidal, Guifre
+AU  - Villalonga, Benjamin
+AU  - Vollgraff Heidweiller, Catherine
+AU  - White, Theodore
+AU  - Xing, Cheng
+AU  - Yao, Z. Jamie
+AU  - Yeh, Ping
+AU  - Yoo, Juhwan
+AU  - Young, Grayson
+AU  - Zalcman, Adam
+AU  - Zhang, Yaxing
+AU  - Zhu, Ningfeng
+AU  - Google Quantum AI
+PY  - 2023
+DA  - 2023/02/01
+TI  - Suppressing quantum errors by scaling a surface code logical qubit
+JO  - Nature
+SP  - 676
+EP  - 681
+VL  - 614
+IS  - 7949
+AB  - Practical quantum computing will require error rates well below those achievable with physical qubits. Quantum error correction1,2 offers a path to algorithmically relevant error rates by encoding logical qubits within many physical qubits, for which increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low for logical performance to improve with increasing code size. Here we report the measurement of logical qubit performance scaling across several code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find that our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, in terms of both logical error probability over 25 cycles and logical error per cycle ((2.914 ± 0.016)% compared to (3.028 ± 0.023)%). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a 1.7 × 10−6 logical error per cycle floor set by a single high-energy event (1.6 × 10−7 excluding this event). We accurately model our experiment, extracting error budgets that highlight the biggest challenges for future systems. These results mark an experimental demonstration in which quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.
+SN  - 1476-4687
+UR  - https://doi.org/10.1038/s41586-022-05434-1
+DO  - 10.1038/s41586-022-05434-1
+ID  - Acharya2023
+ER  - 

@@ -1,0 +1,114 @@
+\input{preamble/core.tex}
+\usepackage{standalone}
+\input{frontmatter/glossary.tex}
+\input{preamble/listings.tex}
+% Add other things here
+% Document Begins
+
+% -------------------
+% The Document Begins
+% -------------------
+\begin{document}
+% Make pretty title page:
+
+\input{frontmatter/title.tex}
+\pagestyle{empty} 
+\input{frontmatter/declaration.tex}
+
+% Sorting out the numbering for the initial pages of the document
+\pagenumbering{roman}
+\addtocounter{page}{-1}
+% Creating the abstract section
+% -----------------------------
+\addcontentsline{toc}{chapter}{Abstract} %
+\input{frontmatter/abstract.tex}
+\clearpage
+
+% Creating the acknowledgements section
+% -------------------------------------
+\addcontentsline{toc}{chapter}{Acknowledgements} %
+\chapter*{Acknowledgements}
+\input{frontmatter/acknowledgements.tex}
+%\input{acknowledgements}
+\clearpage
+% Removing spaces in between the listings of the floats.
+\parskip = 0.05cm
+% Creating the table of contents
+% ------------------------------
+\addcontentsline{toc}{chapter}{Contents} %
+\pagestyle{fancy}
+\tableofcontents \clearpage
+% Creating lists of all floats
+% ----------------------------
+\addcontentsline{toc}{chapter}{List of Figures} %
+\listoffigures \clearpage %
+\addcontentsline{toc}{chapter}{List of Tables} %
+\listoftables \clearpage
+\addcontentsline{toc}{chapter}{List of Abbreviations} %
+\chapter*{List of Abbreviations}
+\input{frontmatter/abbreviations.tex}
+\clearpage
+\addcontentsline{toc}{chapter}{Nomenclature} %
+\printnoidxglossary[type=\acronymtype,nonumberlist,title={Nomenclature}]
+% -------- Nomenclature -------------
+%Comment: you do not need to have both nomenclature and abbreviations it tends to be redundant.
+
+
+%\begin{itemize}
+
+% Just add terms one at a time, with term in an item block followed by its description
+%\item {\bf Analogue to digital Converter (ADC):} an electronic device that converts data from its analogue format to its digital form.
+
+%\item {\bf Very High Speed Integrated Circuits Hardware Description Language (VHDL):} a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as FPGA.
+%\end{itemize}
+\clearpage
+% Sorting out the numbering for the rest of the document
+\pagenumbering{arabic}
+\parskip = 0.4cm
+
+% ---- Specift the bibliography style to use ----
+% Recommented to use ieee or acm or ieeetr
+\bibliographystyle{acm}
+
+% Creating the rest of the dissertation chapters
+% It is recommended to have your chapters in separate files
+% This template is set up to have each chapter tex file in
+% a separate folder with its figures inside a figs subfolder
+% ----------------------------------------------------------
+
+%@@@@@@@ Chapter 1 - Introduction @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch1/ch1.tex}
+
+%@@@@@@@ Chapter 2 - Theoretical Framework @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch2/ch2.tex}
+
+%@@@@@@@ Chapter 3 - Literature Review  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch3/ch3.tex}
+
+%@@@@@@@ Chapter 4 - Methodology @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch4/ch4.tex}
+
+%@@@@@@ Chapter 5 - Design Case Study @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch5/ch5.tex}
+
+%@@@@@@ Chapter 6 - Results and Discussion @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch6/ch6.tex}
+
+%@@@@@@ Chapter 6 - Conclusions and Further Work @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+\input{body/ch7/ch7.tex}
+
+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%@@@@@@@@@@@@@@@@@ References @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%=============================
+\bibliography{bibliography}
+%=============================
+\appendix
+
+%\newpage
+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%%@@@@@@@@@@@@@@@@@@@@@ APPENDIX @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+\input{appendix/appendixA.tex}
+
+\end{document}

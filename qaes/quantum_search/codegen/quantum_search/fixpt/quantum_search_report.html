@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fixed-Point Report for quantum_search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	body { font-family: monospace; }
+	h2 { font-family: Arial, Helvetica, sans-serif; color: #990000; margin-top: 50px; }
+	table,th,td { border: 1px solid black; }
+	table { margin-top: 30px; }
+	th { align: center; font-weight: bold; }
+	tr.h { background-color: #99CCFF; }
+	tr.a { background-color: #EEEEFF; }
+	tr.b { background-color: #FFFFFF; }
+	tr.c { background-color: #FFA500; }
+	tr.a td, tr.b td { border-style: none; }
+	td.left { text-align: left; }
+	td.right { text-align: right; }
+	td.center { text-align: center; }
+	td.bold { font-weight: bold; }
+	pre { padding: 0px; margin: 0px; }
+	span { font-style: italic; }
+	.code, .code tr, .code th, .code td { border: none; border-collapse: collapse; }
+	.padd { padding-left: 5px; }
+	td.cov, th.cov { width: 50px; height: 20px; text-align: center; font-weight: bold; border-right: 2px solid black; cell-spacing: 0px; }
+	td.cov { vertical-align: top; }
+	td.black { color: #000000; font-weight: bold; padding-top: 4px; }
+	td.white { color: #FFFFFF; font-weight: bold; padding-top: 4px; }
+	.code th { font-weight: bold; border-bottom: 2px solid black; }
+</style>
+</head>
+<body>
+<h3>Generated on  2024-10-26 14:15:05</h3>
+<p>The following table shows fixed point instrumentation results</p>
+<h2>Fixed-Point Report <span>quantum_search<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function result = quantum_search()
+
+    % Step 1: Initialise two-qubit register to the ground state |00&gt;
+    state = [1; 0; 0; 0]; % |00&gt; state for a two-qubit system
+
+    % Step 2: Apply Hadamard gates to both qubits without kron
+    % Define Hadamard gate
+    H = (1/sqrt(2)) * [1, 1; 1, -1];
+    
+    % Manually compute the tensor product of H ox H for two qubits
+    H2 = [
+        H(1,1)*H, H(1,2)*H;
+        H(2,1)*H, H(2,2)*H
+    ];
+
+    % Apply H2 to the initial state
+    state = H2 * state;
+
+    % Step 3: Apply the controlled-Z gate as the oracle
+    CZ = eye(4);
+    CZ(4, 4) = -1; % Controlled-Z gate flips the sign of |11&gt; state
+    state = CZ * state;
+
+    % Step 4: Apply Hadamard gates to both qubits
+    state = H2 * state;
+
+    % Step 5: Apply Z gates to both qubits without kron
+    % Define Pauli-Z gate
+    Z = [1, 0; 0, -1];
+    
+    % Manually compute the tensor product of Z ox Z for two qubits
+    Z2 = [
+        Z(1,1)*Z, Z(1,2)*Z;
+        Z(2,1)*Z, Z(2,2)*Z
+    ];
+
+    % Apply Z2 to the state
+    state = Z2 * state;
+
+    % Step 6: Apply the controlled-Z gate again
+    state = CZ * state;
+
+    % Step 7: Apply Hadamard gates to both qubits
+    state = H2 * state;
+
+    % Step 8: Measure the qubits to obtain the classical output
+    % by finding the highest probability outcome
+    probabilities = abs(state).^2;
+    [~, result_index] = max(probabilities);
+    result = 3; % Convert to binary to get classical bits
+    
+    % disp('Measured output: %s\n', result);
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">CZ</TD><TD class="left">double 4 x 4 </TD><TD class="right">-1</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(1, 2, 0)</TD></TR>
+<TR class="b">
+<TD class="left">H</TD><TD class="left">double 2 x 2 </TD><TD class="right">-0.7071067811865475</TD><TD class="right">0.7071067811865475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">H2</TD><TD class="left">double 4 x 4 </TD><TD class="right">-0.4999999999999999</TD><TD class="right">0.4999999999999999</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">Z</TD><TD class="left">double 2 x 2 </TD><TD class="right">-1</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(1, 2, 0)</TD></TR>
+<TR class="a">
+<TD class="left">Z2</TD><TD class="left">double 4 x 4 </TD><TD class="right">-1</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(1, 2, 0)</TD></TR>
+<TR class="b">
+<TD class="left">probabilities</TD><TD class="left">double 4 x 1 </TD><TD class="right">0</TD><TD class="right">0.9999999999999987</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 13)</TD></TR>
+<TR class="a">
+<TD class="left">result</TD><TD class="left">double</TD><TD class="right">3</TD><TD class="right">3</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 2, 0)</TD></TR>
+<TR class="b">
+<TD class="left">result_index</TD><TD class="left">double</TD><TD class="right">4</TD><TD class="right">4</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 3, 0)</TD></TR>
+<TR class="a">
+<TD class="left">state</TD><TD class="left">double 4 x 1 </TD><TD class="right">-0.4999999999999999</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+</TABLE>
+
+</body>
+</html>

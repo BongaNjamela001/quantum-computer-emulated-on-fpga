@@ -1,0 +1,387 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 26 00:39:05 2024
+# Process ID: 223746
+# Current directory: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj
+# Command line: vivado -mode batch -notrace -source qft_3qubit_fixpt_Xilinx_Vivado_run.tcl
+# Log file: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/vivado.log
+# Journal file: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/vivado.jou
+# Running On        :bonga
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :1600.000 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16480 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18628 MB
+# Available Virtual :7563 MB
+#-----------------------------------------------------------
+source qft_3qubit_fixpt_Xilinx_Vivado_run.tcl -notrace
+### Open existing Xilinx Vivado 2024.1 project /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1401.664 ; gain = 44.805 ; free physical = 1975 ; free virtual = 6955
+### Running Implementation in Xilinx Vivado 2024.1 ...
+[Sat Oct 26 00:39:19 2024] Launched impl_1...
+Run output will be captured here: /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.runs/impl_1/runme.log
+[Sat Oct 26 00:39:19 2024] Waiting for impl_1 to finish...
+
+*** Running vivado
+    with args -log qft_3qubit_fixpt.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source qft_3qubit_fixpt.tcl -notrace
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat Oct 26 00:39:22 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source qft_3qubit_fixpt.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1419.402 ; gain = 0.023 ; free physical = 1408 ; free virtual = 6392
+Command: link_design -top qft_3qubit_fixpt -part xa7a100tcsg324-1I
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Device 21-9227] Part: xa7a100tcsg324-1I does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1757.441 ; gain = 0.000 ; free physical = 999 ; free virtual = 5983
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1822.223 ; gain = 1.000 ; free physical = 952 ; free virtual = 5936
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1822.223 ; gain = 0.000 ; free physical = 952 ; free virtual = 5936
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xa7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.69 . Memory (MB): peak = 1933.781 ; gain = 111.559 ; free physical = 943 ; free virtual = 5927
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2348.527 ; gain = 414.746 ; free physical = 696 ; free virtual = 5681
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 380 ; free virtual = 5364
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 380 ; free virtual = 5364
+Phase 1 Initialization | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 380 ; free virtual = 5364
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 383 ; free virtual = 5367
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 383 ; free virtual = 5367
+Phase 2 Timer Update And Timing Data Collection | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 383 ; free virtual = 5367
+
+Phase 3 Retarget
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+Retarget | Checksum: 21a4d8210
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 21a4d8210
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+Constant propagation | Checksum: 21a4d8210
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 2643ca051
+
+Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2663.363 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+Sweep | Checksum: 2643ca051
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 2643ca051
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+BUFG optimization | Checksum: 2643ca051
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 2643ca051
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+Shift Register Optimization | Checksum: 2643ca051
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 2643ca051
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+Post Processing Netlist | Checksum: 2643ca051
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2695.379 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+Phase 9 Finalization | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2695.379 ; gain = 32.016 ; free physical = 385 ; free virtual = 5369
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2695.379 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2695.379 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2695.379 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+Ending Netlist Obfuscation Task | Checksum: 1afa5e7f3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2695.379 ; gain = 0.000 ; free physical = 385 ; free virtual = 5369
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2695.379 ; gain = 873.156 ; free physical = 385 ; free virtual = 5369
+INFO: [Vivado 12-24828] Executing command : report_drc -file qft_3qubit_fixpt_drc_opted.rpt -pb qft_3qubit_fixpt_drc_opted.pb -rpx qft_3qubit_fixpt_drc_opted.rpx
+Command: report_drc -file qft_3qubit_fixpt_drc_opted.rpt -pb qft_3qubit_fixpt_drc_opted.pb -rpx qft_3qubit_fixpt_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.runs/impl_1/qft_3qubit_fixpt_drc_opted.rpt.
+report_drc completed successfully
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2735.398 ; gain = 0.000 ; free physical = 324 ; free virtual = 5306
+INFO: [Common 17-1381] The checkpoint '/home/bonga/Desktop/EEE4022S/EEE4022S_Github/qaes/codegen/qft_3qubit/hdlsrc/vivado_prj/qft_3qubit_fixpt_vivado.runs/impl_1/qft_3qubit_fixpt_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xa7a100t'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2783.422 ; gain = 0.000 ; free physical = 307 ; free virtual = 5291
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1ae42a4e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2783.422 ; gain = 0.000 ; free physical = 307 ; free virtual = 5291
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2783.422 ; gain = 0.000 ; free physical = 307 ; free virtual = 5291
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-415] IO Placement failed due to overutilization. This design contains 232 I/O ports
+ while the target  device: xa7a100t package: csg324, contains only 210 available user I/O. The target device has 210 usable I/O pins of which 0 are already occupied by user-locked I/Os.
+ To rectify this issue:
+ 1. Ensure you are targeting the correct device and package.  Select a larger device or different package if necessary.
+ 2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+ 3. Consider design changes to reduce the number of I/Os necessary.
+ERROR: [Place 30-68] Instance final_state_im[0][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[0][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[1][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[2][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[3][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[4][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[5][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][10]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][11]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][12]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][13]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][1]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][2]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][3]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][4]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][5]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][6]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][7]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][8]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[6][9]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[7][0]_INST_0 (OBUF) is not placed
+ERROR: [Place 30-68] Instance final_state_im[7][10]_INST_0 (OBUF) is not placed
+INFO: [Common 17-14] Message 'Place 30-68' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1ae42a4e6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.44 . Memory (MB): peak = 2783.422 ; gain = 0.000 ; free physical = 303 ; free virtual = 5287
+Phase 1 Placer Initialization | Checksum: 1ae42a4e6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.44 . Memory (MB): peak = 2783.422 ; gain = 0.000 ; free physical = 303 ; free virtual = 5287
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 1ae42a4e6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.45 . Memory (MB): peak = 2783.422 ; gain = 0.000 ; free physical = 303 ; free virtual = 5287
+43 Infos, 0 Warnings, 0 Critical Warnings and 103 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 00:39:50 2024...
+[Sat Oct 26 00:39:56 2024] impl_1 finished
+ERROR: [Vivado 12-13638] Failed runs(s) : 'impl_1'
+wait_on_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:38 . Memory (MB): peak = 1406.633 ; gain = 0.000 ; free physical = 1960 ; free virtual = 6942
+ERROR: [Common 17-39] 'wait_on_runs' failed due to earlier errors.
+
+    while executing
+"wait_on_run impl_1"
+    (file "qft_3qubit_fixpt_Xilinx_Vivado_run.tcl" line 24)
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 00:39:56 2024...

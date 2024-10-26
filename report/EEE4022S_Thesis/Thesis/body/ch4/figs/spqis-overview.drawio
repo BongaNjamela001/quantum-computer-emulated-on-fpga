@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="9Q_bcYhKEK6bGvbYmpg1">
+    <mxGraphModel dx="896" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="560" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MifIYuiG_E2sTtmJU0L-1" target="2MifIYuiG_E2sTtmJU0L-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-2" value="$$\text{ARM-Based}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-3" value="$$\text{Microcontroller}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2MifIYuiG_E2sTtmJU0L-7" target="2MifIYuiG_E2sTtmJU0L-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-4" value="$$\text{FPGA}$$" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-7" value="$$\text{Quantum Channel}$$" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-11" value="$$\text{Single-Photon Qubit Initialisation Subsystem}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="70" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-13" value="$$\text{Weak coherent pulse}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-15" value="$$\text{InGaAs Detections}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2MifIYuiG_E2sTtmJU0L-16" value="$$\text{emissions}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
