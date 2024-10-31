@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1730292013">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Pmod_Read_One_Second_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Pmod_Read_One_Second_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="Pmod_Read_One_Second.vdi"/>
+  <File Type="BG-DRC" Name="Pmod_Read_One_Second.drc"/>
+  <File Type="BG-BGN" Name="Pmod_Read_One_Second.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Pmod_Read_One_Second.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Pmod_Read_One_Second.ltx"/>
+  <File Type="RBD_FILE" Name="Pmod_Read_One_Second.rbd"/>
+  <File Type="NPI_FILE" Name="Pmod_Read_One_Second.npi"/>
+  <File Type="RNPI_FILE" Name="Pmod_Read_One_Second.rnpi"/>
+  <File Type="CFI_FILE" Name="Pmod_Read_One_Second.cfi"/>
+  <File Type="RCFI_FILE" Name="Pmod_Read_One_Second.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="Pmod_Read_One_Second_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Pmod_Read_One_Second_boot.pdi"/>
+  <File Type="PDI-FILE" Name="Pmod_Read_One_Second.pdi"/>
+  <File Type="BITSTR-MMI" Name="Pmod_Read_One_Second.mmi"/>
+  <File Type="BITSTR-BMM" Name="Pmod_Read_One_Second_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Pmod_Read_One_Second.nky"/>
+  <File Type="BITSTR-RBT" Name="Pmod_Read_One_Second.rbt"/>
+  <File Type="BITSTR-MSK" Name="Pmod_Read_One_Second.msk"/>
+  <File Type="BG-BIN" Name="Pmod_Read_One_Second.bin"/>
+  <File Type="BG-BIT" Name="Pmod_Read_One_Second.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Pmod_Read_One_Second_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Pmod_Read_One_Second_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Pmod_Read_One_Second_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Pmod_Read_One_Second_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Pmod_Read_One_Second_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Pmod_Read_One_Second_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Pmod_Read_One_Second_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Pmod_Read_One_Second_postroute_physopt.dcp"/>
+  <File Type="ROUTE-RQS-PB" Name="Pmod_Read_One_Second_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Pmod_Read_One_Second_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Pmod_Read_One_Second_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Pmod_Read_One_Second_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Pmod_Read_One_Second_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Pmod_Read_One_Second_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Pmod_Read_One_Second_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Pmod_Read_One_Second_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Pmod_Read_One_Second_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Pmod_Read_One_Second_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Pmod_Read_One_Second_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Pmod_Read_One_Second_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Pmod_Read_One_Second_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Pmod_Read_One_Second_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Pmod_Read_One_Second_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Pmod_Read_One_Second_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Pmod_Read_One_Second_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Pmod_Read_One_Second_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Pmod_Read_One_Second_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Pmod_Read_One_Second_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Pmod_Read_One_Second_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Pmod_Read_One_Second_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Pmod_Read_One_Second_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Pmod_Read_One_Second_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Pmod_Read_One_Second_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Pmod_Read_One_Second_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Pmod_Read_One_Second_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Pmod_Read_One_Second_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="Pmod_Read_One_Second_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="Pmod_Read_One_Second_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Pmod_Read_One_Second_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Pmod_Read_One_Second_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Pmod_Read_One_Second_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Pmod_Read_One_Second_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Pmod_Read_One_Second_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Pmod_Read_One_Second_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Pmod_Read_One_Second_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Pmod_Read_One_Second_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Pmod_Read_One_Second_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Pmod_Read_One_Second_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Pmod_Read_One_Second_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="Pmod_Read_One_Second_rqa_opted.pb"/>
+  <File Type="OPT-TIMING" Name="Pmod_Read_One_Second_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Pmod_Read_One_Second.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Pmod_Read_One_Second_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Pmod_Read_One_Second_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Pmod_Read_One_Second_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Pmod_Read_One_Second_timing_summary_init.rpt"/>
+  <File Type="REPORTS-TCL" Name="Pmod_Read_One_Second_reports.tcl"/>
+  <File Type="PA-TCL" Name="Pmod_Read_One_Second.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/fqds.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Pmod_Read_One_Second"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/constraints/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1730289174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Pmod_Read_One_Second.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
