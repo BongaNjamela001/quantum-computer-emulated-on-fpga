@@ -57,17 +57,20 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Simple Circuit Diagram for Modelling Avalanche Photodiode Detectors in a QKD network.}}{64}{figure.caption.71}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces The Quantum Finite State Machine for Emulating the Quantum Teleportation Algorithm on the FPGA.}}{66}{figure.caption.73}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.77}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.78}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.79}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{69}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagram of First Iteration of the Quantum Channel.}}{69}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram of First Iteration of the Quantum Channel.}}{69}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagram of Second Iteration of the Quantum Channel On a Veroboard.}}{69}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{70}{figure.caption.80}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{70}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Table Summarising the HDL Resource Utilisation Report in HDL Coder.}}{70}{figure.caption.82}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Initial Simulink Design Block for the QFT Quantum Circuit Described in MATLAB.}}{71}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Showing the Simulink Model of the Input Quantum State with a Pipeline Register.}}{71}{figure.caption.84}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Showing the Simulink Model for Performing the First Time Step of the QFT Quantum Circuit where the Hadamard Gate is Applied to the Least Significant Qubit in the Quantum Register.}}{71}{figure.caption.85}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Showing the Output Register of the Quantum Fourier Transform in Simulink.}}{71}{figure.caption.86}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Showing the HDL Coder Resource Utilisation Summary for the Pipelined QFT.}}{71}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Showing the HDL Coder Post Synthesis Resource Summary.}}{72}{figure.caption.88}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{70}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{70}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Showing Results from Synthesis of the Quantum Teleportation Algorithm}}{70}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Table Summarising the HDL Resource Utilisation Report in HDL Coder.}}{71}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Initial Simulink Design Block for the QFT Quantum Circuit Described in MATLAB.}}{71}{figure.caption.86}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Showing the Simulink Model of the Input Quantum State with a Pipeline Register.}}{71}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Showing the Simulink Model for Performing the First Time Step of the QFT Quantum Circuit where the Hadamard Gate is Applied to the Least Significant Qubit in the Quantum Register.}}{72}{figure.caption.88}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Showing the Output Register of the Quantum Fourier Transform in Simulink.}}{72}{figure.caption.89}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Showing the HDL Coder Resource Utilisation Summary for the Pipelined QFT.}}{72}{figure.caption.90}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Showing the HDL Coder Post Synthesis Resource Summary.}}{72}{figure.caption.91}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

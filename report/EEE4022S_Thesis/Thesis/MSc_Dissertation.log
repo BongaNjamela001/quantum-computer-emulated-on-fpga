@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  26 OCT 2024 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  31 OCT 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1597,7 +1597,7 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<frontmatter/uctlogomain.png, id=505, 1304.875pt x 1331.97626pt>
+<frontmatter/uctlogomain.png, id=513, 1304.875pt x 1331.97626pt>
 File: frontmatter/uctlogomain.png Graphic file (type png)
 <use frontmatter/uctlogomain.png>
 Package pdftex.def Info: frontmatter/uctlogomain.png  used on input line 47.
@@ -1617,7 +1617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<frontmatter/signature.png, id=517, 232.61906pt x 144.54pt>
+<frontmatter/signature.png, id=525, 232.61906pt x 144.54pt>
 File: frontmatter/signature.png Graphic file (type png)
 <use frontmatter/signature.png>
 Package pdftex.def Info: frontmatter/signature.png  used on input line 20.
@@ -1790,7 +1790,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 1406) has occurred while \output is active []
 
-<body/ch2/figs/photon-polarization-circle.png, id=977, 589.20125pt x 472.76625p
+<body/ch2/figs/photon-polarization-circle.png, id=996, 589.20125pt x 472.76625p
 t>
 File: body/ch2/figs/photon-polarization-circle.png Graphic file (type png)
 <use body/ch2/figs/photon-polarization-circle.png>
@@ -1827,7 +1827,7 @@ Underfull \hbox (badness 4060) in paragraph at lines 253--253
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
  [9]
-<body/ch2/figs/blochsphere.png, id=1045, 658.46pt x 490.83376pt>
+<body/ch2/figs/blochsphere.png, id=1063, 658.46pt x 490.83376pt>
 File: body/ch2/figs/blochsphere.png Graphic file (type png)
 <use body/ch2/figs/blochsphere.png>
 Package pdftex.def Info: body/ch2/figs/blochsphere.png  used on input line 291.
@@ -1835,17 +1835,17 @@ Package pdftex.def Info: body/ch2/figs/blochsphere.png  used on input line 291.
 (pdftex.def)             Requested size: 178.09831pt x 132.75905pt.
 
 [10 <./body/ch2/figs/blochsphere.png>]
-<body/ch2/figs/x-gate.png, id=1059, 483.8075pt x 490.83376pt>
+<body/ch2/figs/x-gate.png, id=1077, 483.8075pt x 490.83376pt>
 File: body/ch2/figs/x-gate.png Graphic file (type png)
 <use body/ch2/figs/x-gate.png>
 Package pdftex.def Info: body/ch2/figs/x-gate.png  used on input line 385.
 (pdftex.def)             Requested size: 114.72023pt x 116.37949pt.
-<body/ch2/figs/z-gate.png, id=1060, 483.8075pt x 490.83376pt>
+<body/ch2/figs/z-gate.png, id=1078, 483.8075pt x 490.83376pt>
 File: body/ch2/figs/z-gate.png Graphic file (type png)
 <use body/ch2/figs/z-gate.png>
 Package pdftex.def Info: body/ch2/figs/z-gate.png  used on input line 392.
 (pdftex.def)             Requested size: 114.72023pt x 116.37949pt.
-<body/ch2/figs/hadamard-gate.png, id=1061, 483.8075pt x 490.83376pt>
+<body/ch2/figs/hadamard-gate.png, id=1079, 483.8075pt x 490.83376pt>
 File: body/ch2/figs/hadamard-gate.png Graphic file (type png)
 <use body/ch2/figs/hadamard-gate.png>
 Package pdftex.def Info: body/ch2/figs/hadamard-gate.png  used on input line 39
@@ -1868,7 +1868,7 @@ Underfull \hbox (badness 3601) in paragraph at lines 459--460
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<body/ch2/figs/cnot-diagram.png, id=1085, 394.47375pt x 100.375pt>
+<body/ch2/figs/cnot-diagram.png, id=1103, 394.47375pt x 100.375pt>
 File: body/ch2/figs/cnot-diagram.png Graphic file (type png)
 <use body/ch2/figs/cnot-diagram.png>
 Package pdftex.def Info: body/ch2/figs/cnot-diagram.png  used on input line 508
@@ -1878,19 +1878,19 @@ Package pdftex.def Info: body/ch2/figs/cnot-diagram.png  used on input line 508
 
 LaTeX Warning: Citation `.' on page 13 undefined on input line 521.
 
-<body/ch2/figs/single-qubit-components.png, id=1102, 352.31625pt x 162.6075pt>
+<body/ch2/figs/single-qubit-components.png, id=1120, 352.31625pt x 162.6075pt>
 File: body/ch2/figs/single-qubit-components.png Graphic file (type png)
 <use body/ch2/figs/single-qubit-components.png>
 Package pdftex.def Info: body/ch2/figs/single-qubit-components.png  used on inp
 ut line 524.
 (pdftex.def)             Requested size: 189.2301pt x 87.33531pt.
-<body/ch2/figs/q-circuit-caution.png, id=1104, 334.24875pt x 113.42375pt>
+<body/ch2/figs/q-circuit-caution.png, id=1122, 334.24875pt x 113.42375pt>
 File: body/ch2/figs/q-circuit-caution.png Graphic file (type png)
 <use body/ch2/figs/q-circuit-caution.png>
 Package pdftex.def Info: body/ch2/figs/q-circuit-caution.png  used on input lin
 e 531.
 (pdftex.def)             Requested size: 166.96654pt x 56.6598pt.
-<body/ch2/figs/swap-circuit.png, id=1107, 338.26375pt x 246.9225pt>
+<body/ch2/figs/swap-circuit.png, id=1125, 338.26375pt x 246.9225pt>
 File: body/ch2/figs/swap-circuit.png Graphic file (type png)
 <use body/ch2/figs/swap-circuit.png>
 Package pdftex.def Info: body/ch2/figs/swap-circuit.png  used on input line 554
@@ -1898,13 +1898,13 @@ Package pdftex.def Info: body/ch2/figs/swap-circuit.png  used on input line 554
 (pdftex.def)             Requested size: 186.04562pt x 135.80777pt.
 [13 <./body/ch2/figs/single-qubit-components.png> <./body/ch2/figs/q-circuit-ca
 ution.png> <./body/ch2/figs/swap-circuit.png>]
-<body/ch2/figs/measurement-symbol.png, id=1120, 291.0875pt x 90.3375pt>
+<body/ch2/figs/measurement-symbol.png, id=1138, 291.0875pt x 90.3375pt>
 File: body/ch2/figs/measurement-symbol.png Graphic file (type png)
 <use body/ch2/figs/measurement-symbol.png>
 Package pdftex.def Info: body/ch2/figs/measurement-symbol.png  used on input li
 ne 563.
 (pdftex.def)             Requested size: 155.83475pt x 48.36385pt.
-<body/ch3/figs/nielsen-qft.png, id=1126, 684.5575pt x 206.7725pt>
+<body/ch3/figs/nielsen-qft.png, id=1144, 684.5575pt x 206.7725pt>
 File: body/ch3/figs/nielsen-qft.png Graphic file (type png)
 <use body/ch3/figs/nielsen-qft.png>
 Package pdftex.def Info: body/ch3/figs/nielsen-qft.png  used on input line 580.
@@ -1922,7 +1922,7 @@ Overfull \hbox (6.25587pt too wide) detected at line 596
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-<body/ch2/figs/grovers-quantum-circuit.png, id=1186, 842.14626pt x 308.15125pt>
+<body/ch2/figs/grovers-quantum-circuit.png, id=1204, 842.14626pt x 308.15125pt>
 
 File: body/ch2/figs/grovers-quantum-circuit.png Graphic file (type png)
 <use body/ch2/figs/grovers-quantum-circuit.png>
@@ -1988,7 +1988,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-<body/ch3/figs/chuang-teleportation.png, id=1380, 332.24126pt x 158.5925pt>
+<body/ch3/figs/chuang-teleportation.png, id=1398, 332.24126pt x 158.5925pt>
 File: body/ch3/figs/chuang-teleportation.png Graphic file (type png)
 <use body/ch3/figs/chuang-teleportation.png>
 Package pdftex.def Info: body/ch3/figs/chuang-teleportation.png  used on input 
@@ -2001,7 +2001,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./body/ch3/figs/chuang-teleportation.png>]
-<body/ch3/figs/cow-protocol.png, id=1422, 980.66376pt x 303.1325pt>
+<body/ch3/figs/cow-protocol.png, id=1440, 980.66376pt x 303.1325pt>
 File: body/ch3/figs/cow-protocol.png Graphic file (type png)
 <use body/ch3/figs/cow-protocol.png>
 Package pdftex.def Info: body/ch3/figs/cow-protocol.png  used on input line 107
@@ -2012,7 +2012,7 @@ Underfull \hbox (badness 1178) in paragraph at lines 113--113
 |[]\OT1/ptm/b/n/10 Methods for Pre-vent-ing Fake-Attacks and
  []
 
-<body/ch3/figs/ent-qkd.png, id=1442, 1075.01625pt x 399.4925pt>
+<body/ch3/figs/ent-qkd.png, id=1460, 1075.01625pt x 399.4925pt>
 File: body/ch3/figs/ent-qkd.png Graphic file (type png)
 <use body/ch3/figs/ent-qkd.png>
 Package pdftex.def Info: body/ch3/figs/ent-qkd.png  used on input line 120.
@@ -2023,7 +2023,7 @@ Underfull \vbox (badness 1838) has occurred while \output is active []
  [25 <./body/ch3/figs/cow-protocol.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<body/ch3/figs/optical-bit-mapping.png, id=1469, 1353.055pt x 346.29375pt>
+<body/ch3/figs/optical-bit-mapping.png, id=1487, 1353.055pt x 346.29375pt>
 File: body/ch3/figs/optical-bit-mapping.png Graphic file (type png)
 <use body/ch3/figs/optical-bit-mapping.png>
 Package pdftex.def Info: body/ch3/figs/optical-bit-mapping.png  used on input l
@@ -2033,7 +2033,7 @@ ine 135.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<body/ch3/figs/li-qubit-mappings.png, id=1525, 995.72pt x 258.9675pt>
+<body/ch3/figs/li-qubit-mappings.png, id=1543, 995.72pt x 258.9675pt>
 File: body/ch3/figs/li-qubit-mappings.png Graphic file (type png)
 <use body/ch3/figs/li-qubit-mappings.png>
 Package pdftex.def Info: body/ch3/figs/li-qubit-mappings.png  used on input lin
@@ -2056,7 +2056,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--172
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./body/ch3/figs/li-qubit-mappings.png>]
-<body/ch3/figs/fujishima-inout.png, id=1552, 703.62875pt x 469.755pt>
+<body/ch3/figs/fujishima-inout.png, id=1571, 703.62875pt x 469.755pt>
 File: body/ch3/figs/fujishima-inout.png Graphic file (type png)
 <use body/ch3/figs/fujishima-inout.png>
 Package pdftex.def Info: body/ch3/figs/fujishima-inout.png  used on input line 
@@ -2065,7 +2065,7 @@ Package pdftex.def Info: body/ch3/figs/fujishima-inout.png  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<body/ch3/figs/fujishima-lqp-qip.png, id=1562, 813.0375pt x 513.92pt>
+<body/ch3/figs/fujishima-lqp-qip.png, id=1581, 813.0375pt x 513.92pt>
 File: body/ch3/figs/fujishima-lqp-qip.png Graphic file (type png)
 <use body/ch3/figs/fujishima-lqp-qip.png>
 Package pdftex.def Info: body/ch3/figs/fujishima-lqp-qip.png  used on input lin
@@ -2073,7 +2073,7 @@ e 195.
 (pdftex.def)             Requested size: 222.62206pt x 140.71284pt.
  [29 <./body/ch3/figs/fujishima-inout.png> <./body/ch3/figs/fujishima-lqp-qip.p
 ng>]
-<body/ch3/figs/fujishima-qip-block.png, id=1578, 417.56pt x 282.05376pt>
+<body/ch3/figs/fujishima-qip-block.png, id=1596, 417.56pt x 282.05376pt>
 File: body/ch3/figs/fujishima-qip-block.png Graphic file (type png)
 <use body/ch3/figs/fujishima-qip-block.png>
 Package pdftex.def Info: body/ch3/figs/fujishima-qip-block.png  used on input l
@@ -2091,7 +2091,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<body/ch3/figs/hlukhov-digital-qc.png, id=1637, 685.56125pt x 397.485pt>
+<body/ch3/figs/hlukhov-digital-qc.png, id=1655, 685.56125pt x 397.485pt>
 File: body/ch3/figs/hlukhov-digital-qc.png Graphic file (type png)
 <use body/ch3/figs/hlukhov-digital-qc.png>
 Package pdftex.def Info: body/ch3/figs/hlukhov-digital-qc.png  used on input li
@@ -2102,7 +2102,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 251--251
 []\OT1/ptm/m/n/10 Figure 3.9: |A dig-i-tal quan-tum com-puter con-sists
  []
 
-<body/ch3/figs/hlukhov-qubit.png, id=1643, 728.7225pt x 233.87375pt>
+<body/ch3/figs/hlukhov-qubit.png, id=1661, 728.7225pt x 233.87375pt>
 File: body/ch3/figs/hlukhov-qubit.png Graphic file (type png)
 <use body/ch3/figs/hlukhov-qubit.png>
 Package pdftex.def Info: body/ch3/figs/hlukhov-qubit.png  used on input line 25
@@ -2114,7 +2114,7 @@ Underfull \hbox (badness 2951) in paragraph at lines 278--278
 |[]\OT1/ptm/b/n/10 Implementing Gates to Solve a Prob-lem
  []
 
-<body/ch3/figs/khalid-q-evo.png, id=1674, 863.225pt x 361.35pt>
+<body/ch3/figs/khalid-q-evo.png, id=1693, 863.225pt x 361.35pt>
 File: body/ch3/figs/khalid-q-evo.png Graphic file (type png)
 <use body/ch3/figs/khalid-q-evo.png>
 Package pdftex.def Info: body/ch3/figs/khalid-q-evo.png  used on input line 292
@@ -2124,7 +2124,7 @@ Package pdftex.def Info: body/ch3/figs/khalid-q-evo.png  used on input line 292
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-<body/ch3/figs/aminian-pauli-gates.png, id=1692, 246.9225pt x 171.64125pt>
+<body/ch3/figs/aminian-pauli-gates.png, id=1710, 246.9225pt x 171.64125pt>
 File: body/ch3/figs/aminian-pauli-gates.png Graphic file (type png)
 <use body/ch3/figs/aminian-pauli-gates.png>
 Package pdftex.def Info: body/ch3/figs/aminian-pauli-gates.png  used on input l
@@ -2171,7 +2171,7 @@ g>]
 LaTeX Warning: Reference `fig:rivera-block-diagram' on page 35 undefined on inp
 ut line 330.
 
-<body/ch3/figs/lee-concurrent-vs-pipeline.png, id=1726, 1656.1875pt x 627.34375
+<body/ch3/figs/lee-concurrent-vs-pipeline.png, id=1744, 1656.1875pt x 627.34375
 pt>
 File: body/ch3/figs/lee-concurrent-vs-pipeline.png Graphic file (type png)
 <use body/ch3/figs/lee-concurrent-vs-pipeline.png>
@@ -2179,7 +2179,7 @@ Package pdftex.def Info: body/ch3/figs/lee-concurrent-vs-pipeline.png  used on
 input line 343.
 (pdftex.def)             Requested size: 222.62206pt x 84.32399pt.
 [35 <./body/ch3/figs/lee-concurrent-vs-pipeline.png>]
-<body/ch3/figs/lee-serial-architecture.png, id=1743, 1134.2375pt x 767.86874pt>
+<body/ch3/figs/lee-serial-architecture.png, id=1761, 1134.2375pt x 767.86874pt>
 
 File: body/ch3/figs/lee-serial-architecture.png Graphic file (type png)
 <use body/ch3/figs/lee-serial-architecture.png>
@@ -2194,7 +2194,7 @@ Underfull \hbox (badness 1852) in paragraph at lines 357--358
 
 LaTeX Warning: Citation `hlukhov' on page 36 undefined on input line 361.
 
-<body/ch3/figs/hlukhov-qgate.png, id=1750, 719.68875pt x 255.95625pt>
+<body/ch3/figs/hlukhov-qgate.png, id=1768, 719.68875pt x 255.95625pt>
 File: body/ch3/figs/hlukhov-qgate.png Graphic file (type png)
 <use body/ch3/figs/hlukhov-qgate.png>
 Package pdftex.def Info: body/ch3/figs/hlukhov-qgate.png  used on input line 36
@@ -2234,7 +2234,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [38
 
 ]
-<body/ch4/figs/methodology-phases.png, id=1795, 1770.615pt x 745.78625pt>
+<body/ch4/figs/methodology-phases.png, id=1813, 1770.615pt x 745.78625pt>
 File: body/ch4/figs/methodology-phases.png Graphic file (type png)
 <use body/ch4/figs/methodology-phases.png>
 Package pdftex.def Info: body/ch4/figs/methodology-phases.png  used on input li
@@ -2256,7 +2256,7 @@ Underfull \hbox (badness 1831) in paragraph at lines 153--155
  []
 
 [40]
-<body/ch4/figs/overall-system-architecture.png, id=1809, 894.34125pt x 322.2037
+<body/ch4/figs/overall-system-architecture.png, id=1827, 894.34125pt x 322.2037
 5pt>
 File: body/ch4/figs/overall-system-architecture.png Graphic file (type png)
 <use body/ch4/figs/overall-system-architecture.png>
@@ -2274,13 +2274,13 @@ Underfull \hbox (badness 1939) in paragraph at lines 184--186
  []
 
 [41 <./body/ch4/figs/overall-system-architecture.png>]
-<body/ch4/figs/spqis-overview.png, id=1818, 563.10374pt x 302.12875pt>
+<body/ch4/figs/spqis-overview.png, id=1836, 563.10374pt x 302.12875pt>
 File: body/ch4/figs/spqis-overview.png Graphic file (type png)
 <use body/ch4/figs/spqis-overview.png>
 Package pdftex.def Info: body/ch4/figs/spqis-overview.png  used on input line 1
 97.
 (pdftex.def)             Requested size: 222.62206pt x 119.44327pt.
-<body/ch4/figs/fqds-overview.png, id=1821, 564.1075pt x 433.62pt>
+<body/ch4/figs/fqds-overview.png, id=1839, 564.1075pt x 433.62pt>
 File: body/ch4/figs/fqds-overview.png Graphic file (type png)
 <use body/ch4/figs/fqds-overview.png>
 Package pdftex.def Info: body/ch4/figs/fqds-overview.png  used on input line 21
@@ -2296,7 +2296,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 234--236
 []\OT1/ptm/m/n/10 Quantum cir-cuits for ex-e-cut-ing quan-tum al-go-
  []
 
-<body/ch4/figs/fpga-design-flow.png, id=1829, 865.2325pt x 182.6825pt>
+<body/ch4/figs/fpga-design-flow.png, id=1847, 865.2325pt x 182.6825pt>
 File: body/ch4/figs/fpga-design-flow.png Graphic file (type png)
 <use body/ch4/figs/fpga-design-flow.png>
 Package pdftex.def Info: body/ch4/figs/fpga-design-flow.png  used on input line
@@ -2308,7 +2308,7 @@ Underfull \hbox (badness 1648) in paragraph at lines 269--269
  []
 
 [43 <./body/ch4/figs/fpga-design-flow.png>]
-<body/ch4/figs/amd-lut6.png, id=1839, 503.8825pt x 284.06125pt>
+<body/ch4/figs/amd-lut6.png, id=1857, 503.8825pt x 284.06125pt>
 File: body/ch4/figs/amd-lut6.png Graphic file (type png)
 <use body/ch4/figs/amd-lut6.png>
 Package pdftex.def Info: body/ch4/figs/amd-lut6.png  used on input line 295.
@@ -2317,13 +2317,13 @@ Package pdftex.def Info: body/ch4/figs/amd-lut6.png  used on input line 295.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44 <./body/ch4/figs/amd-lut6.png>]
-<body/ch4/figs/floating-point.png, id=1849, 1095.09125pt x 138.5175pt>
+<body/ch4/figs/floating-point.png, id=1867, 1095.09125pt x 138.5175pt>
 File: body/ch4/figs/floating-point.png Graphic file (type png)
 <use body/ch4/figs/floating-point.png>
 Package pdftex.def Info: body/ch4/figs/floating-point.png  used on input line 3
 50.
 (pdftex.def)             Requested size: 222.62206pt x 28.15955pt.
-<body/ch4/figs/fixed-point.png, id=1851, 1144.275pt x 198.7425pt>
+<body/ch4/figs/fixed-point.png, id=1869, 1144.275pt x 198.7425pt>
 File: body/ch4/figs/fixed-point.png Graphic file (type png)
 <use body/ch4/figs/fixed-point.png>
 Package pdftex.def Info: body/ch4/figs/fixed-point.png  used on input line 357.
@@ -2333,7 +2333,7 @@ Package pdftex.def Info: body/ch4/figs/fixed-point.png  used on input line 357.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
-<body/ch4/figs/bloch-011.png, id=1858, 1517.67pt x 510.90875pt>
+<body/ch4/figs/bloch-011.png, id=1876, 1517.67pt x 510.90875pt>
 File: body/ch4/figs/bloch-011.png Graphic file (type png)
 <use body/ch4/figs/bloch-011.png>
 Package pdftex.def Info: body/ch4/figs/bloch-011.png  used on input line 370.
@@ -2343,7 +2343,7 @@ Package pdftex.def Info: body/ch4/figs/bloch-011.png  used on input line 370.
 LaTeX Warning: Reference `fig:unit-circle' on page 46 undefined on input line 3
 74.
 
-<body/ch4/figs/unit-circle-011.png, id=1859, 1504.62125pt x 460.72125pt>
+<body/ch4/figs/unit-circle-011.png, id=1877, 1504.62125pt x 460.72125pt>
 File: body/ch4/figs/unit-circle-011.png Graphic file (type png)
 <use body/ch4/figs/unit-circle-011.png>
 Package pdftex.def Info: body/ch4/figs/unit-circle-011.png  used on input line 
@@ -2364,20 +2364,20 @@ Underfull \vbox (badness 2020) has occurred while \output is active []
 body/ch4/figs/bloch-011.png> <./body/ch4/figs/unit-circle-011.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<body/ch4/figs/qubit-mapping-method-1.png, id=1874, 549.05125pt x 256.96pt>
+<body/ch4/figs/qubit-mapping-method-1.png, id=1893, 549.05125pt x 256.96pt>
 File: body/ch4/figs/qubit-mapping-method-1.png Graphic file (type png)
 <use body/ch4/figs/qubit-mapping-method-1.png>
 Package pdftex.def Info: body/ch4/figs/qubit-mapping-method-1.png  used on inpu
 t line 405.
 (pdftex.def)             Requested size: 222.62206pt x 104.18585pt.
  [47 <./body/ch4/figs/qubit-mapping-method-1.png>]
-<body/ch4/figs/qubit-mapping-leds.png, id=1884, 512.91624pt x 257.96375pt>
+<body/ch4/figs/qubit-mapping-leds.png, id=1902, 512.91624pt x 257.96375pt>
 File: body/ch4/figs/qubit-mapping-leds.png Graphic file (type png)
 <use body/ch4/figs/qubit-mapping-leds.png>
 Package pdftex.def Info: body/ch4/figs/qubit-mapping-leds.png  used on input li
 ne 421.
 (pdftex.def)             Requested size: 222.62206pt x 111.96533pt.
-<body/ch4/figs/led-to-ldr.png, id=1888, 540.0175pt x 318.18875pt>
+<body/ch4/figs/led-to-ldr.png, id=1906, 540.0175pt x 318.18875pt>
 File: body/ch4/figs/led-to-ldr.png Graphic file (type png)
 <use body/ch4/figs/led-to-ldr.png>
 Package pdftex.def Info: body/ch4/figs/led-to-ldr.png  used on input line 436.
@@ -2391,7 +2391,7 @@ Underfull \hbox (badness 1024) in paragraph at lines 451--452
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49 <./body/ch4/figs/led-to-ldr.png>]
-<body/ch4/figs/trigger.png, id=1901, 540.0175pt x 268.00125pt>
+<body/ch4/figs/trigger.png, id=1919, 540.0175pt x 268.00125pt>
 File: body/ch4/figs/trigger.png Graphic file (type png)
 <use body/ch4/figs/trigger.png>
 Package pdftex.def Info: body/ch4/figs/trigger.png  used on input line 457.
@@ -2402,7 +2402,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [50 <./body/ch4/figs/trigger.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<body/ch4/figs/fifo-shift-register.png, id=1917, 490.83376pt x 294.09875pt>
+<body/ch4/figs/fifo-shift-register.png, id=1935, 490.83376pt x 294.09875pt>
 File: body/ch4/figs/fifo-shift-register.png Graphic file (type png)
 <use body/ch4/figs/fifo-shift-register.png>
 Package pdftex.def Info: body/ch4/figs/fifo-shift-register.png  used on input l
@@ -2416,13 +2416,13 @@ Overfull \hbox (7.36395pt too wide) detected at line 553
 []
  []
 
-<body/ch4/figs/3-x-gates.png, id=1930, 260.975pt x 170.6375pt>
+<body/ch4/figs/3-x-gates.png, id=1948, 260.975pt x 170.6375pt>
 File: body/ch4/figs/3-x-gates.png Graphic file (type png)
 <use body/ch4/figs/3-x-gates.png>
 Package pdftex.def Info: body/ch4/figs/3-x-gates.png  used on input line 557.
 (pdftex.def)             Requested size: 189.2301pt x 123.72853pt.
 [52 <./body/ch4/figs/fifo-shift-register.png>]
-<body/ch4/figs/dsp-opt-pipeline.png, id=1946, 456.70625pt x 220.825pt>
+<body/ch4/figs/dsp-opt-pipeline.png, id=1964, 456.70625pt x 220.825pt>
 File: body/ch4/figs/dsp-opt-pipeline.png Graphic file (type png)
 <use body/ch4/figs/dsp-opt-pipeline.png>
 Package pdftex.def Info: body/ch4/figs/dsp-opt-pipeline.png  used on input line
@@ -2433,7 +2433,7 @@ Underfull \hbox (badness 1178) in paragraph at lines 592--599
 \OT1/ptm/m/n/10 forms mul-ti-pli-ca-tion op-er-a-tions in pipelined stages.
  []
 
-<body/ch4/figs/xilinx-vector-multiply.png, id=1948, 1094.0875pt x 671.50874pt>
+<body/ch4/figs/xilinx-vector-multiply.png, id=1966, 1094.0875pt x 671.50874pt>
 File: body/ch4/figs/xilinx-vector-multiply.png Graphic file (type png)
 <use body/ch4/figs/xilinx-vector-multiply.png>
 Package pdftex.def Info: body/ch4/figs/xilinx-vector-multiply.png  used on inpu
@@ -2449,7 +2449,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54 <./body/ch4/figs/dsp-opt-pipeline.png> <./body/ch4/figs/xilinx-vector-mult
 iply.png>]
-<body/ch4/figs/quantum-teleportation-circuit.png, id=1972, 401.5pt x 181.67876p
+<body/ch4/figs/quantum-teleportation-circuit.png, id=1990, 401.5pt x 181.67876p
 t>
 File: body/ch4/figs/quantum-teleportation-circuit.png Graphic file (type png)
 <use body/ch4/figs/quantum-teleportation-circuit.png>
@@ -2461,7 +2461,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 660--660
 |[]\OT1/ptm/b/it/10 Simulating the QFT Trans-form Quan-tum
  []
 
-<body/ch4/figs/qft-pipeline.png, id=1976, 1154.3125pt x 207.77625pt>
+<body/ch4/figs/qft-pipeline.png, id=1994, 1154.3125pt x 207.77625pt>
 File: body/ch4/figs/qft-pipeline.png Graphic file (type png)
 <use body/ch4/figs/qft-pipeline.png>
 Package pdftex.def Info: body/ch4/figs/qft-pipeline.png  used on input line 667
@@ -2476,7 +2476,7 @@ LaTeX Warning: Reference `fig:fourier-basis' on page 56 undefined on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<body/ch4/figs/quantum-factoring-algorithm.png, id=1987, 1478.52374pt x 400.496
+<body/ch4/figs/quantum-factoring-algorithm.png, id=2006, 1478.52374pt x 400.496
 25pt>
 File: body/ch4/figs/quantum-factoring-algorithm.png Graphic file (type png)
 <use body/ch4/figs/quantum-factoring-algorithm.png>
@@ -2484,7 +2484,7 @@ Package pdftex.def Info: body/ch4/figs/quantum-factoring-algorithm.png  used on
  input line 727.
 (pdftex.def)             Requested size: 222.62206pt x 60.29794pt.
  [56 <./body/ch4/figs/quantum-factoring-algorithm.png>]
-<body/ch4/figs/grovers-circuit.png, id=2004, 863.225pt x 127.47626pt>
+<body/ch4/figs/grovers-circuit.png, id=2022, 863.225pt x 127.47626pt>
 File: body/ch4/figs/grovers-circuit.png Graphic file (type png)
 <use body/ch4/figs/grovers-circuit.png>
 Package pdftex.def Info: body/ch4/figs/grovers-circuit.png  used on input line 
@@ -2495,7 +2495,7 @@ Package pdftex.def Info: body/ch4/figs/grovers-circuit.png  used on input line
 LaTeX Warning: Reference `tab:controlled-z' on page 57 undefined on input line 
 802.
 
-<body/ch4/figs/grover-phase-flip.png, id=2006, 992.70876pt x 972.63374pt>
+<body/ch4/figs/grover-phase-flip.png, id=2024, 992.70876pt x 972.63374pt>
 File: body/ch4/figs/grover-phase-flip.png Graphic file (type png)
 <use body/ch4/figs/grover-phase-flip.png>
 Package pdftex.def Info: body/ch4/figs/grover-phase-flip.png  used on input lin
@@ -2503,13 +2503,13 @@ e 805.
 (pdftex.def)             Requested size: 222.62206pt x 218.12077pt.
 [57 <./body/ch4/figs/grovers-circuit.png> <./body/ch4/figs/grover-phase-flip.pn
 g>]
-<body/ch4/figs/stm32-devboard.png, id=2016, 249.18094pt x 323.70938pt>
+<body/ch4/figs/stm32-devboard.png, id=2034, 249.18094pt x 323.70938pt>
 File: body/ch4/figs/stm32-devboard.png Graphic file (type png)
 <use body/ch4/figs/stm32-devboard.png>
 Package pdftex.def Info: body/ch4/figs/stm32-devboard.png  used on input line 8
 49.
 (pdftex.def)             Requested size: 66.7873pt x 86.76057pt.
-<body/ch4/figs/nexys-a7.png, id=2018, 602.25pt x 561.09625pt>
+<body/ch4/figs/nexys-a7.png, id=2036, 602.25pt x 561.09625pt>
 File: body/ch4/figs/nexys-a7.png Graphic file (type png)
 <use body/ch4/figs/nexys-a7.png>
 Package pdftex.def Info: body/ch4/figs/nexys-a7.png  used on input line 859.
@@ -2580,14 +2580,14 @@ Underfull \hbox (badness 1460) in paragraph at lines 100--101
  []
 
 [62]
-<body/ch5/figs/stm32f051c6.png, id=2120, 445.665pt x 358.33875pt>
+<body/ch5/figs/stm32f051c6.png, id=2138, 445.665pt x 358.33875pt>
 File: body/ch5/figs/stm32f051c6.png Graphic file (type png)
 <use body/ch5/figs/stm32f051c6.png>
 Package pdftex.def Info: body/ch5/figs/stm32f051c6.png  used on input line 139.
 
 (pdftex.def)             Requested size: 200.35849pt x 161.09784pt.
  [63 <./body/ch5/figs/stm32f051c6.png (PNG copy)>]
-<body/ch5/figs/fqds-circuit.png, id=2179, 292.09125pt x 474.77374pt>
+<body/ch5/figs/fqds-circuit.png, id=2197, 292.09125pt x 474.77374pt>
 File: body/ch5/figs/fqds-circuit.png Graphic file (type png)
 <use body/ch5/figs/fqds-circuit.png>
 Package pdftex.def Info: body/ch5/figs/fqds-circuit.png  used on input line 255
@@ -2599,7 +2599,7 @@ Underfull \hbox (badness 2351) in paragraph at lines 286--286
  []
 
 [64 <./body/ch5/figs/fqds-circuit.png>]
-<body/ch5/figs/qta-fsm.png, id=2195, 452.69125pt x 313.17pt>
+<body/ch5/figs/qta-fsm.png, id=2213, 452.69125pt x 313.17pt>
 File: body/ch5/figs/qta-fsm.png Graphic file (type png)
 <use body/ch5/figs/qta-fsm.png>
 Package pdftex.def Info: body/ch5/figs/qta-fsm.png  used on input line 393.
@@ -2626,15 +2626,11 @@ Overfull \hbox (2.32794pt too wide) in alignment at lines 633--645
 ) (./body/ch6/ch6.tex [68]
 Chapter 6.
 
-Underfull \hbox (badness 4543) in paragraph at lines 5--5
-|[]\OT1/ptm/b/it/10 Generated a Nor-malised Dis-tri-bu-tion of
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+|[]\OT1/ptm/b/sc/12 Normalised Dis-tri-bu-tion of
  []
 
 
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5.
 
@@ -2642,133 +2638,150 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5.
 
+<body/ch6/figs/fixed-point-matrix.png, id=2488, 788.9475pt x 215.30438pt>
+File: body/ch6/figs/fixed-point-matrix.png Graphic file (type png)
+<use body/ch6/figs/fixed-point-matrix.png>
+Package pdftex.def Info: body/ch6/figs/fixed-point-matrix.png  used on input li
+ne 13.
+(pdftex.def)             Requested size: 222.62206pt x 60.75131pt.
+<body/ch6/figs/bread.jpg, id=2490, 2320.67pt x 1306.8825pt>
+File: body/ch6/figs/bread.jpg Graphic file (type jpg)
+<use body/ch6/figs/bread.jpg>
+Package pdftex.def Info: body/ch6/figs/bread.jpg  used on input line 23.
+(pdftex.def)             Requested size: 100.17924pt x 56.4142pt.
+<body/ch6/figs/veroboard.jpg, id=2492, 978.65625pt x 958.58125pt>
+File: body/ch6/figs/veroboard.jpg Graphic file (type jpg)
+<use body/ch6/figs/veroboard.jpg>
+Package pdftex.def Info: body/ch6/figs/veroboard.jpg  used on input line 32.
+(pdftex.def)             Requested size: 100.17924pt x 98.11626pt.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 9.
+(hyperref)                than one, level fixed on input line 39.
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 13--13
+Underfull \hbox (badness 4072) in paragraph at lines 43--43
 |[][]\OT1/ptm/b/sc/12 Emulation of Quan-tum Tele-
  []
-
-<body/ch6/figs/qta-resources.png, id=2469, 133.24782pt x 166.37157pt>
-File: body/ch6/figs/qta-resources.png Graphic file (type png)
-<use body/ch6/figs/qta-resources.png>
-Package pdftex.def Info: body/ch6/figs/qta-resources.png  used on input line 19
-.
-(pdftex.def)             Requested size: 100.17924pt x 125.08553pt.
-<body/ch6/figs/qta-resources-full.png, id=2470, 408.77719pt x 149.05687pt>
-File: body/ch6/figs/qta-resources-full.png Graphic file (type png)
-<use body/ch6/figs/qta-resources-full.png>
-Package pdftex.def Info: body/ch6/figs/qta-resources-full.png  used on input li
-ne 26.
-(pdftex.def)             Requested size: 100.17924pt x 36.52948pt.
-<body/ch6/figs/qta-registers.png, id=2471, 286.82156pt x 198.7425pt>
-File: body/ch6/figs/qta-registers.png Graphic file (type png)
-<use body/ch6/figs/qta-registers.png>
-Package pdftex.def Info: body/ch6/figs/qta-registers.png  used on input line 33
-.
-(pdftex.def)             Requested size: 100.17924pt x 69.41534pt.
-<body/ch6/figs/qta-memory.png, id=2472, 356.83313pt x 115.18031pt>
-File: body/ch6/figs/qta-memory.png Graphic file (type png)
-<use body/ch6/figs/qta-memory.png>
-Package pdftex.def Info: body/ch6/figs/qta-memory.png  used on input line 40.
-(pdftex.def)             Requested size: 100.17924pt x 32.33636pt.
-File: body/ch6/figs/qta-memory.png Graphic file (type png)
-<use body/ch6/figs/qta-memory.png>
-Package pdftex.def Info: body/ch6/figs/qta-memory.png  used on input line 47.
-(pdftex.def)             Requested size: 100.17924pt x 32.33636pt.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 52.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [69
 
+ <./body/ch6/figs/fixed-point-matrix.png (PNG copy)> <./body/ch6/figs/bread.jpg
+> <./body/ch6/figs/veroboard.jpg>]
+<body/ch6/figs/qta-resources.png, id=2498, 133.24782pt x 166.37157pt>
+File: body/ch6/figs/qta-resources.png Graphic file (type png)
+<use body/ch6/figs/qta-resources.png>
+Package pdftex.def Info: body/ch6/figs/qta-resources.png  used on input line 49
+.
+(pdftex.def)             Requested size: 100.17924pt x 125.08553pt.
+<body/ch6/figs/qta-resources-full.png, id=2499, 408.77719pt x 149.05687pt>
+File: body/ch6/figs/qta-resources-full.png Graphic file (type png)
+<use body/ch6/figs/qta-resources-full.png>
+Package pdftex.def Info: body/ch6/figs/qta-resources-full.png  used on input li
+ne 56.
+(pdftex.def)             Requested size: 100.17924pt x 36.52948pt.
+<body/ch6/figs/qta-registers.png, id=2500, 286.82156pt x 198.7425pt>
+File: body/ch6/figs/qta-registers.png Graphic file (type png)
+<use body/ch6/figs/qta-registers.png>
+Package pdftex.def Info: body/ch6/figs/qta-registers.png  used on input line 63
+.
+(pdftex.def)             Requested size: 100.17924pt x 69.41534pt.
+<body/ch6/figs/qta-memory.png, id=2501, 356.83313pt x 115.18031pt>
+File: body/ch6/figs/qta-memory.png Graphic file (type png)
+<use body/ch6/figs/qta-memory.png>
+Package pdftex.def Info: body/ch6/figs/qta-memory.png  used on input line 70.
+(pdftex.def)             Requested size: 100.17924pt x 32.33636pt.
+File: body/ch6/figs/qta-memory.png Graphic file (type png)
+<use body/ch6/figs/qta-memory.png>
+Package pdftex.def Info: body/ch6/figs/qta-memory.png  used on input line 77.
+(pdftex.def)             Requested size: 100.17924pt x 32.33636pt.
 
-LaTeX Warning: Text page 69 contains only floats.
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+|[]\OT1/ptm/b/sc/12 Emulating the Quan-tum
+ []
 
-[69
-
- <./body/ch6/figs/qta-resources.png (PNG copy)> <./body/ch6/figs/qta-resources-
-full.png (PNG copy)> <./body/ch6/figs/qta-registers.png (PNG copy)> <./body/ch6
-/figs/qta-memory.png (PNG copy)>]
-<body/ch6/figs/qft-hdl-res-report.png, id=2483, 147.55125pt x 172.39406pt>
+[70 <./body/ch6/figs/qta-resources.png (PNG copy)> <./body/ch6/figs/qta-resourc
+es-full.png (PNG copy)> <./body/ch6/figs/qta-registers.png (PNG copy)> <./body/
+ch6/figs/qta-memory.png (PNG copy)>]
+<body/ch6/figs/qft-hdl-res-report.png, id=2551, 147.55125pt x 172.39406pt>
 File: body/ch6/figs/qft-hdl-res-report.png Graphic file (type png)
 <use body/ch6/figs/qft-hdl-res-report.png>
 Package pdftex.def Info: body/ch6/figs/qft-hdl-res-report.png  used on input li
-ne 155.
+ne 185.
 (pdftex.def)             Requested size: 100.17924pt x 117.04753pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--160
+Underfull \hbox (badness 10000) in paragraph at lines 182--190
 \OT1/ptm/m/n/10 The HDL Re-source Uti-liza-tion Re-port of the
  []
 
 
-Underfull \hbox (badness 7415) in paragraph at lines 152--160
+Underfull \hbox (badness 7415) in paragraph at lines 182--190
 \OT1/pcr/m/n/10 qft[]3qubit[]fixpt \OT1/ptm/m/n/10 Sys-temVer-ilog mod-ule out-
 
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 152--160
+Underfull \hbox (badness 1281) in paragraph at lines 182--190
 \OT1/ptm/m/n/10 The dense ma-trix op-er-a-tions of the QFT quan-tum
  []
 
-[70 <./body/ch6/figs/qft-hdl-res-report.png (PNG copy)>]
-<body/ch6/figs/qft-simulink-1.png, id=2583, 904.1278pt x 308.65312pt>
+<body/ch6/figs/qft-simulink-1.png, id=2553, 904.1278pt x 308.65312pt>
 File: body/ch6/figs/qft-simulink-1.png Graphic file (type png)
 <use body/ch6/figs/qft-simulink-1.png>
 Package pdftex.def Info: body/ch6/figs/qft-simulink-1.png  used on input line 1
-64.
+94.
 (pdftex.def)             Requested size: 222.62206pt x 75.99509pt.
-<body/ch6/figs/qft-simulink-12.png, id=2586, 667.74469pt x 204.01219pt>
+<body/ch6/figs/qft-simulink-12.png, id=2556, 667.74469pt x 204.01219pt>
 File: body/ch6/figs/qft-simulink-12.png Graphic file (type png)
 <use body/ch6/figs/qft-simulink-12.png>
 Package pdftex.def Info: body/ch6/figs/qft-simulink-12.png  used on input line 
-171.
+201.
 (pdftex.def)             Requested size: 222.62206pt x 68.0153pt.
-<body/ch6/figs/qft-simulink-2.png, id=2589, 792.71156pt x 528.47438pt>
+<body/ch6/figs/qft-simulink-2.png, id=2559, 792.71156pt x 528.47438pt>
 File: body/ch6/figs/qft-simulink-2.png Graphic file (type png)
 <use body/ch6/figs/qft-simulink-2.png>
-Package pdftex.def Info: body/ch6/figs/qft-simulink-2.png  used on input line 1
-78.
+Package pdftex.def Info: body/ch6/figs/qft-simulink-2.png  used on input line 2
+08.
 (pdftex.def)             Requested size: 222.62206pt x 148.41533pt.
-<body/ch6/figs/qft-simulink-3.png, id=2591, 861.9703pt x 181.42781pt>
+<body/ch6/figs/qft-simulink-3.png, id=2561, 861.9703pt x 181.42781pt>
 File: body/ch6/figs/qft-simulink-3.png Graphic file (type png)
 <use body/ch6/figs/qft-simulink-3.png>
-Package pdftex.def Info: body/ch6/figs/qft-simulink-3.png  used on input line 1
-85.
+Package pdftex.def Info: body/ch6/figs/qft-simulink-3.png  used on input line 2
+15.
 (pdftex.def)             Requested size: 222.62206pt x 46.85728pt.
 
-
 LaTeX Warning: Reference `tab:qft-summary-2' on page 71 undefined on input line
- 189.
+ 219.
 
-<body/ch6/figs/qft-summary-with-registers.png, id=2592, 148.30406pt x 174.6525p
+<body/ch6/figs/qft-summary-with-registers.png, id=2562, 148.30406pt x 174.6525p
 t>
 File: body/ch6/figs/qft-summary-with-registers.png Graphic file (type png)
 <use body/ch6/figs/qft-summary-with-registers.png>
 Package pdftex.def Info: body/ch6/figs/qft-summary-with-registers.png  used on 
-input line 192.
+input line 222.
 (pdftex.def)             Requested size: 122.4428pt x 144.20201pt.
+[71 <./body/ch6/figs/qft-hdl-res-report.png (PNG copy)> <./body/ch6/figs/qft-si
+mulink-1.png (PNG copy)> <./body/ch6/figs/qft-simulink-12.png (PNG copy)>]
 
-LaTeX Warning: Reference `tab:qft-post-synth' on page 71 undefined on input lin
-e 198.
+LaTeX Warning: Reference `tab:qft-post-synth' on page 72 undefined on input lin
+e 228.
 
-<body/ch6/figs/qft-post-synth.png, id=2593, 325.96782pt x 185.19188pt>
+<body/ch6/figs/qft-post-synth.png, id=2624, 325.96782pt x 185.19188pt>
 File: body/ch6/figs/qft-post-synth.png Graphic file (type png)
 <use body/ch6/figs/qft-post-synth.png>
 Package pdftex.def Info: body/ch6/figs/qft-post-synth.png  used on input line 2
-02.
+32.
 (pdftex.def)             Requested size: 100.17924pt x 56.91437pt.
-) (./body/ch7/ch7.tex [71 <./body/ch6/figs/qft-simulink-1.png (PNG copy)> <./bo
-dy/ch6/figs/qft-simulink-12.png (PNG copy)> <./body/ch6/figs/qft-simulink-2.png
- (PNG copy)> <./body/ch6/figs/qft-simulink-3.png (PNG copy)> <./body/ch6/figs/q
-ft-summary-with-registers.png (PNG copy)>] [72
 
- <./body/ch6/figs/qft-post-synth.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+|[]\OT1/ptm/b/sc/12 Emulation of the Quan-tum
+ []
+
+) (./body/ch7/ch7.tex [72 <./body/ch6/figs/qft-simulink-2.png (PNG copy)> <./bo
+dy/ch6/figs/qft-simulink-3.png (PNG copy)> <./body/ch6/figs/qft-summary-with-re
+gisters.png (PNG copy)> <./body/ch6/figs/qft-post-synth.png (PNG copy)>]
 Chapter 7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3056,21 +3069,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `MSc_Dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MSc_Dissertation.out':
-(rerunfilecheck)             Before: E89C67D99D1213BB1E5A1C6A8FE35D90;32694
-(rerunfilecheck)             After:  4FE5775650CF8D3CE2CC6D59063FF6F1;32977.
+Package rerunfilecheck Info: File `MSc_Dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 4F4C6F3A7BA03A8166A2FFE2CA401D1E;33082.
  ) 
 Here is how much of TeX's memory you used:
- 54517 strings out of 478287
- 1186257 string characters out of 5849289
- 1886283 words of memory out of 5000000
- 70680 multiletter control sequences out of 15000+600000
- 516925 words of font info for 127 fonts, out of 8000000 for 9000
+ 54575 strings out of 478287
+ 1187668 string characters out of 5849289
+ 1858637 words of memory out of 5000000
+ 70727 multiletter control sequences out of 15000+600000
+ 518981 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,16n,109p,3322b,2358s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3079,32 +3086,33 @@ f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MSc_Dissertation.pdf (93 pages, 3167050 bytes).
+amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MSc_Dissertation.pdf (93 pages, 4000443 bytes).
 PDF statistics:
- 2991 PDF objects out of 3580 (max. 8388607)
- 2667 compressed objects within 27 object streams
- 927 named destinations out of 1000 (max. 500000)
- 1345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3019 PDF objects out of 3580 (max. 8388607)
+ 2690 compressed objects within 27 object streams
+ 931 named destinations out of 1000 (max. 500000)
+ 1376 words of extra memory for PDF output out of 10000 (max. 10000000)
 

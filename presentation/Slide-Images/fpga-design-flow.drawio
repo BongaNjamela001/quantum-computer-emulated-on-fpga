@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="U2kBxbAQbVitZyt5an3E">
+    <mxGraphModel dx="1434" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="860" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1oOVjhlaintZ9Wxe-AjX-2">
+          <mxGeometry width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-4" value="$$\text{Hardware}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1oOVjhlaintZ9Wxe-AjX-2">
+          <mxGeometry x="5" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-5" value="$$\text{Specifications}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1oOVjhlaintZ9Wxe-AjX-2">
+          <mxGeometry x="5" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1oOVjhlaintZ9Wxe-AjX-7" target="1oOVjhlaintZ9Wxe-AjX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-8" value="$$\text{Quantum}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="355" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1oOVjhlaintZ9Wxe-AjX-10" target="1oOVjhlaintZ9Wxe-AjX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-11" value="$$\text{RTL}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="355" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1oOVjhlaintZ9Wxe-AjX-13" target="1oOVjhlaintZ9Wxe-AjX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-14" value="$$\text{Logic Element}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="355" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-16" value="$$\text{Placement &amp;amp;}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="855" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1oOVjhlaintZ9Wxe-AjX-3" target="1oOVjhlaintZ9Wxe-AjX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-18" value="$$\text{Quantum Algorithm Emulation Substystem Abstractions}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-19" value="$$\text{Behaviour}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="385" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-20" value="$$\text{Verification}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="385" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-21" value="$$\text{Quantum Gates}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="385" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oOVjhlaintZ9Wxe-AjX-22" value="$$\text{Synthesis}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="855" y="390" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
