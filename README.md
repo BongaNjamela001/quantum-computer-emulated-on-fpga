@@ -7,12 +7,12 @@ This project emulates fundamental quantum computing operations on an FPGA, model
 The repository's main directories include:
 
 - digilent-xdc: XDC constraint files for various FPGA boards.
-- fqds: Contains synthesized files and reports for the quantum Fourier transform (QFT) and other modules.
+- fqds: Contains SystemVerilog module for detecting resistance states using Pmod JD.
 - matlab-project-scripts: MATLAB scripts to simulate and test QFT and Grover's algorithms.
 - presentation: Oral presentation slides, posters, and related visual content.
-qaes: Source files and reports for quantum algorithms.
+- qaes: Source files and reports for quantum algorithms.
 - quantum_teleportation: Files for emulating the quantum teleportation algorithm.
-report: Thesis files and LaTeX documents detailing the project.
+- report: Thesis files and LaTeX documents detailing the project.
 
 ## Subsystem Overview
 
