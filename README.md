@@ -6,7 +6,6 @@ This project emulates fundamental quantum computing operations on an FPGA, model
 
 The repository's main directories include:
 
-- digilent-xdc: XDC constraint files for various FPGA boards.
 - fqds: Contains SystemVerilog module for detecting resistance states using Pmod JD.
 - matlab-project-scripts: MATLAB scripts to simulate and test QFT and Grover's algorithms.
 - presentation: Oral presentation slides, posters, and related visual content.
