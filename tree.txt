@@ -1,0 +1,1019 @@
+.
+├── digilent-xdc
+│   ├── Arty-A7-100-Master.xdc
+│   ├── Arty-A7-35-Master.xdc
+│   ├── Arty-Master.xdc
+│   ├── Arty-S7-25-Master.xdc
+│   ├── Arty-S7-50-Master.xdc
+│   ├── Arty-Z7-10-Master.xdc
+│   ├── Arty-Z7-20-Master.xdc
+│   ├── Basys-3-Master.xdc
+│   ├── Cmod-A7-Master.xdc
+│   ├── Cmod-S7-25-Master.xdc
+│   ├── Cora-Z7-07S-Master.xdc
+│   ├── Cora-Z7-10-Master.xdc
+│   ├── Eclypse-Z7-Master.xdc
+│   ├── Genesys-2-Master.xdc
+│   ├── Genesys-ZU-3EG-D-Master.xdc
+│   ├── Genesys-ZU-3EG-Master.xdc
+│   ├── Genesys-ZU-5EV-D-Master.xdc
+│   ├── License.txt
+│   ├── Nexys-4-DDR-Master.xdc
+│   ├── Nexys-4-Master.xdc
+│   ├── Nexys-A7-100T-Master.xdc
+│   ├── Nexys-A7-50T-Master.xdc
+│   ├── Nexys-Video-Master.xdc
+│   ├── README.md
+│   ├── Sword-Master.xdc
+│   ├── USB104-A7-100T-Master.xdc
+│   ├── Zedboard-Master.xdc
+│   ├── Zybo-Master.xdc
+│   └── Zybo-Z7-Master.xdc
+├── fqds
+│   ├── constraints
+│   │   └── Nexys-A7-100T-Master.xdc
+│   ├── fqds.cache
+│   │   ├── ip
+│   │   │   └── 2024.1
+│   │   └── wt
+│   │       ├── project.wpc
+│   │       ├── synthesis_details.wdf
+│   │       ├── synthesis.wdf
+│   │       └── webtalk_pa.xml
+│   ├── fqds.hw
+│   │   ├── fqds.lpr
+│   │   └── hw_1
+│   │       ├── hw.xml
+│   │       └── wave
+│   ├── fqds.ip_user_files
+│   ├── fqds.runs
+│   │   ├── impl_1
+│   │   │   ├── clockInfo.txt
+│   │   │   ├── gen_run.xml
+│   │   │   ├── htr.txt
+│   │   │   ├── init_design.pb
+│   │   │   ├── ISEWrap.js
+│   │   │   ├── ISEWrap.sh
+│   │   │   ├── opt_design.pb
+│   │   │   ├── phys_opt_design.pb
+│   │   │   ├── place_design.pb
+│   │   │   ├── Pmod_Read_One_Second_311398.backup.vdi
+│   │   │   ├── Pmod_Read_One_Second.bit
+│   │   │   ├── Pmod_Read_One_Second_bus_skew_routed.pb
+│   │   │   ├── Pmod_Read_One_Second_bus_skew_routed.rpt
+│   │   │   ├── Pmod_Read_One_Second_bus_skew_routed.rpx
+│   │   │   ├── Pmod_Read_One_Second_clock_utilization_routed.rpt
+│   │   │   ├── Pmod_Read_One_Second_control_sets_placed.rpt
+│   │   │   ├── Pmod_Read_One_Second_drc_opted.pb
+│   │   │   ├── Pmod_Read_One_Second_drc_opted.rpt
+│   │   │   ├── Pmod_Read_One_Second_drc_opted.rpx
+│   │   │   ├── Pmod_Read_One_Second_drc_routed.pb
+│   │   │   ├── Pmod_Read_One_Second_drc_routed.rpt
+│   │   │   ├── Pmod_Read_One_Second_drc_routed.rpx
+│   │   │   ├── Pmod_Read_One_Second_io_placed.rpt
+│   │   │   ├── Pmod_Read_One_Second_methodology_drc_routed.pb
+│   │   │   ├── Pmod_Read_One_Second_methodology_drc_routed.rpt
+│   │   │   ├── Pmod_Read_One_Second_methodology_drc_routed.rpx
+│   │   │   ├── Pmod_Read_One_Second_opt.dcp
+│   │   │   ├── Pmod_Read_One_Second_physopt.dcp
+│   │   │   ├── Pmod_Read_One_Second_placed.dcp
+│   │   │   ├── Pmod_Read_One_Second_power_routed.rpt
+│   │   │   ├── Pmod_Read_One_Second_power_routed.rpx
+│   │   │   ├── Pmod_Read_One_Second_power_summary_routed.pb
+│   │   │   ├── Pmod_Read_One_Second_routed.dcp
+│   │   │   ├── Pmod_Read_One_Second_route_status.pb
+│   │   │   ├── Pmod_Read_One_Second_route_status.rpt
+│   │   │   ├── Pmod_Read_One_Second.tcl
+│   │   │   ├── Pmod_Read_One_Second_timing_summary_routed.pb
+│   │   │   ├── Pmod_Read_One_Second_timing_summary_routed.rpt
+│   │   │   ├── Pmod_Read_One_Second_timing_summary_routed.rpx
+│   │   │   ├── Pmod_Read_One_Second_utilization_placed.pb
+│   │   │   ├── Pmod_Read_One_Second_utilization_placed.rpt
+│   │   │   ├── Pmod_Read_One_Second.vdi
+│   │   │   ├── project.wdf
+│   │   │   ├── route_design.pb
+│   │   │   ├── rundef.js
+│   │   │   ├── runme.bat
+│   │   │   ├── runme.log
+│   │   │   ├── runme.sh
+│   │   │   ├── vivado_311398.backup.jou
+│   │   │   ├── vivado.jou
+│   │   │   ├── vivado.pb
+│   │   │   └── write_bitstream.pb
+│   │   └── synth_1
+│   │       ├── gen_run.xml
+│   │       ├── htr.txt
+│   │       ├── incr_synth_reason.pb
+│   │       ├── ISEWrap.js
+│   │       ├── ISEWrap.sh
+│   │       ├── Pmod_Read_One_Second.dcp
+│   │       ├── Pmod_Read_One_Second.tcl
+│   │       ├── Pmod_Read_One_Second_utilization_synth.pb
+│   │       ├── Pmod_Read_One_Second_utilization_synth.rpt
+│   │       ├── Pmod_Read_One_Second.vds
+│   │       ├── rundef.js
+│   │       ├── runme.bat
+│   │       ├── runme.log
+│   │       ├── runme.sh
+│   │       ├── __synthesis_is_complete__
+│   │       ├── vivado.jou
+│   │       └── vivado.pb
+│   ├── fqds.sim
+│   ├── fqds.srcs
+│   │   ├── constrs_1
+│   │   │   └── imports
+│   │   │       └── constraints
+│   │   │           └── Nexys-A7-100T-Master.xdc
+│   │   ├── sources_1
+│   │   │   └── new
+│   │   │       └── fqds.vhd
+│   │   └── utils_1
+│   │       └── imports
+│   │           └── synth_1
+│   │               └── Pmod_Read_One_Second.dcp
+│   └── fqds.xpr
+├── matlab-project-scripts
+│   ├── 3qft.prj
+│   ├── codegen
+│   │   └── qft_3qubit
+│   │       └── fixpt
+│   │           └── fxptmp
+│   │               └── qft_3qubit
+│   │                   ├── html
+│   │                   │   └── report.mldatx
+│   │                   └── interface
+│   ├── generate_amps.m
+│   ├── generate_probs.m
+│   ├── generateQuantumProbabilities.m
+│   ├── grover_search_algorithm.m
+│   ├── html
+│   │   └── x_gate_funct.html
+│   ├── qft_3qubit.m
+│   ├── test_qft_3qubit.m
+│   ├── x_gate_funct.m
+│   ├── x_gate_funct_test.m
+│   └── x_gate.m
+├── presentation
+│   ├── EEE4022S ORAL PRESENTATION NJMLUN002.pptx
+│   ├── Poster
+│   │   └── Bonga_Njamela_EEE4022S_Poster_2-final.png
+│   └── Slide-Images
+│       ├── 3qft-vivado.png
+│       ├── 3-qubit-initialisation.png
+│       ├── aim-svgrepo.svg
+│       ├── atom_logo.png
+│       ├── born's-postulate.png
+│       ├── divincenzo.drawio
+│       ├── divincenzo.png
+│       ├── D-Wave_Systems_logo.png
+│       ├── fixed-point-conversion.png
+│       ├── fixed-point-matrix.png
+│       ├── fpga-design-flow.drawio
+│       ├── fpga-design-flow.png
+│       ├── fpga_plbs.drawio
+│       ├── FPGA-selection.png
+│       ├── fpga_slices.drawio
+│       ├── fpga_slices.png
+│       ├── front-cover.drawio
+│       ├── front-cover-iamge.png
+│       ├── front-cover-image.png
+│       ├── hardware.jpg
+│       ├── hdl-coder-mathworks-design-flow.jpg
+│       ├── hdl-coder-report.png
+│       ├── hdl-conversion-code.png
+│       ├── ibm-logo.svg
+│       ├── initialise qubits.png
+│       ├── matlab-verification-dat.png
+│       ├── mcu-buttons.png
+│       ├── normalisation-condition.png
+│       ├── overall-system-design
+│       ├── overall-system.drawio
+│       ├── overall-system.png
+│       ├── qfa-circuit-color.drawio
+│       ├── qfa-circuit-color.png
+│       ├── qsa-circuit-color.drawio
+│       ├── qsa-circuit-color.png
+│       ├── quantum-state-equation.drawio
+│       ├── qubit.png
+│       ├── Screenshot_20241030_065605.png
+│       ├── Screenshot_20241030_072406.png
+│       ├── spqis.png
+│       ├── systemverilog-3qft.png
+│       ├── tensor-product-function.png
+│       ├── tensor-product-math.png
+│       ├── testbench.png
+│       ├── universal-set-of-quantum-gates.drawio
+│       ├── universal-set-of-quantum-gates.png
+│       ├── verification.png
+│       └── x-gate-amd.png
+├── qaes
+│   ├── codegen
+│   │   └── qft_3qubit
+│   │       ├── fixpt
+│   │       │   ├── cache_dir
+│   │       │   │   ├── qft_3qubit_float_mex_codegenCache.mat
+│   │       │   │   └── qft_3qubit_wrapper_fixpt_mex_codegenCache.mat
+│   │       │   ├── fxptmp
+│   │       │   │   ├── qft_3qubit_fixpt_args.mat
+│   │       │   │   ├── qft_3qubit_fixpt.m
+│   │       │   │   └── qft_3qubit_wrapper_fixpt.m
+│   │       │   ├── guiFpReport.mat
+│   │       │   ├── IncrementalConversion.mat
+│   │       │   ├── qft_3qubit_fixpt_args.mat
+│   │       │   ├── qft_3qubit_fixpt_log.txt
+│   │       │   ├── qft_3qubit_fixpt.m
+│   │       │   ├── qft_3qubit_float_mex.mexa64
+│   │       │   ├── qft_3qubit_report.html
+│   │       │   ├── qft_3qubit_wrapper_fixpt.m
+│   │       │   ├── qft_3qubit_wrapper_fixpt_mex.mexa64
+│   │       │   └── reports
+│   │       │       └── qft_3qubit_wrapper_fixpt_mex
+│   │       │           └── html
+│   │       │               └── report.mldatx
+│   │       └── hdlsrc
+│   │           ├── clock_constraint.xdc
+│   │           ├── codegen_info.mat
+│   │           ├── html
+│   │           │   └── report.mldatx
+│   │           ├── interface
+│   │           ├── post_synth_report.html
+│   │           ├── qft_3qubit_fixpt
+│   │           ├── qft_3qubit_fixpt_compile.do
+│   │           ├── qft_3qubit_fixpt_hdl_conformance_report.html
+│   │           ├── qft_3qubit_fixpt_pkg.sv
+│   │           ├── qft_3qubit_fixpt.sv
+│   │           ├── qft_3qubit_fixpt_tb_compile.do
+│   │           ├── qft_3qubit_fixpt_tb_sim.do
+│   │           ├── qft_3qubit_fixpt_tb.sv
+│   │           ├── resource_report.html
+│   │           ├── synth_util_plot.png
+│   │           └── vivado_prj
+│   │               ├── qft_3qubit_fixpt_preroute.tvr
+│   │               ├── qft_3qubit_fixpt_syn_results.txt
+│   │               ├── qft_3qubit_fixpt_vivado.cache
+│   │               │   ├── compile_simlib
+│   │               │   │   ├── activehdl
+│   │               │   │   ├── modelsim
+│   │               │   │   ├── questa
+│   │               │   │   ├── riviera
+│   │               │   │   ├── vcs
+│   │               │   │   └── xcelium
+│   │               │   ├── ip
+│   │               │   │   └── 2024.1
+│   │               │   └── wt
+│   │               │       ├── project.wpc
+│   │               │       ├── synthesis_details.wdf
+│   │               │       └── synthesis.wdf
+│   │               ├── qft_3qubit_fixpt_vivado.hw
+│   │               │   ├── hw_1
+│   │               │   │   ├── hw.xml
+│   │               │   │   └── wave
+│   │               │   └── qft_3qubit_fixpt_vivado.lpr
+│   │               ├── qft_3qubit_fixpt_vivado.ip_user_files
+│   │               ├── qft_3qubit_fixpt_vivado.runs
+│   │               │   ├── impl_1
+│   │               │   │   ├── hs_err_pid1105417.log
+│   │               │   │   ├── qft_3qubit_fixpt_1101998.backup.vdi
+│   │               │   │   ├── vivado_1101998.backup.jou
+│   │               │   │   └── vivado_1105417.backup.jou
+│   │               │   └── synth_1
+│   │               │       ├── gen_run.xml
+│   │               │       ├── htr.txt
+│   │               │       ├── incr_synth_reason.pb
+│   │               │       ├── ISEWrap.js
+│   │               │       ├── ISEWrap.sh
+│   │               │       ├── project.wdf
+│   │               │       ├── qft_3qubit_fixpt.dcp
+│   │               │       ├── qft_3qubit_fixpt.tcl
+│   │               │       ├── qft_3qubit_fixpt_utilization_synth.pb
+│   │               │       ├── qft_3qubit_fixpt_utilization_synth.rpt
+│   │               │       ├── qft_3qubit_fixpt.vds
+│   │               │       ├── rundef.js
+│   │               │       ├── runme.bat
+│   │               │       ├── runme.log
+│   │               │       ├── runme.sh
+│   │               │       ├── __synthesis_is_complete__
+│   │               │       ├── vivado.jou
+│   │               │       └── vivado.pb
+│   │               ├── qft_3qubit_fixpt_vivado.sim
+│   │               ├── qft_3qubit_fixpt_vivado.srcs
+│   │               │   ├── constrs_1
+│   │               │   │   └── imports
+│   │               │   │       └── xdc
+│   │               │   │           └── Nexys-A7-100T-Master.xdc
+│   │               │   └── utils_1
+│   │               │       └── imports
+│   │               │           └── synth_1
+│   │               │               └── qft_3qubit_fixpt.dcp
+│   │               ├── qft_3qubit_fixpt_vivado.xpr
+│   │               ├── qft_3qubit_fixpt_Xilinx_Vivado_run.tcl
+│   │               ├── timing_post_map.rpt
+│   │               ├── vivado_13717.backup.jou
+│   │               ├── vivado_13717.backup.log
+│   │               ├── vivado_14042.backup.jou
+│   │               ├── vivado_14042.backup.log
+│   │               ├── vivado_14455.backup.jou
+│   │               ├── vivado_14455.backup.log
+│   │               ├── vivado_211180.backup.jou
+│   │               ├── vivado_211180.backup.log
+│   │               ├── vivado_213708.backup.jou
+│   │               ├── vivado_213708.backup.log
+│   │               ├── vivado.jou
+│   │               └── vivado.log
+│   ├── gm_qft_3qubit_fixpt.slxc
+│   ├── matlab_3qft.prj
+│   ├── matlab_3qft_v1.prj
+│   ├── qft_3qubit.asv
+│   ├── qft_3qubit.m
+│   ├── quantum_search
+│   │   ├── codegen
+│   │   │   └── quantum_search
+│   │   │       ├── fixpt
+│   │   │       │   ├── cache_dir
+│   │   │       │   │   ├── quantum_search_float_mex_codegenCache.mat
+│   │   │       │   │   └── quantum_search_wrapper_fixpt_mex_codegenCache.mat
+│   │   │       │   ├── fxptmp
+│   │   │       │   │   ├── quantum_search_fixpt_logger.m
+│   │   │       │   │   ├── quantum_search_wrapper_fixpt
+│   │   │       │   │   │   ├── interface
+│   │   │       │   │   │   └── quantum_search_wrapper_fixpt_hdl_mex.mexa64
+│   │   │       │   │   └── quantum_search_wrapper_fixpt_hdl_mex.mexa64
+│   │   │       │   ├── guiFpReport.mat
+│   │   │       │   ├── IncrementalConversion.mat
+│   │   │       │   ├── quantum_search_fixpt_args.mat
+│   │   │       │   ├── quantum_search_fixpt_log.txt
+│   │   │       │   ├── quantum_search_fixpt.m
+│   │   │       │   ├── quantum_search_float_mex.mexa64
+│   │   │       │   ├── quantum_search_report.html
+│   │   │       │   ├── quantum_search_wrapper_fixpt.m
+│   │   │       │   ├── quantum_search_wrapper_fixpt_mex.mexa64
+│   │   │       │   └── reports
+│   │   │       │       └── quantum_search_wrapper_fixpt_mex
+│   │   │       │           └── html
+│   │   │       │               └── report.mldatx
+│   │   │       └── hdlsrc
+│   │   │           ├── codegen_info.mat
+│   │   │           ├── html
+│   │   │           │   └── report.mldatx
+│   │   │           ├── interface
+│   │   │           ├── post_synth_report.html
+│   │   │           ├── quantum_search_fixpt
+│   │   │           ├── quantum_search_fixpt_compile.do
+│   │   │           ├── quantum_search_fixpt_hdl_conformance_report.html
+│   │   │           ├── quantum_search_fixpt.sv
+│   │   │           ├── quantum_search_fixpt_tb_compile.do
+│   │   │           ├── quantum_search_fixpt_tb_sim.do
+│   │   │           ├── quantum_search_fixpt_tb.sv
+│   │   │           ├── resource_report.html
+│   │   │           ├── result_expected.dat
+│   │   │           ├── synth_util_plot.png
+│   │   │           └── vivado_prj
+│   │   │               ├── quantum_search_fixpt_postroute.tvr
+│   │   │               ├── quantum_search_fixpt_preroute.tvr
+│   │   │               ├── quantum_search_fixpt_syn_results.txt
+│   │   │               ├── quantum_search_fixpt_vivado.cache
+│   │   │               │   ├── compile_simlib
+│   │   │               │   │   ├── activehdl
+│   │   │               │   │   ├── modelsim
+│   │   │               │   │   ├── questa
+│   │   │               │   │   ├── riviera
+│   │   │               │   │   ├── vcs
+│   │   │               │   │   └── xcelium
+│   │   │               │   ├── ip
+│   │   │               │   └── wt
+│   │   │               │       ├── project.wpc
+│   │   │               │       ├── synthesis_details.wdf
+│   │   │               │       └── synthesis.wdf
+│   │   │               ├── quantum_search_fixpt_vivado.hw
+│   │   │               │   └── quantum_search_fixpt_vivado.lpr
+│   │   │               ├── quantum_search_fixpt_vivado.ip_user_files
+│   │   │               ├── quantum_search_fixpt_vivado.runs
+│   │   │               │   ├── impl_1
+│   │   │               │   │   ├── clockInfo.txt
+│   │   │               │   │   ├── gen_run.xml
+│   │   │               │   │   ├── htr.txt
+│   │   │               │   │   ├── init_design.pb
+│   │   │               │   │   ├── ISEWrap.js
+│   │   │               │   │   ├── ISEWrap.sh
+│   │   │               │   │   ├── opt_design.pb
+│   │   │               │   │   ├── phys_opt_design.pb
+│   │   │               │   │   ├── place_design.pb
+│   │   │               │   │   ├── project.wdf
+│   │   │               │   │   ├── quantum_search_fixpt_bus_skew_routed.pb
+│   │   │               │   │   ├── quantum_search_fixpt_bus_skew_routed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_bus_skew_routed.rpx
+│   │   │               │   │   ├── quantum_search_fixpt_clock_utilization_routed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_control_sets_placed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_drc_opted.pb
+│   │   │               │   │   ├── quantum_search_fixpt_drc_opted.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_drc_opted.rpx
+│   │   │               │   │   ├── quantum_search_fixpt_drc_routed.pb
+│   │   │               │   │   ├── quantum_search_fixpt_drc_routed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_drc_routed.rpx
+│   │   │               │   │   ├── quantum_search_fixpt_io_placed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_methodology_drc_routed.pb
+│   │   │               │   │   ├── quantum_search_fixpt_methodology_drc_routed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_methodology_drc_routed.rpx
+│   │   │               │   │   ├── quantum_search_fixpt_opt.dcp
+│   │   │               │   │   ├── quantum_search_fixpt_physopt.dcp
+│   │   │               │   │   ├── quantum_search_fixpt_placed.dcp
+│   │   │               │   │   ├── quantum_search_fixpt_power_routed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_power_routed.rpx
+│   │   │               │   │   ├── quantum_search_fixpt_power_summary_routed.pb
+│   │   │               │   │   ├── quantum_search_fixpt_routed.dcp
+│   │   │               │   │   ├── quantum_search_fixpt_route_status.pb
+│   │   │               │   │   ├── quantum_search_fixpt_route_status.rpt
+│   │   │               │   │   ├── quantum_search_fixpt.tcl
+│   │   │               │   │   ├── quantum_search_fixpt_timing_summary_routed.pb
+│   │   │               │   │   ├── quantum_search_fixpt_timing_summary_routed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt_timing_summary_routed.rpx
+│   │   │               │   │   ├── quantum_search_fixpt_utilization_placed.pb
+│   │   │               │   │   ├── quantum_search_fixpt_utilization_placed.rpt
+│   │   │               │   │   ├── quantum_search_fixpt.vdi
+│   │   │               │   │   ├── route_design.pb
+│   │   │               │   │   ├── rundef.js
+│   │   │               │   │   ├── runme.bat
+│   │   │               │   │   ├── runme.log
+│   │   │               │   │   ├── runme.sh
+│   │   │               │   │   ├── vivado.jou
+│   │   │               │   │   └── vivado.pb
+│   │   │               │   └── synth_1
+│   │   │               │       ├── gen_run.xml
+│   │   │               │       ├── htr.txt
+│   │   │               │       ├── incr_synth_reason.pb
+│   │   │               │       ├── ISEWrap.js
+│   │   │               │       ├── ISEWrap.sh
+│   │   │               │       ├── project.wdf
+│   │   │               │       ├── quantum_search_fixpt.dcp
+│   │   │               │       ├── quantum_search_fixpt.tcl
+│   │   │               │       ├── quantum_search_fixpt_utilization_synth.pb
+│   │   │               │       ├── quantum_search_fixpt_utilization_synth.rpt
+│   │   │               │       ├── quantum_search_fixpt.vds
+│   │   │               │       ├── rundef.js
+│   │   │               │       ├── runme.bat
+│   │   │               │       ├── runme.log
+│   │   │               │       ├── runme.sh
+│   │   │               │       ├── __synthesis_is_complete__
+│   │   │               │       ├── vivado.jou
+│   │   │               │       └── vivado.pb
+│   │   │               ├── quantum_search_fixpt_vivado.srcs
+│   │   │               │   └── utils_1
+│   │   │               │       └── imports
+│   │   │               │           └── synth_1
+│   │   │               │               └── quantum_search_fixpt.dcp
+│   │   │               ├── quantum_search_fixpt_vivado.xpr
+│   │   │               ├── quantum_search_fixpt_Xilinx_Vivado_run.tcl
+│   │   │               ├── timing_post_map.rpt
+│   │   │               ├── timing_post_route.rpt
+│   │   │               ├── vivado_1190437.backup.jou
+│   │   │               ├── vivado_1190437.backup.log
+│   │   │               ├── vivado_1198048.backup.jou
+│   │   │               ├── vivado_1198048.backup.log
+│   │   │               ├── vivado_1198287.backup.jou
+│   │   │               ├── vivado_1198287.backup.log
+│   │   │               ├── vivado.jou
+│   │   │               └── vivado.log
+│   │   ├── grover.prj
+│   │   ├── quantum_search.m
+│   │   ├── test_grovers_search.m
+│   │   └── x_gate.prj
+│   ├── simulink
+│   │   ├── gm_qft_3qubit_fixpt_reg.slx
+│   │   └── gm_qft_3qubit_fixpt.slx
+│   ├── slprj
+│   │   ├── accel
+│   │   │   └── gm_qft_3qubit_fixpt
+│   │   │       ├── amsi_serial.mat
+│   │   │       ├── gm_qft_3qubit_fixpt_instrumentation_settings.mat
+│   │   │       ├── gm_qft_3qubit_fixpt_SolverChangeInfo.mat
+│   │   │       ├── gm_qft_3qubit_fixpt_top_vm.bc
+│   │   │       ├── rtwgen_tlc
+│   │   │       └── tmwinternal
+│   │   │           └── simulink_cache.xml
+│   │   ├── modeladvisor
+│   │   │   └── com_2emathworks_2eSimulink_2ePerformanceAdvisor_2ePerformanceAdvisor_
+│   │   │       └── gm_qft_3qubit_fixpt
+│   │   │           ├── ModelAdvisorData
+│   │   │           ├── report_1.html
+│   │   │           ├── report_4.html
+│   │   │           └── report.html
+│   │   └── sl_proj.tmw
+│   ├── src
+│   │   ├── qft_3qubit_fixpt_pkg.sv
+│   │   ├── qft_3qubit_fixpt.sv
+│   │   └── qft_3qubit_fixpt_tb.sv
+│   ├── test_qft_3qubit.m
+│   ├── universal_q_gates
+│   │   └── x_gate
+│   │       ├── codegen
+│   │       │   └── x_gate
+│   │       │       ├── fixpt
+│   │       │       │   ├── cache_dir
+│   │       │       │   │   ├── x_gate_float_mex_codegenCache.mat
+│   │       │       │   │   └── x_gate_wrapper_fixpt_mex_codegenCache.mat
+│   │       │       │   ├── fxptmp
+│   │       │       │   │   ├── x_gate_fixpt_logger.m
+│   │       │       │   │   ├── x_gate_wrapper_fixpt
+│   │       │       │   │   │   ├── interface
+│   │       │       │   │   │   └── x_gate_wrapper_fixpt_hdl_mex.mexa64
+│   │       │       │   │   └── x_gate_wrapper_fixpt_hdl_mex.mexa64
+│   │       │       │   ├── guiFpReport.mat
+│   │       │       │   ├── IncrementalConversion.mat
+│   │       │       │   ├── reports
+│   │       │       │   │   └── x_gate_wrapper_fixpt_mex
+│   │       │       │   │       └── html
+│   │       │       │   │           └── report.mldatx
+│   │       │       │   ├── x_gate_fixpt_args.mat
+│   │       │       │   ├── x_gate_fixpt.m
+│   │       │       │   ├── x_gate_float_mex.mexa64
+│   │       │       │   ├── x_gate_report.html
+│   │       │       │   ├── x_gate_wrapper_fixpt.m
+│   │       │       │   └── x_gate_wrapper_fixpt_mex.mexa64
+│   │       │       └── hdlsrc
+│   │       │           ├── codegen_info.mat
+│   │       │           ├── html
+│   │       │           │   └── report.mldatx
+│   │       │           ├── interface
+│   │       │           ├── new_state_expected.dat
+│   │       │           ├── post_synth_report.html
+│   │       │           ├── resource_report.html
+│   │       │           ├── state.dat
+│   │       │           ├── synth_util_plot.png
+│   │       │           ├── vivado_prj
+│   │       │           │   ├── timing_post_map.rpt
+│   │       │           │   ├── timing_post_route.rpt
+│   │       │           │   ├── vivado_1222792.backup.jou
+│   │       │           │   ├── vivado_1222792.backup.log
+│   │       │           │   ├── vivado_1222922.backup.jou
+│   │       │           │   ├── vivado_1222922.backup.log
+│   │       │           │   ├── vivado.jou
+│   │       │           │   ├── vivado.log
+│   │       │           │   ├── x_gate_fixpt_postroute.tvr
+│   │       │           │   ├── x_gate_fixpt_preroute.tvr
+│   │       │           │   ├── x_gate_fixpt_syn_results.txt
+│   │       │           │   ├── x_gate_fixpt_vivado.cache
+│   │       │           │   │   ├── compile_simlib
+│   │       │           │   │   │   ├── activehdl
+│   │       │           │   │   │   ├── modelsim
+│   │       │           │   │   │   ├── questa
+│   │       │           │   │   │   ├── riviera
+│   │       │           │   │   │   ├── vcs
+│   │       │           │   │   │   └── xcelium
+│   │       │           │   │   ├── ip
+│   │       │           │   │   └── wt
+│   │       │           │   │       ├── project.wpc
+│   │       │           │   │       ├── synthesis_details.wdf
+│   │       │           │   │       └── synthesis.wdf
+│   │       │           │   ├── x_gate_fixpt_vivado.hw
+│   │       │           │   │   └── x_gate_fixpt_vivado.lpr
+│   │       │           │   ├── x_gate_fixpt_vivado.ip_user_files
+│   │       │           │   ├── x_gate_fixpt_vivado.runs
+│   │       │           │   │   ├── impl_1
+│   │       │           │   │   │   ├── gen_run.xml
+│   │       │           │   │   │   ├── htr.txt
+│   │       │           │   │   │   ├── init_design.pb
+│   │       │           │   │   │   ├── ISEWrap.js
+│   │       │           │   │   │   ├── ISEWrap.sh
+│   │       │           │   │   │   ├── opt_design.pb
+│   │       │           │   │   │   ├── phys_opt_design.pb
+│   │       │           │   │   │   ├── place_design.pb
+│   │       │           │   │   │   ├── project.wdf
+│   │       │           │   │   │   ├── route_design.pb
+│   │       │           │   │   │   ├── rundef.js
+│   │       │           │   │   │   ├── runme.bat
+│   │       │           │   │   │   ├── runme.log
+│   │       │           │   │   │   ├── runme.sh
+│   │       │           │   │   │   ├── vivado.jou
+│   │       │           │   │   │   ├── vivado.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_bus_skew_routed.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_bus_skew_routed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_bus_skew_routed.rpx
+│   │       │           │   │   │   ├── x_gate_fixpt_clock_utilization_routed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_control_sets_placed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_drc_opted.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_drc_opted.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_drc_opted.rpx
+│   │       │           │   │   │   ├── x_gate_fixpt_drc_routed.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_drc_routed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_drc_routed.rpx
+│   │       │           │   │   │   ├── x_gate_fixpt_io_placed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_methodology_drc_routed.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_methodology_drc_routed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_methodology_drc_routed.rpx
+│   │       │           │   │   │   ├── x_gate_fixpt_opt.dcp
+│   │       │           │   │   │   ├── x_gate_fixpt_physopt.dcp
+│   │       │           │   │   │   ├── x_gate_fixpt_placed.dcp
+│   │       │           │   │   │   ├── x_gate_fixpt_power_routed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_power_routed.rpx
+│   │       │           │   │   │   ├── x_gate_fixpt_power_summary_routed.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_routed.dcp
+│   │       │           │   │   │   ├── x_gate_fixpt_route_status.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_route_status.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt.tcl
+│   │       │           │   │   │   ├── x_gate_fixpt_timing_summary_routed.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_timing_summary_routed.rpt
+│   │       │           │   │   │   ├── x_gate_fixpt_timing_summary_routed.rpx
+│   │       │           │   │   │   ├── x_gate_fixpt_utilization_placed.pb
+│   │       │           │   │   │   ├── x_gate_fixpt_utilization_placed.rpt
+│   │       │           │   │   │   └── x_gate_fixpt.vdi
+│   │       │           │   │   └── synth_1
+│   │       │           │   │       ├── gen_run.xml
+│   │       │           │   │       ├── htr.txt
+│   │       │           │   │       ├── ISEWrap.js
+│   │       │           │   │       ├── ISEWrap.sh
+│   │       │           │   │       ├── project.wdf
+│   │       │           │   │       ├── rundef.js
+│   │       │           │   │       ├── runme.bat
+│   │       │           │   │       ├── runme.log
+│   │       │           │   │       ├── runme.sh
+│   │       │           │   │       ├── __synthesis_is_complete__
+│   │       │           │   │       ├── vivado.jou
+│   │       │           │   │       ├── vivado.pb
+│   │       │           │   │       ├── x_gate_fixpt.dcp
+│   │       │           │   │       ├── x_gate_fixpt.tcl
+│   │       │           │   │       ├── x_gate_fixpt_utilization_synth.pb
+│   │       │           │   │       ├── x_gate_fixpt_utilization_synth.rpt
+│   │       │           │   │       └── x_gate_fixpt.vds
+│   │       │           │   ├── x_gate_fixpt_vivado.xpr
+│   │       │           │   └── x_gate_fixpt_Xilinx_Vivado_run.tcl
+│   │       │           ├── x_gate_fixpt
+│   │       │           ├── x_gate_fixpt_compile.do
+│   │       │           ├── x_gate_fixpt_hdl_conformance_report.html
+│   │       │           ├── x_gate_fixpt_pkg.sv
+│   │       │           ├── x_gate_fixpt.sv
+│   │       │           ├── x_gate_fixpt_tb_compile.do
+│   │       │           ├── x_gate_fixpt_tb_sim.do
+│   │       │           └── x_gate_fixpt_tb.sv
+│   │       ├── test_x_gate.m
+│   │       ├── x_gate.m
+│   │       └── xgate.prj
+│   └── xdc
+│       └── Nexys-A7-100T-Master.xdc
+├── quantum_teleportation
+│   ├── src
+│   │   ├── quantum_teleportation_algorithm
+│   │   │   ├── quantum_teleportation_algorithm.cache
+│   │   │   │   ├── sim
+│   │   │   │   │   └── ssm.db
+│   │   │   │   └── wt
+│   │   │   │       ├── project.wpc
+│   │   │   │       └── xsim.wdf
+│   │   │   ├── quantum_teleportation_algorithm.hw
+│   │   │   │   └── quantum_teleportation_algorithm.lpr
+│   │   │   ├── quantum_teleportation_algorithm.ip_user_files
+│   │   │   │   └── README.txt
+│   │   │   ├── quantum_teleportation_algorithm.sim
+│   │   │   │   └── sim_1
+│   │   │   │       └── behav
+│   │   │   │           └── xsim
+│   │   │   │               ├── compile.log
+│   │   │   │               ├── compile.sh
+│   │   │   │               ├── elaborate.log
+│   │   │   │               ├── elaborate.sh
+│   │   │   │               ├── glbl.v
+│   │   │   │               ├── quantum_teleportation_behav.wdb
+│   │   │   │               ├── quantum_teleportation.tcl
+│   │   │   │               ├── quantum_teleportation_vlog.prj
+│   │   │   │               ├── simulate.log
+│   │   │   │               ├── simulate.sh
+│   │   │   │               ├── xelab.pb
+│   │   │   │               ├── xsim.dir
+│   │   │   │               │   ├── quantum_teleportation_behav
+│   │   │   │               │   │   ├── Compile_Options.txt
+│   │   │   │               │   │   ├── obj
+│   │   │   │               │   │   │   ├── xsim_0.lnx64.o
+│   │   │   │               │   │   │   ├── xsim_1.c
+│   │   │   │               │   │   │   └── xsim_1.lnx64.o
+│   │   │   │               │   │   ├── TempBreakPointFile.txt
+│   │   │   │               │   │   ├── xsimcrash.log
+│   │   │   │               │   │   ├── xsim.dbg
+│   │   │   │               │   │   ├── xsimk
+│   │   │   │               │   │   ├── xsimkernel.log
+│   │   │   │               │   │   ├── xsim.mem
+│   │   │   │               │   │   ├── xsim.reloc
+│   │   │   │               │   │   ├── xsim.rlx
+│   │   │   │               │   │   ├── xsim.rtti
+│   │   │   │               │   │   ├── xsimSettings.ini
+│   │   │   │               │   │   ├── xsim.svtype
+│   │   │   │               │   │   ├── xsim.type
+│   │   │   │               │   │   └── xsim.xdbg
+│   │   │   │               │   └── xil_defaultlib
+│   │   │   │               │       ├── glbl.sdb
+│   │   │   │               │       ├── quantum_teleportation.sdb
+│   │   │   │               │       └── xil_defaultlib.rlx
+│   │   │   │               ├── xsim.ini
+│   │   │   │               ├── xvlog.log
+│   │   │   │               └── xvlog.pb
+│   │   │   ├── quantum_teleportation_algorithm.srcs
+│   │   │   │   ├── constrs_1
+│   │   │   │   │   └── imports
+│   │   │   │   │       └── xdc
+│   │   │   │   │           └── Nexys-A7-100T-Master.xdc
+│   │   │   │   ├── quantum_teleportation_tb
+│   │   │   │   │   └── new
+│   │   │   │   │       └── tb.sv
+│   │   │   │   └── sources_1
+│   │   │   │       └── imports
+│   │   │   │           └── src
+│   │   │   │               └── quantum_teleportation.sv
+│   │   │   └── quantum_teleportation_algorithm.xpr
+│   │   └── quantum_teleportation.sv
+│   └── xdc
+│       └── Nexys-A7-100T-Master.xdc
+├── README.md
+├── report
+│   └── EEE4022S_Thesis
+│       └── Thesis
+│           ├── appendix
+│           │   ├── appendixA.tex
+│           │   └── figs
+│           ├── bibliography.bib
+│           ├── body
+│           │   ├── ch1
+│           │   │   ├── ch1.log
+│           │   │   ├── ch1.tex
+│           │   │   └── figs
+│           │   │       └── backgroundfig.png
+│           │   ├── ch2
+│           │   │   ├── ch2.tex
+│           │   │   └── figs
+│           │   │       ├── blochsphere.drawio
+│           │   │       ├── blochsphere.png
+│           │   │       ├── cnot-diagram.drawio
+│           │   │       ├── cnot-diagram.png
+│           │   │       ├── grovers-quantum-circuit.png
+│           │   │       ├── hadamard.drawio
+│           │   │       ├── hadamard-gate.png
+│           │   │       ├── khalid-error-model.png
+│           │   │       ├── meas-symb.png
+│           │   │       ├── measurement-symbol.drawio
+│           │   │       ├── measurement-symbol.png
+│           │   │       ├── photon-polarization-circle.drawio
+│           │   │       ├── photon-polarization-circle.png
+│           │   │       ├── q-circuit-caution.drawio
+│           │   │       ├── q-circuit-caution.png
+│           │   │       ├── single-qubit-components.drawio
+│           │   │       ├── single-qubit-components.png
+│           │   │       ├── swap-circuit.drawio
+│           │   │       ├── swap-circuit.png
+│           │   │       ├── x-gate.drawio
+│           │   │       ├── x-gate.png
+│           │   │       ├── y-gate.drawio
+│           │   │       ├── y-gate.png
+│           │   │       ├── z-gate.drawio
+│           │   │       └── z-gate.png
+│           │   ├── ch3
+│           │   │   ├── ch3.tex
+│           │   │   ├── figs
+│           │   │   │   ├── aminian-pauli-gates.drawio
+│           │   │   │   ├── aminian-pauli-gates.png
+│           │   │   │   ├── chuang-teleportation.drawio
+│           │   │   │   ├── chuang-teleportation.png
+│           │   │   │   ├── cow-protocol.drawio
+│           │   │   │   ├── cow-protocol.png
+│           │   │   │   ├── ent-qkd.drawio
+│           │   │   │   ├── ent-qkd.png
+│           │   │   │   ├── fujishima-inout.drawio
+│           │   │   │   ├── fujishima-inout.png
+│           │   │   │   ├── fujishima-lqp-qip.drawio
+│           │   │   │   ├── fujishima-lqp-qip.png
+│           │   │   │   ├── fujishima-qip-block.drawio
+│           │   │   │   ├── fujishima-qip-block.png
+│           │   │   │   ├── hlukhov-digital-qc.drawio
+│           │   │   │   ├── hlukhov-digital-qc.png
+│           │   │   │   ├── hlukhov-qgate.drawio
+│           │   │   │   ├── hlukhov-qgate.png
+│           │   │   │   ├── hlukhov-qubit.drawio
+│           │   │   │   ├── hlukhov-qubit.png
+│           │   │   │   ├── khalid-emulated-overview.drawio
+│           │   │   │   ├── khalid-emulated-overview.png
+│           │   │   │   ├── khalid-error-model.drawio
+│           │   │   │   ├── khalid-error-model.png
+│           │   │   │   ├── khalid-q-evo.drawio
+│           │   │   │   ├── khalid-q-evo.png
+│           │   │   │   ├── lee-concurrent-vs-pipeline.drawio
+│           │   │   │   ├── lee-concurrent-vs-pipeline.png
+│           │   │   │   ├── lee-serial-architecture.drawio
+│           │   │   │   ├── lee-serial-architecture.png
+│           │   │   │   ├── li-qubit-mappings.drawio
+│           │   │   │   ├── li-qubit-mappings.png
+│           │   │   │   ├── methodology-phases.drawio
+│           │   │   │   ├── nielsen-qft.drawio
+│           │   │   │   ├── nielsen-qft.png
+│           │   │   │   ├── optical-bit-mapping.drawio
+│           │   │   │   ├── optical-bit-mapping.png
+│           │   │   │   ├── qibo-framework.drawio
+│           │   │   │   └── qibo-framework.png
+│           │   │   ├── overview-of-frameworks
+│           │   │   └── overview-of-frameworks.txt
+│           │   ├── ch4
+│           │   │   ├── ch4.tex
+│           │   │   └── figs
+│           │   │       ├── 3-x-gates.drawio
+│           │   │       ├── 3-x-gates.png
+│           │   │       ├── amd-lut6.drawio
+│           │   │       ├── amd-lut6.png
+│           │   │       ├── bloch-011.drawio
+│           │   │       ├── bloch-011.png
+│           │   │       ├── dsp-opt-pipeline.drawio
+│           │   │       ├── dsp-opt-pipeline.png
+│           │   │       ├── fifo-shift-register.drawio
+│           │   │       ├── fifo-shift-register.png
+│           │   │       ├── fixed-point.drawio
+│           │   │       ├── fixed-point.png
+│           │   │       ├── floating-point.drawio
+│           │   │       ├── floating-point.png
+│           │   │       ├── fpga-design-flow.drawio
+│           │   │       ├── fpga-design-flow.png
+│           │   │       ├── fqds-overview.drawio
+│           │   │       ├── fqds-overview.png
+│           │   │       ├── grover-phase-flip.drawio
+│           │   │       ├── grover-phase-flip.png
+│           │   │       ├── grovers-circuit.drawio
+│           │   │       ├── grovers-circuit.png
+│           │   │       ├── grovers-quantum-circuit.drawio
+│           │   │       ├── led-to-ldr.drawio
+│           │   │       ├── led-to-ldr.png
+│           │   │       ├── methodology-phases.drawio
+│           │   │       ├── methodology-phases.png
+│           │   │       ├── nexys-a7.png
+│           │   │       ├── overall-system-architecture.drawio
+│           │   │       ├── overall-system-architecture.png
+│           │   │       ├── qft-pipeline.drawio
+│           │   │       ├── qft-pipeline.png
+│           │   │       ├── quantum-factoring-algorithm.drawio
+│           │   │       ├── quantum-factoring-algorithm.png
+│           │   │       ├── quantum-teleportation-circuit.drawio
+│           │   │       ├── quantum-teleportation-circuit.png
+│           │   │       ├── qubit-mapping-leds.drawio
+│           │   │       ├── qubit-mapping-leds.png
+│           │   │       ├── qubit-mapping-method-1.drawio
+│           │   │       ├── qubit-mapping-method-1.png
+│           │   │       ├── spqis-overview.drawio
+│           │   │       ├── spqis-overview.png
+│           │   │       ├── stm32-devboard.png
+│           │   │       ├── trigger.drawio
+│           │   │       ├── trigger.png
+│           │   │       ├── unit-circle-011.drawio
+│           │   │       ├── unit-circle-011.png
+│           │   │       ├── xilinx-vector-multiply.drawio
+│           │   │       └── xilinx-vector-multiply.png
+│           │   ├── ch5
+│           │   │   ├── ch5.tex
+│           │   │   └── figs
+│           │   │       ├── fqds-circuit.drawio
+│           │   │       ├── fqds-circuit.png
+│           │   │       ├── lux-vs-resistance.png
+│           │   │       ├── qta-fsm.drawio
+│           │   │       ├── qta-fsm.png
+│           │   │       ├── stm32f051c6.png
+│           │   │       └── synth-successful.png
+│           │   ├── ch6
+│           │   │   ├── ch6.tex
+│           │   │   └── figs
+│           │   │       ├── 3qft-vivado.png
+│           │   │       ├── bread.jpg
+│           │   │       ├── fixed-point-conversion.png
+│           │   │       ├── fixed-point-matrix.png
+│           │   │       ├── grover-resource-summary.png
+│           │   │       ├── grover-timing-summary.png
+│           │   │       ├── hardware.jpg
+│           │   │       ├── hdl-coder-mathworks-design-flow.jpg
+│           │   │       ├── hdl-coder-report.png
+│           │   │       ├── hdl-conversion-code.png
+│           │   │       ├── matlab-verification-dat.png
+│           │   │       ├── qft-data-flow-hierarchy.png
+│           │   │       ├── qft-hdl-res-report.png
+│           │   │       ├── qft-post-synth.png
+│           │   │       ├── qft-simulink-12.png
+│           │   │       ├── qft-simulink-1.png
+│           │   │       ├── qft-simulink-2.png
+│           │   │       ├── qft-simulink-3.png
+│           │   │       ├── qft-summary-with-registers.png
+│           │   │       ├── qta-memory.png
+│           │   │       ├── qta-netlist.png
+│           │   │       ├── qta-registers.png
+│           │   │       ├── qta-resources-full.png
+│           │   │       ├── qta-resources.png
+│           │   │       ├── Screenshot_20241030_072406.png
+│           │   │       ├── set-device-and-synthesis-tool.png
+│           │   │       ├── systemverilog-3qft.png
+│           │   │       ├── tensor-product-fixed-point-report.png
+│           │   │       ├── tensor-product-math.png
+│           │   │       ├── testbench.png
+│           │   │       ├── verification.png
+│           │   │       ├── veroboard.jpg
+│           │   │       └── x-gate-amd.png
+│           │   └── ch7
+│           │       ├── ch7.tex
+│           │       └── figs
+│           │           └── picture.jpg
+│           ├── Bonga_Dissertation_21102024.pdf
+│           ├── Bonga_Dissertation_23102024.pdf
+│           ├── Bonga_Dissertation_Draft.pdf
+│           ├── EEE4022S 2024 FINAL REPORT LB NJAMELA - SIMON WINBERG_DRAFT.pdf
+│           ├── EEE4022S_Bonga_Draft_21082024.pdf
+│           ├── export.bib
+│           ├── frontmatter
+│           │   ├── abbreviations.tex
+│           │   ├── abstract.tex
+│           │   ├── acknowledgements.tex
+│           │   ├── declaration.tex
+│           │   ├── glossary.tex
+│           │   ├── signature.png
+│           │   ├── title.tex
+│           │   └── uctlogomain.png
+│           ├── MSc_Dissertation.aux
+│           ├── MSc_Dissertation.bbl
+│           ├── MSc_Dissertation.blg
+│           ├── MSc_Dissertation.lof
+│           ├── MSc_Dissertation.log
+│           ├── MSc_Dissertation.lot
+│           ├── MSc_Dissertation.nlo
+│           ├── MSc_Dissertation.out
+│           ├── MSc_Dissertation.synctex.gz
+│           ├── MSc_Dissertation.tex
+│           ├── MSc_Dissertation.toc
+│           ├── MSc_Dissertation.txss
+│           └── preamble
+│               ├── 2N2222.PDF
+│               ├── core.tex
+│               └── listings.tex
+├── spqis
+│   ├── Debug
+│   │   ├── NJMLUN002_prac4.elf
+│   │   ├── NJMLUN002_prac4.list
+│   │   ├── NJMLUN002_prac4.map
+│   │   ├── spqis.elf
+│   │   ├── spqis.list
+│   │   ├── spqis.map
+│   │   └── src
+│   │       ├── main.o
+│   │       ├── main.su
+│   │       ├── startup_stm32f051x8.o
+│   │       ├── system_stm32f0xx.o
+│   │       ├── system_stm32f0xx.su
+│   │       ├── tiny_printf.o
+│   │       └── tiny_printf.su
+│   ├── Debug_STM32F051K8_FLASH.ld
+│   ├── Drivers
+│   │   ├── CMSIS
+│   │   │   ├── CMSIS_END_USER_LICENCE_AGREEMENT.pdf
+│   │   │   ├── Device
+│   │   │   │   └── ST
+│   │   │   │       └── STM32F0xx
+│   │   │   │           └── Include
+│   │   │   │               ├── stm32f030x6.h
+│   │   │   │               ├── stm32f030x8.h
+│   │   │   │               ├── stm32f030xc.h
+│   │   │   │               ├── stm32f031x6.h
+│   │   │   │               ├── stm32f038xx.h
+│   │   │   │               ├── stm32f042x6.h
+│   │   │   │               ├── stm32f048xx.h
+│   │   │   │               ├── stm32f051x8.h
+│   │   │   │               ├── stm32f058xx.h
+│   │   │   │               ├── stm32f070x6.h
+│   │   │   │               ├── stm32f070xb.h
+│   │   │   │               ├── stm32f071xb.h
+│   │   │   │               ├── stm32f072xb.h
+│   │   │   │               ├── stm32f078xx.h
+│   │   │   │               ├── stm32f091xc.h
+│   │   │   │               ├── stm32f098xx.h
+│   │   │   │               ├── stm32f0xx.h
+│   │   │   │               └── system_stm32f0xx.h
+│   │   │   └── Include
+│   │   │       ├── arm_common_tables.h
+│   │   │       ├── arm_const_structs.h
+│   │   │       ├── arm_math.h
+│   │   │       ├── cmsis_armcc.h
+│   │   │       ├── cmsis_armcc_V6.h
+│   │   │       ├── cmsis_gcc.h
+│   │   │       ├── core_cm0.h
+│   │   │       ├── core_cm0plus.h
+│   │   │       ├── core_cm3.h
+│   │   │       ├── core_cm4.h
+│   │   │       ├── core_cm7.h
+│   │   │       ├── core_cmFunc.h
+│   │   │       ├── core_cmInstr.h
+│   │   │       ├── core_cmSimd.h
+│   │   │       ├── core_sc000.h
+│   │   │       └── core_sc300.h
+│   │   ├── MCD-ST Liberty SW License Agreement V2.pdf
+│   │   └── STM32F0xx_HAL_Driver
+│   │       ├── Inc
+│   │       │   └── Readme.txt
+│   │       ├── Readme_HAL_Driver.txt
+│   │       └── Src
+│   │           └── Readme.txt
+│   ├── NJMLUN002_prac4.elf.launch
+│   ├── spqis.elf.launch
+│   ├── src
+│   │   ├── main.c
+│   │   ├── quantum_state.h
+│   │   ├── startup_stm32f051x8.s
+│   │   ├── system_stm32f0xx.c
+│   │   └── tiny_printf.c
+│   └── stm32_flash.ld
+└── tree.txt
+
+213 directories, 803 files
