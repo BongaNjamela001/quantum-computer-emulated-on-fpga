@@ -15,16 +15,16 @@ The repository's main directories include:
 
 ## Subsystem Overview
 
-1. Single-Photon Qubit Initialisation<br>
+### 1. Single-Photon Qubit Initialisation<br><br>
 Initialises qubits in a specific state, allowing single-photon-level emulation using LEDs and photodetectors.
 
-2. Flying-Qubit Detection
+### 2. Flying-Qubit Detection<br><br>
 Detects qubit states with a light detection setup, translating optical signals into a usable data format for FPGA processing.
 
-3. Quantum Algorithm Emulation
+### 3. Quantum Algorithm Emulation<br><br>
 Implements QFT, Grover’s, and teleportation algorithms in SystemVerilog, leveraging DSP slices and adders for matrix operations.
 
-4. User Interface Subsystem
+### 4. User Interface Subsystem<br><br>
 Provides an interface for monitoring and adjusting parameters of the FPGA-based quantum emulator, enhancing usability during experiments.
 
 This structure offers a compact overview while enabling future expansion as additional features or experiments are added. Let me know if you need more details in any section.
