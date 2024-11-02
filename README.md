@@ -15,7 +15,7 @@ The repository's main directories include:
 
 ## Subsystem Overview
 
-1. Single-Photon Qubit Initialisation
+1. Single-Photon Qubit Initialisation<br>
 Initialises qubits in a specific state, allowing single-photon-level emulation using LEDs and photodetectors.
 
 2. Flying-Qubit Detection
