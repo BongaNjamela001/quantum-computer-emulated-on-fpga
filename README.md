@@ -26,5 +26,3 @@ Implements QFT, Grover’s, and teleportation algorithms in SystemVerilog, lever
 
 ### 4. User Interface Subsystem<br><br>
 Provides an interface for monitoring and adjusting parameters of the FPGA-based quantum emulator, enhancing usability during experiments.
-
-This structure offers a compact overview while enabling future expansion as additional features or experiments are added. Let me know if you need more details in any section.
