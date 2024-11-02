@@ -1,6 +1,6 @@
 # Quantum Computer Emulation on FPGA
 
-This project emulates fundamental quantum computing operations on an FPGA, modeled through four main subsystems. Each subsystem contributes to a specific part of the emulation process, utilizing hardware description languages, high-level synthesis tools, and fixed-point calculations. The code is organized for easy synthesis and simulation on the Xilinx Nexys A7 board.
+This project emulates fundamental quantum computing operations on an FPGA, modeled through four main subsystems. Each subsystem contributes to a specific part of the emulation process, utilising hardware description languages, high-level synthesis tools, and fixed-point calculations. The code is organised for easy synthesis and simulation on the Xilinx Nexys A7 board.
 
 ## Directory Structure
 
@@ -16,10 +16,10 @@ report: Thesis files and LaTeX documents detailing the project.
 
 ## Subsystem Overview
 
-1. Single-Photon Qubit Initialization
-Initializes qubits in a specific state, allowing single-photon-level emulation using LEDs and photodetectors.
+1. Single-Photon Qubit Initialisation
+Initialises qubits in a specific state, allowing single-photon-level emulation using LEDs and photodetectors.
 
-2. Qubit Detection
+2. Flying-Qubit Detection
 Detects qubit states with a light detection setup, translating optical signals into a usable data format for FPGA processing.
 
 3. Quantum Algorithm Emulation
